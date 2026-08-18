@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T09:46:49+00:00",
+  "last_updated": "2026-08-18T13:37:07+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -46,16 +46,20 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Water tanker / bulk water supply for housing societies & construction sites",
-      "verdict": "PENDING",
+      "verdict": "STRONG",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
-      "dig_depth": 0,
-      "shortlisted": 0,
-      "rank": null,
+      "dig_depth": 1,
+      "shortlisted": 1,
+      "rank": 2,
       "digest": {
-        "findings": [],
-        "sources": []
+        "findings": [
+          "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days."
+        ],
+        "sources": [
+          "https://timesofindia.indiatimes.com/city/mumbai/water-crisis-looming-housing-societies-tanker-association-suspend-services/, https://www.hindustantimes.com/cities/mumbai-news/tanker-economy-thrives-as-panvel-reels-under-water-crisis-101778094767205.html, https://indianexpress.com/article/cities/mumbai/water-tankers-strike-crisis-explained-10731190/, https://timesofindia.indiatimes.com/short-on-supply-highrises-spend-rs-1-2-lakh/month-for-tanker-water/articleshow/100045531.cms, https://www.freepressjournal.in/mumbai/mumbai-faces-water-tanker-shortage-amid-15-supply-cut-rates-spike"
+        ]
       },
       "updated_at": "2026-08-18"
     }
