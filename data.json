@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T17:28:21+00:00",
+  "last_updated": "2026-08-18T19:28:21+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -124,16 +124,20 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Turnkey maintenance, filter replacement & water testing contracts for residential society STPs, commercial office ROs, and factory process water plants.",
-      "verdict": "PENDING",
+      "verdict": "STRONG",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
-      "dig_depth": 0,
-      "shortlisted": 0,
-      "rank": null,
+      "dig_depth": 1,
+      "shortlisted": 1,
+      "rank": 5,
       "digest": {
-        "findings": [],
-        "sources": []
+        "findings": [
+          "Recurring AMC revenue, EBITDA-ASAP viable, both metros have acute water stress adding urgency; entry Rs12-25L; clear upsell ladder to higher-margin lines."
+        ],
+        "sources": [
+          "https://www.marknteladvisors.com/research-library/india-water-purifier-service-market-report.html, https://www.rocareindia.com/b2b2c/ro-plant/1000-lph-ro-plant, https://www.iifl.com/blogs/gold-loan/how-to-start-a-water-purifier-business-in-india-step-by-step-guide, https://www.youtube.com/watch?v=Sx3Vli7XdJY"
+        ]
       },
       "updated_at": "2026-08-18"
     },
