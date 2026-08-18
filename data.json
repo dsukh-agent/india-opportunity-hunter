@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.1",
-  "last_updated": "2026-08-18T17:20:00+08:00",
-  "scope": "India (Mumbai/Bangalore anchor)",
+  "schema_version": "1.2",
+  "last_updated": "2026-08-18T09:26:46+00:00",
+  "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
     "positive EBITDA ASAP (primary constraint — cash flow is the only gate)",
@@ -13,178 +13,49 @@
   "opportunities": [
     {
       "id": 1,
-      "slug": "commercial-kitchen-exhaust-hood-cleaning",
+      "slug": "commercial-kitchen-exhaust-hood-cleaning-service",
       "title": "Commercial Kitchen Exhaust (Hood) Cleaning Service",
       "sector": "Facility Services",
       "model": "B2B Service",
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
-      "idea": "Deep-clean grease from commercial kitchen exhaust hoods, ducts and fans for restaurants, hotels, cafeterias, cloud kitchens. Compliance-mandated recurring service.",
+      "idea": "Deep-clean grease from commercial kitchen exhaust hoods, ducts & fans for restaurants, hotels, cafeterias, cloud kitchens in Mumbai/Bangalore. Compliance-mandated recurring service.",
       "verdict": "STRONG",
-      "entry_capital_inr": "5-15 L",
-      "ebitda_timeline": "Fast (1-3 months)",
-      "margins": "25-40% net (global comps up to 55%)",
-      "breakdown": {
-        "why_passes": [
-          "Mandatory + recurring demand: fire-safety code means every commercial kitchen MUST have exhaust cleaned on a fixed schedule (quarterly for high-volume). Customer has no way out and cannot DIY — strongest possible cash-flow signal.",
-          "Net margins 25-40% per job; a single-truck operation with certified techs can do ~USD 600k/yr revenue; two trucks = seven figures.",
-          "Low capex ~Rs 5-15 L — fits 1 Cr entry with huge headroom. 40-60 accounts within a 15-mile radius is the profitable route-density target.",
-          "India providers already proven: Mumbai (OXY, Accordible), Bangalore (deepcleaning.in, EPSCO) — market is real, not theoretical."
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 3,
+      "shortlisted": 1,
+      "rank": 1,
+      "digest": {
+        "findings": [
+          "Proven recurring B2B service. Legal requirement for all commercial kitchens. Net margins 25-40%, startup ~Rs5-15L. Real casedata: 30 accounts = 60K USD/yr in 60 days. India providers exist in Mumbai (OXY, Accordible) & Bangalore (deepcleaning.in, EPSCO)."
         ],
-        "unit_economics": [
-          "Per-job pricing: Rs 3,000-15,000+ for a single hood; mid-size restaurants Rs 8,000-15,000; large hotels Rs 15,000-30,000. Global comps: USD 450-650/system, emergency cleans USD 800+.",
-          "Recurring contracts (MSAs) lock in recurring revenue: a 10-hood quarterly account ~USD 2,200/visit at ~55% margin before overhead.",
-          "A real 60-day practitioner case study built 30 accounts / USD 60k/yr; a hospital-network example scaled to USD 850k/yr by year 2."
-        ],
-        "watchouts": [
-          "Labour + night work is the core constraint: dirty, after-hours (11pm-4am), heavy PPE. Hard to hire reliable night staff.",
-          "CERTIFICATION GAP: 67% of these businesses fail between months 12-24, often from underpricing by 40-60%, scattered routes, and buying worthless online certifications that fire marshals/insurers don't recognise. Use approved in-person cert bodies.",
-          "India fire-code enforcement is less uniformly strict than the US — the 'mandatory' moat is weaker for small independents; pitch the compliance/insurance angle to larger chains where it bites.",
-          "Insurance: general liability does NOT cover grease-fire claims that happen after you leave. Get specialised cover vetted by a commercial-liability attorney."
-        ]
-      },
-      "sources": {
-        "news_and_market": [
-          {
-            "label": "IndiaMART — Kitchen Exhaust Hood Cleaning Service (Navi Mumbai), Rs 5/sq ft",
-            "url": "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html"
-          },
-          {
-            "label": "TradeIndia — Kitchen exhaust system market/India manufacturers",
-            "url": "https://www.tradeindia.com/manufacturers/kitchen-exhaust-system.html"
-          },
-          {
-            "label": "Deep Cleaning Commercial — Kitchen exhaust hood cleaning services in Bangalore",
-            "url": "https://deepcleaning.in/kitchen-exhaust-hood-cleaning-services-in-bangalore.html"
-          },
-          {
-            "label": "OXY Exhaust Service — commercial kitchen exhaust cleaning Mumbai/Thane/Pune",
-            "url": "https://www.oxyexhaustservice.com/"
-          },
-          {
-            "label": "EPSCO India — kitchen duct & exhaust cleaning services",
-            "url": "https://epscoindia.com/services/kitchen-duct-cleaning/"
-          },
-          {
-            "label": "Verified Market Reports — Commercial Kitchen Exhaust Cleaning Services Market (2026-2034)",
-            "url": "https://www.verifiedmarketreports.com/product/commercial-kitchen-exhaust-cleaning-services-market/"
-          },
-          {
-            "label": "MarketResearchIntellect — Commercial Kitchen Exhaust Cleaning Market Report 2035",
-            "url": "https://www.marketresearchintellect.com/product/commercial-kitchen-exhaust-cleaning-services-market/"
-          }
-        ],
-        "youtube_practitioner": [
-          {
-            "label": "Kitchen Hood Cleaning | How we built a $60,000/Year business in 60 days (Austin Davis)",
-            "url": "https://www.youtube.com/watch?v=IaaWKqCPJ9o",
-            "transcript": true
-          },
-          {
-            "label": "How To Start a Commercial Hood Cleaning Business From Scratch (Boring Stealth Wealth)",
-            "url": "https://www.youtube.com/watch?v=f9KE2-Ol4WQ",
-            "transcript": true
-          },
-          {
-            "label": "Commercial Hood Cleaning: The High-Friction $1,000,000 Cashflow Engine (Boring Stealth Wealth)",
-            "url": "https://www.youtube.com/watch?v=6HvoDBKKI74",
-            "transcript": true,
-            "key_insight": "NFPA 96 history; ~55% margin at ~USD 2,200/quarterly 10-hood account; single-truck ~$600k/yr; real case: $120k savings -> $850k/yr by yr 2, sold for $5M"
-          },
-          {
-            "label": "Why Commercial Hood Cleaning Businesses Fail in Year Two (Boring Stealth Wealth)",
-            "url": "https://www.youtube.com/watch?v=V77UuGBqlrA",
-            "transcript": true,
-            "key_insight": "67% fail months 12-24; underpricing 40-60%, scattered routes cost $47-83/stop drive time, worthless certs, insurance gaps, truck replacement every 18-24 mo"
-          },
-          {
-            "label": "Build a $1 Million Kitchen Exhaust Hood Cleaning Business (MFS Trade School)",
-            "url": "https://www.youtube.com/watch?v=-T68h4Sb1Zg",
-            "transcript": true
-          },
-          {
-            "label": "Commercial Hood Cleaning Equipment: What Most Beginners Waste Money On First (Boring Stealth Wealth)",
-            "url": "https://www.youtube.com/watch?v=R-gyDtpIYgg",
-            "transcript": false
-          }
+        "sources": [
+          "YT: Austin Davis real case study; MFS Trade School; Phil Ackland Training; linkup: tradeindia, indiamart, market reports"
         ]
       },
       "updated_at": "2026-08-18"
     },
     {
       "id": 2,
-      "slug": "water-tanker-bulk-water-supply",
-      "title": "Water Tanker / Bulk Water Supply (housing societies, construction, commercial)",
-      "sector": "Water / Logistics",
-      "model": "B2B/B2C Service",
+      "slug": "water-tanker---bulk-water-supply-for-housing-societies-&-con",
+      "title": "Water tanker / bulk water supply for housing societies & construction sites",
+      "sector": "TBD",
+      "model": "TBD",
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
-      "idea": "Own/operate a small fleet of water tankers supplying bulk water to housing societies, construction sites, and industrial/commercial buildings.",
-      "verdict": "WEAK-MEDIUM (do not pursue as fresh entry)",
-      "entry_capital_inr": "N/A - rejected",
-      "ebitda_timeline": "N/A - rejected",
-      "margins": "N/A",
-      "breakdown": {
-        "why_rejected": [
-          "Demand is real but the moat is ERODING on live 2026 data: BWSSB's Sanchari Cauvery scheme (launched May 2025) delivered 30,000+ tankers / Rs 5+ crore by April 2026 and has already cut private tanker demand ~60% in some pockets.",
-          "Heavy regulation: Karnataka fixed 12,000L at Rs 1,200; forced registration with BBMP; GPS tracking mandates; 200+ private tankers taken over by the state.",
-          "Documented union/mafia behavior (blocking competitors, coercion, E.coli water scandals) makes fresh entry structurally contested and reputationally dangerous.",
-          "Government is effectively the competitor: BWSSB is adding municipal supply (Cauvery V Stage augmenting to 400-450 MLD; 3 lakh connections targeted by 2028)."
-        ],
-        "unit_economics": [
-          "Even at regulated caps: Rs 700-1,500 per 6,000-12,000L trip; peak-crisis prices reached Rs 2,200-2,500/12,000L in Bengaluru 2024-25.",
-          "Pune market benchmark: ~Rs 23 cr/day, 3,500 tankers, 22,000-30,000 trips/day, 20% of population dependent.",
-          "BUT margins are being squeezed by municipal supply expansion — the long-run thesis is negative for private entrants."
-        ],
-        "watchouts": [
-          "This is the canonical 'pattern-based intuition looks good, live data says otherwise' example — exactly why the hunter pulls fresh 2026/27 sources instead of stale training logic.",
-          "Kept in the database as a documented negative case to show the reasoning, not as a recommendation."
-        ]
-      },
-      "sources": {
-        "news_and_market": [
-          {
-            "label": "New Indian Express (24 Mar 2025) — Private water tanker prices double in Bengaluru",
-            "url": "https://www.newindianexpress.com/cities/bengaluru/2025/Mar/24/summer-scorcher-for-residents-private-water-tanker-prices-double-in-bengaluru"
-          },
-          {
-            "label": "The Hindu (2026) — Piped connections + Sanchari Cauvery reduce tanker demand",
-            "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections-sanchari-cauvery/article70978412.ece"
-          },
-          {
-            "label": "Hindustan Times — Karnataka fixes water tanker prices in Bengaluru",
-            "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-govt-fixes-water-tanker-prices-in-crisis-hit-bengaluru-full-details-101709805841333.html"
-          },
-          {
-            "label": "NeeRain — Taps and borewell dry up: return of water tanker raj (Mumbai/Bengaluru/Pune prices, mafia behaviour)",
-            "url": "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/"
-          },
-          {
-            "label": "India Today (2024) — Bengaluru fixes water tanker rates amid crisis",
-            "url": "https://www.indiatoday.in/india/story/bengaluru-water-crisis-government-fixes-tanker-rates-check-prices-2511747-2024-03-07"
-          },
-          {
-            "label": "Persistence Market Research — India Water Treatment Market (2026-2032)",
-            "url": "https://www.psmarketresearch.com/market-analysis/india-water-treatment-market"
-          }
-        ],
-        "youtube_practitioner": [
-          {
-            "label": "Water Tanker Business 2026 | 1 Tanker Se Rs 1 Lakh Mahina? Full Reality (Ashok Universe, Hindi)",
-            "url": "https://www.youtube.com/watch?v=D5tXrIQqnMA",
-            "transcript": "pending"
-          },
-          {
-            "label": "Start Water Tanker Business – Kam Lagat, Zyada Munafa (Business Gyaann, Hindi)",
-            "url": "https://www.youtube.com/watch?v=ropWOrG8jLk",
-            "transcript": "pending"
-          },
-          {
-            "label": "Tempo Water Tank Supply Business (Siva Arun Tv, Tamil)",
-            "url": "https://www.youtube.com/watch?v=s-vgxOAeKoE",
-            "transcript": "pending"
-          }
-        ]
+      "idea": "Water tanker / bulk water supply for housing societies & construction sites",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
       },
       "updated_at": "2026-08-18"
     }
