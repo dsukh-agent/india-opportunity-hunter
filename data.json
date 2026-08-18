@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T21:28:53+00:00",
+  "last_updated": "2026-08-18T23:29:02+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -176,16 +176,20 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Rental of oxygen concentrators, hospital beds, BiPAP machines, and patient monitors to nursing homes and home-care patients in Tier-1 suburbs with monthly billing.",
-      "verdict": "PENDING",
+      "verdict": "MEDIUM",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
-      "dig_depth": 0,
+      "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
       "digest": {
-        "findings": [],
-        "sources": []
+        "findings": [
+          "Market: India home healthcare USD6.4B (2025)->USD16.8B (2033) 12.9% CAGR; DME market USD7.48B->11.69B 5.08% CAGR; global medical equipment rental USD65B->99B 5.4% CAGR. City-level sizing: 100-device respiratory fleet @65-75% util = Rs30-55L/yr; 250-350-device fleet + beds/monitors = Rs1.5-3Cr/yr one metro. Pricing Mumbai: 5L conc Rs2,850-3,490/mo, BiPAP Rs3,450-3,850, 10L Rs6,490-6,650. Bangalore: 5L Rs3,500 (Oxyease), BiPAP Rs3,900-5,000 (Okto), home vent from Rs25,000/mo. Payback 16-36 months by asset class. Demand drivers: post-ICU discharge, COPD/sleep/respiratory, palliative, 140M+ Indians aged 60+. Reference EBITDA: Portea -6.88%, Emoha -48.86% (platform trap); a lean local depot targets 10-15% mature EBITDA. Competition: Portea, Nightingales, Okto, Oxyease, Prime Healers, HDU, Medify (Mumbai/Bangalore). Recommended entry: focus 3-5 hospital/pulmonologist referral relationships, respiratory/COPD vertical, 2-hr delivery + backup-replacement SLA, B2B2C to hospitals/nursing agencies/insurers; sequence: concentrators/BiPAP/beds first, add ventilators after utilization + clinical SOP proven."
+        ],
+        "sources": [
+          "https://www.primedeq.com/blog/top-20-medical-equipment-in-most-demand-for-rent-in-india/,https://medicalbulkbuy.com/oxygen-concentrator-rent-bangalore/,https://primehealers.com/oxygen-concentrator-for-rent-in-bangalore-3500-month/,https://oktohealthcare.com/shop/medical-equipment-rentals/ventilator-rental-bangalore/,https://www.portea.com/medical-equipment/respiratory-care/oc/rent-oxygen-concentrator-bangalore/,https://hduhealthcare.com/medical-equipment-rental-sales/,https://www.skyquestt.com/report/medical-equipment-rental-market,https://dives.in/article/2026-04-24-medical-equipment-rental-marketplace,https://www.sulekha.com/medical-equipment-rentals/mumbai"
+        ]
       },
       "updated_at": "2026-08-18"
     },
