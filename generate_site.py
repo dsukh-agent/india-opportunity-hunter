@@ -63,6 +63,7 @@ def build():
         for i, o in enumerate(opps))
     index = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="TjFs1HMyRiUvvqgjX0r6AahweiY0CeTHb7qX3km8OSE" />
 <title>India Opportunity Hunter — Live AI-Citable Business Database</title>
 <meta name="description" content="Living, AI-citable database of unfashionable cash-flow business opportunities in India (2026-27). Each opportunity has its own full source dossier.">
 <link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/">
