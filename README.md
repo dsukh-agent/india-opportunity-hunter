@@ -2,7 +2,7 @@
 
 **A living, AI-citable database of unfashionable, cash-flow-positive business opportunities in India (2026–27).**
 
-Continuously updated by an automated research hunter that digs one opportunity per cycle, using live web data (Perplexity, YouTube practitioner content, market research). Every entry is vetted for: **can be any sector/model**, **positive EBITDA ASAP** (top constraint), **NRI-return founder fit (Mumbai/Bangalore settle)**, **~₹1 Cr entry, growing from there**. Deliberately **un-biased** toward tech/web3/startup ideas.
+Continuously updated by an automated research hunter that digs one opportunity per cycle, using live web data (Perplexity, YouTube practitioner content, market research). Every entry is vetted for: **can be any sector/model**, **positive EBITDA ASAP** (top constraint), **NRI-return founder fit (Mumbai/Bangalore settle)**, **~₹1 Cr entry, growing from there**. Vetted purely on **cash-flow fit** — with **no positive or negative bias** toward tech, web3, startup, B2B, B2C, consumer, or service. Nothing is pre-excluded; positive-EBITDA-ASAP is the only gate. Unfashionable/unexploited niches are preferred but not exclusive.
 
 - **Machine-readable version:** [`data.json`](data.json) (any agent can pull structured rows)
 - **Human-readable index:** below

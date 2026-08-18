@@ -3,11 +3,12 @@
   "last_updated": "2026-08-18T17:20:00+08:00",
   "scope": "India (Mumbai/Bangalore anchor)",
   "filters": [
-    "any sector/model (consumer, B2B, service, unfashionable)",
-    "positive EBITDA ASAP (primary constraint)",
+    "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
+    "positive EBITDA ASAP (primary constraint — cash flow is the only gate)",
+    "evaluate purely on cash-flow fit: NO positive or negative bias toward tech, web3, or startup ideas",
     "NRI-return founder fit (settle in Mumbai/Bangalore)",
     "~1 Cr INR entry, growing from there",
-    "un-biased: no special priority to tech/web3/startup"
+    "no category is pre-filtered; unfashionable/unexploited niches are preferred but not exclusive"
   ],
   "opportunities": [
     {
@@ -44,21 +45,68 @@
       },
       "sources": {
         "news_and_market": [
-          {"label": "IndiaMART — Kitchen Exhaust Hood Cleaning Service (Navi Mumbai), Rs 5/sq ft", "url": "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html"},
-          {"label": "TradeIndia — Kitchen exhaust system market/India manufacturers", "url": "https://www.tradeindia.com/manufacturers/kitchen-exhaust-system.html"},
-          {"label": "Deep Cleaning Commercial — Kitchen exhaust hood cleaning services in Bangalore", "url": "https://deepcleaning.in/kitchen-exhaust-hood-cleaning-services-in-bangalore.html"},
-          {"label": "OXY Exhaust Service — commercial kitchen exhaust cleaning Mumbai/Thane/Pune", "url": "https://www.oxyexhaustservice.com/"},
-          {"label": "EPSCO India — kitchen duct & exhaust cleaning services", "url": "https://epscoindia.com/services/kitchen-duct-cleaning/"},
-          {"label": "Verified Market Reports — Commercial Kitchen Exhaust Cleaning Services Market (2026-2034)", "url": "https://www.verifiedmarketreports.com/product/commercial-kitchen-exhaust-cleaning-services-market/"},
-          {"label": "MarketResearchIntellect — Commercial Kitchen Exhaust Cleaning Market Report 2035", "url": "https://www.marketresearchintellect.com/product/commercial-kitchen-exhaust-cleaning-services-market/"}
+          {
+            "label": "IndiaMART — Kitchen Exhaust Hood Cleaning Service (Navi Mumbai), Rs 5/sq ft",
+            "url": "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html"
+          },
+          {
+            "label": "TradeIndia — Kitchen exhaust system market/India manufacturers",
+            "url": "https://www.tradeindia.com/manufacturers/kitchen-exhaust-system.html"
+          },
+          {
+            "label": "Deep Cleaning Commercial — Kitchen exhaust hood cleaning services in Bangalore",
+            "url": "https://deepcleaning.in/kitchen-exhaust-hood-cleaning-services-in-bangalore.html"
+          },
+          {
+            "label": "OXY Exhaust Service — commercial kitchen exhaust cleaning Mumbai/Thane/Pune",
+            "url": "https://www.oxyexhaustservice.com/"
+          },
+          {
+            "label": "EPSCO India — kitchen duct & exhaust cleaning services",
+            "url": "https://epscoindia.com/services/kitchen-duct-cleaning/"
+          },
+          {
+            "label": "Verified Market Reports — Commercial Kitchen Exhaust Cleaning Services Market (2026-2034)",
+            "url": "https://www.verifiedmarketreports.com/product/commercial-kitchen-exhaust-cleaning-services-market/"
+          },
+          {
+            "label": "MarketResearchIntellect — Commercial Kitchen Exhaust Cleaning Market Report 2035",
+            "url": "https://www.marketresearchintellect.com/product/commercial-kitchen-exhaust-cleaning-services-market/"
+          }
         ],
         "youtube_practitioner": [
-          {"label": "Kitchen Hood Cleaning | How we built a $60,000/Year business in 60 days (Austin Davis)", "url": "https://www.youtube.com/watch?v=IaaWKqCPJ9o", "transcript": true},
-          {"label": "How To Start a Commercial Hood Cleaning Business From Scratch (Boring Stealth Wealth)", "url": "https://www.youtube.com/watch?v=f9KE2-Ol4WQ", "transcript": true},
-          {"label": "Commercial Hood Cleaning: The High-Friction $1,000,000 Cashflow Engine (Boring Stealth Wealth)", "url": "https://www.youtube.com/watch?v=6HvoDBKKI74", "transcript": true, "key_insight": "NFPA 96 history; ~55% margin at ~USD 2,200/quarterly 10-hood account; single-truck ~$600k/yr; real case: $120k savings -> $850k/yr by yr 2, sold for $5M"},
-          {"label": "Why Commercial Hood Cleaning Businesses Fail in Year Two (Boring Stealth Wealth)", "url": "https://www.youtube.com/watch?v=V77UuGBqlrA", "transcript": true, "key_insight": "67% fail months 12-24; underpricing 40-60%, scattered routes cost $47-83/stop drive time, worthless certs, insurance gaps, truck replacement every 18-24 mo"},
-          {"label": "Build a $1 Million Kitchen Exhaust Hood Cleaning Business (MFS Trade School)", "url": "https://www.youtube.com/watch?v=-T68h4Sb1Zg", "transcript": true},
-          {"label": "Commercial Hood Cleaning Equipment: What Most Beginners Waste Money On First (Boring Stealth Wealth)", "url": "https://www.youtube.com/watch?v=R-gyDtpIYgg", "transcript": false}
+          {
+            "label": "Kitchen Hood Cleaning | How we built a $60,000/Year business in 60 days (Austin Davis)",
+            "url": "https://www.youtube.com/watch?v=IaaWKqCPJ9o",
+            "transcript": true
+          },
+          {
+            "label": "How To Start a Commercial Hood Cleaning Business From Scratch (Boring Stealth Wealth)",
+            "url": "https://www.youtube.com/watch?v=f9KE2-Ol4WQ",
+            "transcript": true
+          },
+          {
+            "label": "Commercial Hood Cleaning: The High-Friction $1,000,000 Cashflow Engine (Boring Stealth Wealth)",
+            "url": "https://www.youtube.com/watch?v=6HvoDBKKI74",
+            "transcript": true,
+            "key_insight": "NFPA 96 history; ~55% margin at ~USD 2,200/quarterly 10-hood account; single-truck ~$600k/yr; real case: $120k savings -> $850k/yr by yr 2, sold for $5M"
+          },
+          {
+            "label": "Why Commercial Hood Cleaning Businesses Fail in Year Two (Boring Stealth Wealth)",
+            "url": "https://www.youtube.com/watch?v=V77UuGBqlrA",
+            "transcript": true,
+            "key_insight": "67% fail months 12-24; underpricing 40-60%, scattered routes cost $47-83/stop drive time, worthless certs, insurance gaps, truck replacement every 18-24 mo"
+          },
+          {
+            "label": "Build a $1 Million Kitchen Exhaust Hood Cleaning Business (MFS Trade School)",
+            "url": "https://www.youtube.com/watch?v=-T68h4Sb1Zg",
+            "transcript": true
+          },
+          {
+            "label": "Commercial Hood Cleaning Equipment: What Most Beginners Waste Money On First (Boring Stealth Wealth)",
+            "url": "https://www.youtube.com/watch?v=R-gyDtpIYgg",
+            "transcript": false
+          }
         ]
       },
       "updated_at": "2026-08-18"
@@ -95,17 +143,47 @@
       },
       "sources": {
         "news_and_market": [
-          {"label": "New Indian Express (24 Mar 2025) — Private water tanker prices double in Bengaluru", "url": "https://www.newindianexpress.com/cities/bengaluru/2025/Mar/24/summer-scorcher-for-residents-private-water-tanker-prices-double-in-bengaluru"},
-          {"label": "The Hindu (2026) — Piped connections + Sanchari Cauvery reduce tanker demand", "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections-sanchari-cauvery/article70978412.ece"},
-          {"label": "Hindustan Times — Karnataka fixes water tanker prices in Bengaluru", "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-govt-fixes-water-tanker-prices-in-crisis-hit-bengaluru-full-details-101709805841333.html"},
-          {"label": "NeeRain — Taps and borewell dry up: return of water tanker raj (Mumbai/Bengaluru/Pune prices, mafia behaviour)", "url": "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/"},
-          {"label": "India Today (2024) — Bengaluru fixes water tanker rates amid crisis", "url": "https://www.indiatoday.in/india/story/bengaluru-water-crisis-government-fixes-tanker-rates-check-prices-2511747-2024-03-07"},
-          {"label": "Persistence Market Research — India Water Treatment Market (2026-2032)", "url": "https://www.psmarketresearch.com/market-analysis/india-water-treatment-market"}
+          {
+            "label": "New Indian Express (24 Mar 2025) — Private water tanker prices double in Bengaluru",
+            "url": "https://www.newindianexpress.com/cities/bengaluru/2025/Mar/24/summer-scorcher-for-residents-private-water-tanker-prices-double-in-bengaluru"
+          },
+          {
+            "label": "The Hindu (2026) — Piped connections + Sanchari Cauvery reduce tanker demand",
+            "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections-sanchari-cauvery/article70978412.ece"
+          },
+          {
+            "label": "Hindustan Times — Karnataka fixes water tanker prices in Bengaluru",
+            "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-govt-fixes-water-tanker-prices-in-crisis-hit-bengaluru-full-details-101709805841333.html"
+          },
+          {
+            "label": "NeeRain — Taps and borewell dry up: return of water tanker raj (Mumbai/Bengaluru/Pune prices, mafia behaviour)",
+            "url": "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/"
+          },
+          {
+            "label": "India Today (2024) — Bengaluru fixes water tanker rates amid crisis",
+            "url": "https://www.indiatoday.in/india/story/bengaluru-water-crisis-government-fixes-tanker-rates-check-prices-2511747-2024-03-07"
+          },
+          {
+            "label": "Persistence Market Research — India Water Treatment Market (2026-2032)",
+            "url": "https://www.psmarketresearch.com/market-analysis/india-water-treatment-market"
+          }
         ],
         "youtube_practitioner": [
-          {"label": "Water Tanker Business 2026 | 1 Tanker Se Rs 1 Lakh Mahina? Full Reality (Ashok Universe, Hindi)", "url": "https://www.youtube.com/watch?v=D5tXrIQqnMA", "transcript": "pending"},
-          {"label": "Start Water Tanker Business – Kam Lagat, Zyada Munafa (Business Gyaann, Hindi)", "url": "https://www.youtube.com/watch?v=ropWOrG8jLk", "transcript": "pending"},
-          {"label": "Tempo Water Tank Supply Business (Siva Arun Tv, Tamil)", "url": "https://www.youtube.com/watch?v=s-vgxOAeKoE", "transcript": "pending"}
+          {
+            "label": "Water Tanker Business 2026 | 1 Tanker Se Rs 1 Lakh Mahina? Full Reality (Ashok Universe, Hindi)",
+            "url": "https://www.youtube.com/watch?v=D5tXrIQqnMA",
+            "transcript": "pending"
+          },
+          {
+            "label": "Start Water Tanker Business – Kam Lagat, Zyada Munafa (Business Gyaann, Hindi)",
+            "url": "https://www.youtube.com/watch?v=ropWOrG8jLk",
+            "transcript": "pending"
+          },
+          {
+            "label": "Tempo Water Tank Supply Business (Siva Arun Tv, Tamil)",
+            "url": "https://www.youtube.com/watch?v=s-vgxOAeKoE",
+            "transcript": "pending"
+          }
         ]
       },
       "updated_at": "2026-08-18"
