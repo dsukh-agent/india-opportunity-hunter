@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T13:37:07+00:00",
+  "last_updated": "2026-08-18T13:38:55+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -60,6 +60,182 @@
         "sources": [
           "https://timesofindia.indiatimes.com/city/mumbai/water-crisis-looming-housing-societies-tanker-association-suspend-services/, https://www.hindustantimes.com/cities/mumbai-news/tanker-economy-thrives-as-panvel-reels-under-water-crisis-101778094767205.html, https://indianexpress.com/article/cities/mumbai/water-tankers-strike-crisis-explained-10731190/, https://timesofindia.indiatimes.com/short-on-supply-highrises-spend-rs-1-2-lakh/month-for-tanker-water/articleshow/100045531.cms, https://www.freepressjournal.in/mumbai/mumbai-faces-water-tanker-shortage-amid-15-supply-cut-rates-spike"
         ]
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 3,
+      "slug": "commercial-linen-&-uniform-rental-for-hotels-&-salons",
+      "title": "Commercial Linen & Uniform Rental for Hotels & Salons",
+      "sector": "Facility / Laundry",
+      "model": "B2B Recurring",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Centralized commercial laundry facility providing linen & uniform rental + daily pickup/delivery to boutique hotels, gyms, clinics, and salon chains in MMR/Bangalore on monthly retainer.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 4,
+      "slug": "elevator-&-lift-maintenance-amc-service",
+      "title": "Elevator & Lift Maintenance AMC Service",
+      "sector": "Facility / Engineering",
+      "model": "B2B Service AMC",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Third-party non-OEM maintenance contracts for mid-rise residential apartments & commercial spaces across Bangalore/Mumbai, competing against expensive OEM AMCs.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 5,
+      "slug": "commercial-ro-&-water-purification-plant-amc",
+      "title": "Commercial RO & Water Purification Plant AMC",
+      "sector": "Water / Infrastructure",
+      "model": "B2B Contract",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Turnkey maintenance, filter replacement & water testing contracts for residential society STPs, commercial office ROs, and factory process water plants.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 6,
+      "slug": "b2b-pest-control-&-fssai-hygiene-audit-compliance",
+      "title": "B2B Pest Control & FSSAI Hygiene Audit Compliance",
+      "sector": "Facility / Compliance",
+      "model": "B2B Recurring",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Quarterly pest eradication & mandatory FSSAI food-safety hygiene documentation for cloud kitchens, QSR chains, food processing units, and school canteens.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 7,
+      "slug": "medical-equipment-rental-&-home-icu-support",
+      "title": "Medical Equipment Rental & Home ICU Support",
+      "sector": "Healthcare / Logistics",
+      "model": "B2B / B2C Asset Rental",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Rental of oxygen concentrators, hospital beds, BiPAP machines, and patient monitors to nursing homes and home-care patients in Tier-1 suburbs with monthly billing.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 8,
+      "slug": "cold-storage-last-mile-logistics-for-perishables",
+      "title": "Cold Storage Last-Mile Logistics for Perishables",
+      "sector": "Logistics / Cold Chain",
+      "model": "B2B Fleet Service",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Refrigerated small-commercial vehicles (Tata Ace EV/Reefer) providing temperature-controlled scheduled transport for dairy, meat, and pharmaceutical distributors.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 9,
+      "slug": "industrial-packaging-&-corrugated-box-supply-hub",
+      "title": "Industrial Packaging & Corrugated Box Supply Hub",
+      "sector": "Manufacturing / Supply",
+      "model": "B2B Distribution",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
+      },
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 10,
+      "slug": "corporate-&-school-ev-shuttle-fleet-service",
+      "title": "Corporate & School EV Shuttle Fleet Service",
+      "sector": "Transportation",
+      "model": "B2B Contract",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Contracted employee pickup/drop and school route transportation using leased electric 12-seater / 24-seater vans with guaranteed annual contracts.",
+      "verdict": "PENDING",
+      "entry_capital_inr": "TBD",
+      "ebitda_timeline": "see dossier",
+      "margins": "see dossier",
+      "dig_depth": 0,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [],
+        "sources": []
       },
       "updated_at": "2026-08-18"
     }
