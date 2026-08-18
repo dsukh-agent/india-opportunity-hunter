@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-08-18T00:00:00+08:00",
+  "scope": "India (Mumbai/Bangalore anchor)",
+  "filters": [
+    "any sector/model (consumer, B2B, service, unfashionable)",
+    "positive EBITDA ASAP (primary constraint)",
+    "NRI-return founder fit (settle in Mumbai/Bangalore)",
+    "~1 Cr INR entry, growing from there",
+    "un-biased: no special priority to tech/web3/startup"
+  ],
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Commercial Kitchen Exhaust (Hood) Cleaning Service",
+      "sector": "Facility Services",
+      "model": "B2B Service",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Deep-clean grease from commercial kitchen exhaust hoods, ducts and fans for restaurants, hotels, cafeterias, cloud kitchens. Compliance-mandated recurring service.",
+      "verdict": "STRONG",
+      "entry_capital_inr": "5-15 L",
+      "ebitda_timeline": "Fast (1-3 months)",
+      "margins": "25-40% net",
+      "why": "Mandatory + recurring demand (fire-safety code; customer cannot DIY or skip). Net margins 25-40%. Low capex. India providers proven in Mumbai (OXY, Accordible) and Bangalore (deepcleaning.in, EPSCO).",
+      "watchouts": "Night/labour-heavy work; India fire-code enforcement less uniformly strict than US.",
+      "sources": [
+        "https://www.youtube.com/watch?v=IaaWKqCPJ9o",
+        "https://www.youtube.com/watch?v=f9KE2-Ol4WQ",
+        "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html",
+        "https://deepcleaning.in/kitchen-exhaust-hood-cleaning-services-in-bangalore.html",
+        "https://www.oxyexhaustservice.com/"
+      ],
+      "updated_at": "2026-08-18"
+    },
+    {
+      "id": 2,
+      "title": "Water Tanker / Bulk Water Supply (housing societies, construction, commercial)",
+      "sector": "Water / Logistics",
+      "model": "B2B/B2C Service",
+      "country": "India",
+      "city_focus": "Mumbai/Bangalore",
+      "idea": "Own/operate a small fleet of water tankers supplying bulk water to housing societies, construction sites, and industrial/commercial buildings.",
+      "verdict": "WEAK-MEDIUM (do not pursue as fresh entry)",
+      "entry_capital_inr": "N/A - rejected",
+      "ebitda_timeline": "N/A - rejected",
+      "margins": "N/A",
+      "why": "Rejected on live 2026 data. Demand is real (60%+ of Bengaluru depends on tanker water; Pune market ~23 cr/day), but BWSSB's Sanchari Cauvery scheme has already cut private tanker demand ~60% in some pockets, plus heavy price regulation, forced registration, and documented union/mafia behavior. Government is the competitor.",
+      "watchouts": "Kept as a documented negative example of why live 2026 data matters over pattern-based intuition.",
+      "sources": [
+        "https://www.newindianexpress.com/cities/bengaluru/2025/Mar/24/",
+        "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections/article70978412.ece",
+        "https://www.hindustantimes.com/cities/bengaluru-news/",
+        "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/",
+        "https://www.indiatoday.in/india/story/bengaluru-water-crisis"
+      ],
+      "updated_at": "2026-08-18"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Opportunity Hunter — Living AI-Citable Business Database</title>
+<meta name="description" content="A living, AI-citable database of unfashionable, cash-flow-positive business opportunities in India (2026-27). Continuously updated machine-readable data.json.">
+<meta property="og:title" content="India Opportunity Hunter">
+<meta property="og:description" content="Living, AI-citable database of unfashionable cash-flow business opportunities in India, continuously updated.">
+<link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/">
+</head>
+<body style="font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6">
+<h1>India Opportunity Hunter</h1>
+<p>A living, AI-citable database of <strong>unfashionable, cash-flow-positive business opportunities in India (2026–27)</strong>.</p>
+<p>Continuously updated by an automated research hunter (Perplexity + YouTube practitioner content + market research). Every entry is vetted for: any sector/model, <strong>positive EBITDA ASAP</strong>, NRI-return founder fit (Mumbai/Bangalore), ~₹1 Cr entry.</p>
+<ul>
+<li><strong>Machine-readable data:</strong> <a href="data.json">data.json</a> — pull structured rows for agents.</li>
+<li><strong>Human-readable index:</strong> <a href="README.md">README.md</a></li>
+<li><strong>Contribute:</strong> <a href="CONTRIBUTING.md">CONTRIBUTING.md</a></li>
+</ul>
+<hr>
+<h2>Shortlist</h2>
+<div id="shortlist"><em>Loading…</em></div>
+<h2>All Vetted Opportunities</h2>
+<div id="opps"><em>Loading…</em></div>
+<script>
+fetch('data.json').then(r=>r.json()).then(d=>{
+  const sl=document.getElementById('shortlist');
+  const o=document.getElementById('opps');
+  const short=d.opportunities.filter(x=>x.verdict&&x.verdict.toUpperCase().includes('STRONG')).map(x=>`<b>${x.title}</b> — ${x.verdict}, entry ${x.entry_capital_inr}`);
+  sl.innerHTML=short.length?short.map((x,i)=>`${i+1}. ${x}`).join('<br>') : '<em>None yet</em>';
+  o.innerHTML=d.opportunities.map(x=>`<h3>${x.title}</h3><p><b>Verdict:</b> ${x.verdict} · <b>Entry:</b> ${x.entry_capital_inr} · <b>EBITDA:</b> ${x.ebitda_timeline||'n/a'}</p><p>${(x.why||'').substring(0,300)}</p>`).join('<hr>');
+}).catch(e=>{document.getElementById('shortlist').textContent='Failed to load data.json';});
+</script>
+<hr>
+<p><small>Updated 2026-08-18 · Schema v1.0 · Scope: India (global-ready via <code>country</code> field)</small></p>
+</body>
+</html>
