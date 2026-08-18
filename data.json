@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T15:28:50+00:00",
+  "last_updated": "2026-08-18T17:28:21+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -98,16 +98,20 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Third-party non-OEM maintenance contracts for mid-rise residential apartments & commercial spaces across Bangalore/Mumbai, competing against expensive OEM AMCs.",
-      "verdict": "PENDING",
+      "verdict": "STRONG",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
-      "dig_depth": 0,
-      "shortlisted": 0,
-      "rank": null,
+      "dig_depth": 1,
+      "shortlisted": 1,
+      "rank": 4,
       "digest": {
-        "findings": [],
-        "sources": []
+        "findings": [
+          "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection."
+        ],
+        "sources": [
+          "https://efepvtltd.com/blogs/what-is-the-cost-of-lift-amc-in-india/, https://brioelevators.com/blog/home-elevators-in-india-price/, https://www.indiamart.com/proddetail/elevator-maintenance-service-amc-19667174488.html, https://olympiaelevators.com/lift-amc-services-in-bangalore/, https://vrselevators.com/elevators-amc.html, https://www.sulekha.com/elevator-maintenance-services/mumbai"
+        ]
       },
       "updated_at": "2026-08-18"
     },
