@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-18T19:28:21+00:00",
+  "last_updated": "2026-08-18T21:28:53+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -150,16 +150,20 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Quarterly pest eradication & mandatory FSSAI food-safety hygiene documentation for cloud kitchens, QSR chains, food processing units, and school canteens.",
-      "verdict": "PENDING",
+      "verdict": "STRONG",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
-      "dig_depth": 0,
+      "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
       "digest": {
-        "findings": [],
-        "sources": []
+        "findings": [
+          "India pest control market: USD 1.92B (2025) growing 5.82% CAGR to USD 3.3B by 2034 (IMARC); B2B = 75%+ of market. FSSAI Schedule 4 makes pest control + documented FSMS MANDATORY for every licensed food business (restaurants, cloud kitchens, hotels, food factories, central kitchens) - structural recurring demand, not discretionary. Best wedge: FSSAI-ready pest-compliance managed service for food businesses in one dense micro-market (Andheri-BKC-Powai / Koramangala-HSR-Bellandur). Revenue = annual 12-month AMC, quarterly advance billing. Unit economics: compliance-led AMC at INR 8,000-20,000/site/month, gross margin 60-75%, mature EBITDA 15-25% after route density (70-85% recurring revenue, 80-90%+ renewals). Food factory/central kitchen tickets INR 2-12L/yr are best ACV. Startup capital: INR 20-30L focused city launch (3-6 technicians, supervisor, vehicles, field app, 6-9mo runway) - fits 1Cr budget scaling from there. Moat = operational density + compliance data (QR-linked site records, device maps, digital reports, audit packs), not the chemical. Packaging as compliance/operational-risk tier (Core/Compliance/Assured) avoids competing on low-cost spray price. NRI-return founder fit: excellent - relationship-heavy B2B sales, no frontier tech, no web3. Watch-outs: insecticide licensing (state Insecticides Act/Rules, fumigation extra permits), low entry barriers + 15,000 unorganized players = price pressure; avoid hiring ahead of revenue & distant micro-accounts (kills EBITDA); route density is the key economic variable."
+        ],
+        "sources": [
+          "https://www.imarcgroup.com/india-pest-control-market, https://www.grandviewresearch.com/industry-analysis/india-pest-control-products-market-report, https://blog.petpooja.com/templates-checklist/fssai-compliance-checklist/, https://taxclue.in/fssai-third-party-audit, https://www.myfoodexpert.in/third-party-audit-services-india/"
+        ]
       },
       "updated_at": "2026-08-18"
     },
