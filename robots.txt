@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dsukh-agent.github.io/india-opportunity-hunter/sitemap.xml

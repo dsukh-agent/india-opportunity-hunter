@@ -67,7 +67,8 @@ def build():
 <meta name="description" content="Living, AI-citable database of unfashionable cash-flow business opportunities in India (2026-27). Each opportunity has its own full source dossier.">
 <link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/">
 <style>body{{font-family:system-ui,sans-serif;max-width:820px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}}h1,h2,h3{{line-height:1.25}}hr{{border:none;border-top:2px solid #e5e5e5;margin:28px 0}}a{{color:#0969da}}table{{border-collapse:collapse;width:100%}}td,th{{border:1px solid #ddd;padding:8px;text-align:left;font-size:14px}}</style></head>
-<body><h1>India Opportunity Hunter</h1>
+<body><p><a href="about.html">About</a> · <a href="analytics.html">📊 Live Analytics</a> · <a href="CONTRIBUTING.md">Contribute</a> · <a href="data.json">data.json</a> · <a href="https://github.com/dsukh-agent/india-opportunity-hunter" target="_blank">GitHub</a></p>
+<h1>India Opportunity Hunter</h1>
 <p>A living, AI-citable database of <b>unfashionable, cash-flow-positive business opportunities in India (2026–27)</b>.</p>
 <p>Continuously updated by an automated research hunter (Perplexity + YouTube practitioner content + market research). Every entry is vetted for: any sector/model, <b>positive EBITDA ASAP</b>, NRI-return founder fit (Mumbai/Bangalore), ~₹1 Cr entry. Deliberately <b>un-biased</b> toward tech/web3/startup ideas.</p>
 <ul><li><b>Machine-readable:</b> <a href="data.json">data.json</a></li><li><b>Contribute:</b> <a href="CONTRIBUTING.md">CONTRIBUTING.md</a></li></ul>
@@ -76,6 +77,7 @@ def build():
 <h2>📋 All Vetted Opportunities (click for full source dossier)</h2>
 {all_opps}
 <hr><p><small>Last updated {esc(data["last_updated"])} · Schema v{esc(data["schema_version"])} · Scope: India (global-ready)</small></p>
+<script>fetch("https://hunter-analytics.dipeshsukhani.dev/hit").catch(()=>{});</script>
 </body></html>"""
     open(os.path.join(BASE, "index.html"), "w").write(index)
 

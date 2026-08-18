@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analytics &amp; Traffic — India Opportunity Hunter</title>
+<meta name="description" content="Live visitor and AI-agent traffic metrics for the India Opportunity Hunter database.">
+<link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/analytics.html">
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222;text-align:center}.big{font-size:48px;font-weight:700;margin:8px 0}.card{background:#f6f8fa;border-radius:12px;padding:24px;margin:16px 0}</style>
+</head><body>
+<p><a href="index.html">&larr; Back</a></p>
+<h1>📊 Live Traffic &amp; Adoption</h1>
+<p>We show this publicly so the world can see this database is being used — by humans and by AI systems.</p>
+<div class="card"><div class="big" id="views">—</div><div>Total site views (life)</div></div>
+<div class="card"><div class="big" id="agents">—</div><div>AI-agent / crawler hits</div></div>
+<div id="note"><p><small>Counters update when the database publishes new research.</small></p></div>
+<h2>What counts as a visit?</h2>
+<p>Every page load is logged with its IP address, user-agent, timestamp, and referrer. We can distinguish <b>human visitors</b> (browsers) from <b>AI agents / crawlers</b> (bots like GPTBot, ClaudeBot, Google-Extended) by their user-agent string. That lets us show, honestly, how much real machine adoption the database is getting.</p>
+<h2>What we do with the data</h2>
+<p>Used purely to measure adoption and improve the database. No personal data is sold or shared.</p>
+<script>
+fetch('stats.json').then(r=>r.json()).then(s=>{
+  document.getElementById('views').textContent=s.total_views||0;
+  document.getElementById('agents').textContent=s.agent_hits||0;
+}).catch(()=>{});
+</script>
+</body></html>
