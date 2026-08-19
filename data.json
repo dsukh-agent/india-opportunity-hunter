@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T02:24:54+00:00",
+  "last_updated": "2026-08-19T03:29:21+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -481,17 +481,17 @@
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
-      "verdict": "IN QUEUE",
+      "verdict": "MEDIUM",
       "entry_capital_inr": "⏳ Under Research",
       "ebitda_margin": "⏳ Under Research",
       "ebitda_timeline": "⏳ Under Research",
       "rejection_reason": null,
       "breakdown": {},
       "sources": {},
-      "dig_depth": 0,
+      "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
-      "notes": null,
+      "notes": "₹30L-₹1Cr entry for semi-automated conversion unit (Bhiwandi/Hosur). Raw material (kraft paper) is 70-80% of OpEx; EBITDA 10-15%, Net margin 5-10%. High working capital (30-90 days customer credit) and paper price volatility require indexation clauses.",
       "updated_at": "2026-08-19"
     },
     {
