@@ -6,7 +6,7 @@
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://hunter.dipesh.one/">
 <style>
-:root{--ink:#111827;--muted:#6b7280;--brand:#1d4ed8;--bg:#f9fafb;--card:#ffffff;--line:#e5e7eb}
+:root{--ink:#111827;--muted:#6b7280;--brand:#1d4ed8;--bg:#f9fafb;--card:#ffffff;--line:#e5e7eb;--danger:#dc2626;--success:#16a34a}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
 .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
@@ -14,21 +14,21 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background
 .brand{font-weight:700;font-size:16px;color:var(--ink);margin-right:auto}
 .topnav a{color:var(--muted);text-decoration:none;font-weight:500}
 .topnav a:hover{color:var(--brand)}
-h1{font-size:34px;line-height:1.2;margin-bottom:10px}
-.tagline{color:var(--muted);font-size:17px;max-width:640px;margin-bottom:26px}
-.statsbar{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:14px;padding:22px 26px;margin-bottom:30px}
-.stat{min-width:120px}
-.stat .num{font-size:30px;font-weight:800;line-height:1.1}
-.stat .lbl{font-size:13px;opacity:.85}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin:14px 0}
-.card h2{font-size:22px;margin-bottom:8px}
-.card .verdict{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px}
-.strong{background:#dcfce7;color:#15803d}.medium{background:#fef9c3;color:#a16207}.weak{background:#fee2e2;color:#b91c1c}.pending{background:#e5e7eb;color:#374151}
-.card p{color:var(--ink);margin-bottom:10px}
-.card .meta{color:var(--muted);font-size:14px}
-a.dossier{display:inline-block;margin-top:8px;color:var(--brand);font-weight:600;text-decoration:none}
+h1{font-size:32px;line-height:1.2;margin-bottom:10px}
+.tagline{color:var(--muted);font-size:16px;max-width:680px;margin-bottom:26px}
+.statsbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:16px;background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;border-radius:14px;padding:20px 24px;margin-bottom:30px}
+.stat .num{font-size:28px;font-weight:800;line-height:1.1}
+.stat .lbl{font-size:12px;opacity:.9;margin-top:4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin:16px 0;box-shadow:0 1px 3px rgba(0,0,0,0.02)}
+.card h2{font-size:20px}
+.verdict{display:inline-block;font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px}
+.strong{background:#dcfce7;color:#15803d}.weak{background:#fee2e2;color:#b91c1c}.pending{background:#f3f4f6;color:#4b5563}
+.card p{color:var(--ink);margin:8px 0}
+.card .meta{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:10px}
+.rej-box{background:#fef2f2;border-left:3px solid var(--danger);padding:10px 14px;border-radius:4px;font-size:13px;color:#991b1b;margin:10px 0}
+a.dossier{display:inline-block;margin-top:10px;color:var(--brand);font-weight:600;font-size:14px;text-decoration:none}
 a.dossier:hover{text-decoration:underline}
-.section{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin:28px 0 6px}
+.section{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin:32px 0 10px}
 table{border-collapse:collapse;width:100%;background:#fff;border-radius:8px;overflow:hidden;border:1px solid var(--line);margin:12px 0}
 th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
 th{background:#f8fafc;font-weight:600}
@@ -42,84 +42,134 @@ footer a:hover{color:var(--brand)}
 <h1>India Opportunity Hunter</h1>
 <p class="tagline">A living, AI-citable database of <b>unfashionable, cash-flow-positive business opportunities</b> in India (2026–27). Evaluated purely on cash-flow fit — positive EBITDA ASAP — with zero category bias.</p>
 <div class="statsbar">
-  <div class="stat"><div class="num">10</div><div class="lbl">Opportunities in Pipeline</div></div>
-  <div class="stat"><div class="num">3</div><div class="lbl">Shortlisted (STRONG)</div></div>
-  <div class="stat"><div class="num">2026-27</div><div class="lbl">Target Horizon</div></div>
-  <div class="stat"><div class="num">~₹1 Cr</div><div class="lbl">Target Capital Gate</div></div>
+  <div class="stat"><div class="num">10</div><div class="lbl">Total Evaluated</div></div>
+  <div class="stat"><div class="num" style="color:#86efac">3</div><div class="lbl">Shortlisted (STRONG)</div></div>
+  <div class="stat"><div class="num" style="color:#fca5a5">4</div><div class="lbl">Rejected / Unviable</div></div>
+  <div class="stat"><div class="num">3</div><div class="lbl">In Queue</div></div>
 </div>
-<div class="section">🏆 The Shortlist</div>
-<table><tr><th>#</th><th>Opportunity</th><th>Sector</th><th>Verdict</th><th>Entry Capital</th><th>EBITDA</th></tr><tr><td>1</td><td><a href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html">Commercial Kitchen Exhaust (Hood) Cleaning Service</a></td><td>Facility &amp; Safety Services</td><td><span class="verdict strong">STRONG</span></td><td>₹5 – 15 Lakhs</td><td>1 – 3 Months</td></tr><tr><td>2</td><td><a href="opportunities/commercial-ro-and-water-purification-plant-amc.html">Commercial RO &amp; Water Purification Plant AMC</a></td><td>Water Infrastructure</td><td><span class="verdict strong">STRONG</span></td><td>₹12 – 25 Lakhs</td><td>3 – 6 Months</td></tr><tr><td>3</td><td><a href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html">B2B Pest Control &amp; FSSAI Hygiene Audit Compliance</a></td><td>Compliance &amp; Hygiene</td><td><span class="verdict strong">STRONG</span></td><td>₹15 – 25 Lakhs</td><td>3 – 6 Months</td></tr></table>
-<div class="section">📋 Full Opportunity Pipeline (10 Verticals)</div>
+<div class="section">🏆 Qualified Shortlist (3 Passed)</div>
+<table><tr><th>#</th><th>Opportunity</th><th>Sector</th><th>Verdict</th><th>Entry Capital</th><th>EBITDA Timeline</th></tr><tr><td>1</td><td><a href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html"><b>Commercial Kitchen Exhaust (Hood) Cleaning Service</b></a></td><td>Facility &amp; Safety Services</td><td><span class="verdict strong">STRONG</span></td><td>₹5 – 15 Lakhs</td><td>1 – 3 Months</td></tr><tr><td>2</td><td><a href="opportunities/commercial-ro-and-water-purification-plant-amc.html"><b>Commercial RO &amp; Water Purification Plant AMC</b></a></td><td>Water Infrastructure</td><td><span class="verdict strong">STRONG</span></td><td>₹12 – 25 Lakhs</td><td>3 – 6 Months</td></tr><tr><td>3</td><td><a href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html"><b>B2B Pest Control &amp; FSSAI Hygiene Audit Compliance</b></a></td><td>Compliance &amp; Hygiene</td><td><span class="verdict strong">STRONG</span></td><td>₹15 – 25 Lakhs</td><td>3 – 6 Months</td></tr></table>
+<div class="section">📋 Full Pipeline Analysis (10 Verticals)</div>
 
 <div class="card">
-  <span class="verdict strong">STRONG</span>
-  <h2><a href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html" style="color:var(--ink);text-decoration:none">1. Commercial Kitchen Exhaust (Hood) Cleaning Service</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html" style="color:var(--ink);text-decoration:none">1. Commercial Kitchen Exhaust (Hood) Cleaning Service</a></h2>
+    <span class="verdict strong">STRONG (PASSED)</span>
+  </div>
   <p>Deep-clean grease from commercial kitchen exhaust hoods, ducts &amp; fans for restaurants, hotels, cafeterias, cloud kitchens in Mumbai/Bangalore. Compliance-mandated recurring service.</p>
-  <div class="meta">Sector: Facility &amp; Safety Services · Model: B2B Recurring Compliance · Entry: ₹5 – 15 Lakhs · Dig Depth: 3/3</div>
-  <a class="dossier" href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Facility &amp; Safety Services · <b>Model:</b> B2B Recurring Compliance · <b>Capital:</b> ₹5 – 15 Lakhs · <b>EBITDA Margin:</b> 25% – 40% · <b>Timeline:</b> 1 – 3 Months
+  </div>
+  <a class="dossier" href="opportunities/commercial-kitchen-exhaust-hood-cleaning-service.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict strong">STRONG</span>
-  <h2><a href="opportunities/commercial-ro-and-water-purification-plant-amc.html" style="color:var(--ink);text-decoration:none">2. Commercial RO &amp; Water Purification Plant AMC</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/commercial-ro-and-water-purification-plant-amc.html" style="color:var(--ink);text-decoration:none">2. Commercial RO &amp; Water Purification Plant AMC</a></h2>
+    <span class="verdict strong">STRONG (PASSED)</span>
+  </div>
   <p>Turnkey maintenance, filter replacement &amp; water testing contracts for residential society STPs, commercial office ROs, and factory process water plants.</p>
-  <div class="meta">Sector: Water Infrastructure · Model: B2B Service AMC · Entry: ₹12 – 25 Lakhs · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/commercial-ro-and-water-purification-plant-amc.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Water Infrastructure · <b>Model:</b> B2B Service AMC · <b>Capital:</b> ₹12 – 25 Lakhs · <b>EBITDA Margin:</b> 20% – 35% · <b>Timeline:</b> 3 – 6 Months
+  </div>
+  <a class="dossier" href="opportunities/commercial-ro-and-water-purification-plant-amc.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict strong">STRONG</span>
-  <h2><a href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html" style="color:var(--ink);text-decoration:none">3. B2B Pest Control &amp; FSSAI Hygiene Audit Compliance</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html" style="color:var(--ink);text-decoration:none">3. B2B Pest Control &amp; FSSAI Hygiene Audit Compliance</a></h2>
+    <span class="verdict strong">STRONG (PASSED)</span>
+  </div>
   <p>Quarterly pest eradication &amp; mandatory FSSAI food-safety hygiene documentation for cloud kitchens, QSR chains, food processing units, and school canteens.</p>
-  <div class="meta">Sector: Compliance &amp; Hygiene · Model: B2B Contract Recurring · Entry: ₹15 – 25 Lakhs · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Compliance &amp; Hygiene · <b>Model:</b> B2B Contract Recurring · <b>Capital:</b> ₹15 – 25 Lakhs · <b>EBITDA Margin:</b> 20% – 30% · <b>Timeline:</b> 3 – 6 Months
+  </div>
+  <a class="dossier" href="opportunities/b2b-pest-control-and-fssai-hygiene-audit-compliance.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict weak">REJECTED</span>
-  <h2><a href="opportunities/water-tanker---bulk-water-supply-for-housing-societies-and-c.html" style="color:var(--ink);text-decoration:none">4. Water tanker / bulk water supply for housing societies &amp; construction sites</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/water-tanker---bulk-water-supply-for-housing-societies-and-c.html" style="color:var(--ink);text-decoration:none">4. Water tanker / bulk water supply for housing societies &amp; construction sites</a></h2>
+    <span class="verdict weak">REJECTED</span>
+  </div>
   <p>Water tanker / bulk water supply for housing societies &amp; construction sites</p>
-  <div class="meta">Sector: Water Logistics · Model: Asset / Brokerage · Entry: ₹25L – 60L (Fleet) / ₹10L (Broker) · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/water-tanker---bulk-water-supply-for-housing-societies-and-c.html">View full dossier &rarr;</a>
+  <div class="rej-box"><b>❌ Fatal Flaw:</b> Negative pricing power. Municipal price caps (BWSSB Sanchari Cauvery), CGWA regulatory crackdown, union turf wars, and 45-60 day RWA credit stretch.</div>
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Water Logistics · <b>Model:</b> Asset / Brokerage · <b>Capital:</b> ₹25L – 60L (Fleet) / ₹10L (Broker) · <b>EBITDA Margin:</b> 10% – 15% · <b>Timeline:</b> 12+ Months
+  </div>
+  <a class="dossier" href="opportunities/water-tanker---bulk-water-supply-for-housing-societies-and-c.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict weak">REJECTED</span>
-  <h2><a href="opportunities/commercial-linen-and-uniform-rental-for-hotels-and-salons.html" style="color:var(--ink);text-decoration:none">5. Commercial Linen &amp; Uniform Rental for Hotels &amp; Salons</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/commercial-linen-and-uniform-rental-for-hotels-and-salons.html" style="color:var(--ink);text-decoration:none">5. Commercial Linen &amp; Uniform Rental for Hotels &amp; Salons</a></h2>
+    <span class="verdict weak">REJECTED</span>
+  </div>
   <p>Centralized commercial laundry facility providing linen &amp; uniform rental + daily pickup/delivery to boutique hotels, gyms, clinics, and salon chains in MMR/Bangalore on monthly retainer.</p>
-  <div class="meta">Sector: Commercial Laundry · Model: B2B Contract Rental · Entry: ₹40L – 80L · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/commercial-linen-and-uniform-rental-for-hotels-and-salons.html">View full dossier &rarr;</a>
+  <div class="rej-box"><b>❌ Fatal Flaw:</b> Working capital trap. 3-par linen stock capex + 15-20% annual linen shrinkage/theft + hotels stretch receivables to 60-90 days. Sub-15% EBITDA until massive scale.</div>
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Commercial Laundry · <b>Model:</b> B2B Contract Rental · <b>Capital:</b> ₹40L – 80L · <b>EBITDA Margin:</b> 8% – 14% · <b>Timeline:</b> 18 – 24 Months
+  </div>
+  <a class="dossier" href="opportunities/commercial-linen-and-uniform-rental-for-hotels-and-salons.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict weak">WEAK</span>
-  <h2><a href="opportunities/elevator-and-lift-maintenance-amc-service.html" style="color:var(--ink);text-decoration:none">6. Elevator &amp; Lift Maintenance AMC Service</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/elevator-and-lift-maintenance-amc-service.html" style="color:var(--ink);text-decoration:none">6. Elevator &amp; Lift Maintenance AMC Service</a></h2>
+    <span class="verdict weak">REJECTED</span>
+  </div>
   <p>Third-party non-OEM maintenance contracts for mid-rise residential apartments &amp; commercial spaces across Bangalore/Mumbai, competing against expensive OEM AMCs.</p>
-  <div class="meta">Sector: Facility Engineering · Model: B2B Service AMC · Entry: ₹60 Lakhs – 1.2 Cr · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/elevator-and-lift-maintenance-amc-service.html">View full dossier &rarr;</a>
+  <div class="rej-box"><b>❌ Fatal Flaw:</b> OEM proprietary lock-in. Modern lifts use proprietary error codes/diagnostic boards (KONE, Otis, Schindler). RWAs resist independent non-OEM maintainers due to safety liability.</div>
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Facility Engineering · <b>Model:</b> B2B Service AMC · <b>Capital:</b> ₹60L – 1.2 Cr · <b>EBITDA Margin:</b> 10% – 18% · <b>Timeline:</b> 18+ Months
+  </div>
+  <a class="dossier" href="opportunities/elevator-and-lift-maintenance-amc-service.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict weak">REJECTED</span>
-  <h2><a href="opportunities/medical-equipment-rental-and-home-icu-support.html" style="color:var(--ink);text-decoration:none">7. Medical Equipment Rental &amp; Home ICU Support</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/medical-equipment-rental-and-home-icu-support.html" style="color:var(--ink);text-decoration:none">7. Medical Equipment Rental &amp; Home ICU Support</a></h2>
+    <span class="verdict weak">REJECTED</span>
+  </div>
   <p>Rental of oxygen concentrators, hospital beds, BiPAP machines, and patient monitors to nursing homes and home-care patients in Tier-1 suburbs with monthly billing.</p>
-  <div class="meta">Sector: Healthcare Logistics · Model: Asset Rental · Entry: ₹50L – 1.2 Cr · Dig Depth: 1/3</div>
-  <a class="dossier" href="opportunities/medical-equipment-rental-and-home-icu-support.html">View full dossier &rarr;</a>
+  <div class="rej-box"><b>❌ Fatal Flaw:</b> Asset-heavy capex with 24-36 month payback. Low utilization (&lt;55%) kills unit economics. Nurse staffing is an operational graveyard (Portea/Emoha EBITDA negative).</div>
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Healthcare Logistics · <b>Model:</b> Asset Rental · <b>Capital:</b> ₹50L – 1.2 Cr · <b>EBITDA Margin:</b> 8% – 12% · <b>Timeline:</b> 24 – 36 Months
+  </div>
+  <a class="dossier" href="opportunities/medical-equipment-rental-and-home-icu-support.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict pending">IN QUEUE</span>
-  <h2><a href="opportunities/cold-storage-last-mile-logistics-for-perishables.html" style="color:var(--ink);text-decoration:none">8. Cold Storage Last-Mile Logistics for Perishables</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/cold-storage-last-mile-logistics-for-perishables.html" style="color:var(--ink);text-decoration:none">8. Cold Storage Last-Mile Logistics for Perishables</a></h2>
+    <span class="verdict pending">⏳ IN QUEUE (Research Pending)</span>
+  </div>
   <p>Refrigerated small-commercial vehicles (Tata Ace EV/Reefer) providing temperature-controlled scheduled transport for dairy, meat, and pharmaceutical distributors.</p>
-  <div class="meta">Sector: Cold Chain Logistics · Model: B2B Dedicated Fleet · Entry: ⏳ Under Research · Dig Depth: 0/3</div>
-  <a class="dossier" href="opportunities/cold-storage-last-mile-logistics-for-perishables.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Cold Chain Logistics · <b>Model:</b> B2B Dedicated Fleet · <b>Capital:</b> ⏳ Under Research · <b>EBITDA Margin:</b> TBD · <b>Timeline:</b> TBD
+  </div>
+  <a class="dossier" href="opportunities/cold-storage-last-mile-logistics-for-perishables.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict pending">IN QUEUE</span>
-  <h2><a href="opportunities/industrial-packaging-and-corrugated-box-supply-hub.html" style="color:var(--ink);text-decoration:none">9. Industrial Packaging &amp; Corrugated Box Supply Hub</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/industrial-packaging-and-corrugated-box-supply-hub.html" style="color:var(--ink);text-decoration:none">9. Industrial Packaging &amp; Corrugated Box Supply Hub</a></h2>
+    <span class="verdict pending">⏳ IN QUEUE (Research Pending)</span>
+  </div>
   <p>Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.</p>
-  <div class="meta">Sector: Industrial Packaging · Model: B2B Distribution · Entry: ⏳ Under Research · Dig Depth: 0/3</div>
-  <a class="dossier" href="opportunities/industrial-packaging-and-corrugated-box-supply-hub.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Industrial Packaging · <b>Model:</b> B2B Distribution · <b>Capital:</b> ⏳ Under Research · <b>EBITDA Margin:</b> TBD · <b>Timeline:</b> TBD
+  </div>
+  <a class="dossier" href="opportunities/industrial-packaging-and-corrugated-box-supply-hub.html">View full research dossier &rarr;</a>
 </div>
 <div class="card">
-  <span class="verdict pending">IN QUEUE</span>
-  <h2><a href="opportunities/corporate-and-school-ev-shuttle-fleet-service.html" style="color:var(--ink);text-decoration:none">10. Corporate &amp; School EV Shuttle Fleet Service</a></h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h2><a href="opportunities/corporate-and-school-ev-shuttle-fleet-service.html" style="color:var(--ink);text-decoration:none">10. Corporate &amp; School EV Shuttle Fleet Service</a></h2>
+    <span class="verdict pending">⏳ IN QUEUE (Research Pending)</span>
+  </div>
   <p>Contracted employee pickup/drop and school route transportation using leased electric 12-seater / 24-seater vans with guaranteed annual contracts.</p>
-  <div class="meta">Sector: Fleet Transportation · Model: B2B Dedicated Route · Entry: ⏳ Under Research · Dig Depth: 0/3</div>
-  <a class="dossier" href="opportunities/corporate-and-school-ev-shuttle-fleet-service.html">View full dossier &rarr;</a>
+  
+  <div class="meta" style="margin-top:10px">
+    <b>Sector:</b> Fleet Transportation · <b>Model:</b> B2B Dedicated Route · <b>Capital:</b> ⏳ Under Research · <b>EBITDA Margin:</b> TBD · <b>Timeline:</b> TBD
+  </div>
+  <a class="dossier" href="opportunities/corporate-and-school-ev-shuttle-fleet-service.html">View full research dossier &rarr;</a>
 </div>
 <footer><span>Est. Aug 2026 · Dipesh Sukhani + DBot</span>
 <a href="about.html">About</a><a href="terms.html">Terms &amp; Disclaimer</a><a href="privacy.html">Privacy</a><a href="data.json">data.json</a><a href="sitemap.xml">Sitemap</a></footer>
