@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T04:44:13+00:00",
+  "last_updated": "2026-08-19T05:29:26+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -545,17 +545,78 @@
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Contracted employee pickup/drop and school route transportation using leased electric 12-seater / 24-seater vans with guaranteed annual contracts.",
-      "verdict": "IN QUEUE",
+      "verdict": "WEAK",
       "entry_capital_inr": "⏳ Under Research",
       "ebitda_margin": "⏳ Under Research",
       "ebitda_timeline": "⏳ Under Research",
-      "rejection_reason": null,
-      "breakdown": {},
-      "sources": {},
-      "dig_depth": 0,
+      "rejection_reason": "Fails core filters. Capital-heavy asset business: e-shuttles Rs25-45L, 9m e-buses Rs1.2-2.5Cr plus Rs5-15L/veh charging infra, so ~1Cr entry funds only 2-4 small shuttles that cannot absorb central overhead (control room/sales/depot), making corporate EBITDA negative at small scale. Not EBITDA-ASAP: operating break-even only at 10-18mo, positive corporate EBITDA only at 18-30mo and 30-50+ vehicles. School-only EV utilization too low (50-100km/day vs 120-220 corporate) per CEEW. Crowded market (Routematic, MoveInSync, Lithium Urban, Everest, WTi, Ratham, NVS, Aaveg, KTC) with thin margins.",
+      "breakdown": {
+        "scorecard": {
+          "working_capital": "3/10 (60-90 day corporate receivable cycles drain cash; fuel/charging is prepaid but clients pay late; need financing buffer).",
+          "vendor_lockin": "5/10 (EV batteries + OEM/service network create moderate lock-in; charger/CPO dependency; but buses are commoditized across Tata/Olectra/PMI).",
+          "labor_friction": "6/10 (Driver pool + safety compliance + attendance; high turnover, must background-verify; union/permit friction in Mumbai).",
+          "regulatory_moat": "4/10 (Permits, AIS-066 school safety, CAQM ESG-reporting tailwind helps corporates but rules do not force a specific vendor; low moat).",
+          "capital_velocity": "2/10 (High capex Rs25L-2.5Cr/bus + Rs5-15L charging; corporate EBITDA negative below 30-50 vehicles; break-even 10-30mo fails EBITDA-ASAP)."
+        },
+        "why_passes": [
+          "EV fuel cost is genuinely lower: ~Rs6.6-9.5/km vs diesel ~Rs29.8/km, per UITP.",
+          "Corporate employee transport is a large established managed market (Routematic 300+ clients, MoveInSync 400+ companies, Lithium Urban 3,000+ EVs) with ESG reporting tailwind.",
+          "Vehicle-level EBITDA can reach 20-35% pre-financing at high 120-220km/day utilization on contracted routes."
+        ],
+        "why_fails": [
+          "CAPITAL-HEAVY: e-shuttles Rs25-45L, 9m e-buses Rs1.2-2.5Cr plus Rs5-15L/vehicle charging infra; ~1Cr entry funds only 2-4 small shuttles.",
+          "NOT EBITDA-ASAP: corporate EBITDA negative at small scale; only 8-18% at 30-50+ vehicles; operating break-even 10-18mo, positive corporate EBITDA 18-30mo.",
+          "CEEW: school-only EV buses financially difficult (50-100km/day utilization vs 120-220 corporate); school e-fleet payback >5 years.",
+          "Crowded: Routematic, MoveInSync, Lithium Urban, Everest, WTi, Ratham, NVS, Aaveg, KTC all operate serious e-fleets with tech+relationships.",
+          "Small-scale operators cannot absorb central overhead (control room, sales, depot), keeping EBITDA negative."
+        ],
+        "verdict_override": "WEAK - fails the positive-EBITDA-ASAP primary constraint and the ~1Cr entry; capital intensity + thin small-scale margins + crowded market reject the thesis."
+      },
+      "sources": {
+        "news_and_market": [
+          {
+            "label": "Mordor Intelligence - India Electric Bus Market (size, segments, corporate shuttle growth)",
+            "url": "https://mordorintelligence.com/industry-reports/india-electric-bus-market",
+            "key_insight": "India e-bus market ~$1.23B 2026 growing ~35%; employee shuttles averaging 120-150km/day attractive within 5-year payback, but public operators dominate and private fleets need high utilization."
+          },
+          {
+            "label": "Tericsoft - Employee Transport Management System: The Economics",
+            "url": "https://tericsoft.com/blogs/employee-transport-management-system",
+            "key_insight": "Corporate EBITDA 8-18% only at 30-50+ vehicle scale; margins are thin and the profit lever is off-peak (stacked) utilization, not fleet size; fleet sits parked >50% of day."
+          },
+          {
+            "label": "EVreporter - The Big Yellow School Bus: Time to Go Electric",
+            "url": "https://evreporter.com/the-big-yellow-school-bus-time-to-go-electric/",
+            "key_insight": "School buses suit electrification (fixed routes, overnight off-peak charging) but CEEW cautions low daily utilization makes school-only electric buses financially difficult."
+          },
+          {
+            "label": "Finseich - School Bus Loan India: Cost & Fleet Financing",
+            "url": "https://finseich.com/blog/school-transport-loan-india-bus-financing",
+            "key_insight": "A 40-seater school bus all-in monthly cost (EMI+driver+fuel+maint) runs ~Rs99k-1.18L; breaks even at ~Rs3,000/student x 40; electric variants cost far more upfront."
+          },
+          {
+            "label": "BusinessConnect - India Corporate Campus EV Employee Transport",
+            "url": "https://businessconnectindia.in/india-corporate-ev-employee-transport/",
+            "key_insight": "Corporate shuttles/cabs are efficient for routes within 40-60km; EV operating cost ~Rs1.2-2.5/km vs Rs8-12 petrol; ESG Scope-3 reporting is a demand driver."
+          },
+          {
+            "label": "IEEFA - How India Can Effectively Electrify Public Transportation",
+            "url": "https://ieefa.org/resources/how-india-can-effectively-electrify-public-transportation",
+            "key_insight": "E-bus electricity ~Rs6.6-9.5/km vs diesel ~Rs29.8/km, but capital and financing costs much higher; operating-cost advantage does not guarantee near-term cash profit."
+          }
+        ],
+        "youtube_practitioner": [
+          {
+            "label": "How To Start An EV Bus Dealership Business in India 2026 - Umesh Punjabi",
+            "url": "https://www.youtube.com/watch?v=RCr2nXGcQr4",
+            "key_insight": "EV bus ventures are high-investment/high-growth; framing the capital barrier an operator must clear before any EBITDA."
+          }
+        ]
+      },
+      "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
-      "notes": null,
+      "notes": "Fails filters. Capital-heavy: e-shuttles cost Rs25-45L, 9m e-buses Rs1.2-2.5Cr, plus Rs5-15L/vehicle charging infra. ~1Cr entry buys only 2-4 small shuttles - too small to absorb central overhead (control room, sales, depot). Corporate EBITDA is NEGATIVE at small scale; only reaches 8-18% at 30-50 vehicles. Operating break-even at 10-18mo, corporate EBITDA only at 18-30mo - contradicts EBITDA-ASAP. CEEW flags school-only EV buses as financially difficult (low 50-100km/day utilization vs 120-220 for corporate). Market crowded: Routematic, MoveInSync, Lithium Urban (3000+ EVs), Everest, WTi, Ratham, NVS, Aaveg, KTC. EV fuel savings (Rs6.6-9.5/km vs diesel Rs29.8/km) are real but capital cost and thin small-scale margins kill the thesis.",
       "updated_at": "2026-08-19"
     }
   ]
