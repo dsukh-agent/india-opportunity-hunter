@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T07:29:03+00:00",
+  "last_updated": "2026-08-19T09:28:51+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -283,6 +283,76 @@
       "shortlisted": 1,
       "rank": 4,
       "notes": "Refined from standalone cold storage build to asset-light, contract-led B2B reefer last-mile fleet for Mumbai/Bengaluru. Avoid own cold store (capex-heavy, needs near-full utilization, competes with Snowman/ColdEx). Instead 3 insulated reefer vans (~60-75L) + telematics + working capital buffer = ~82L-1.13Cr total. 2-4 anchor B2B accounts (frozen food, QSR, dairy, ice-cream distributors) underwriting 60-70% daily capacity BEFORE vehicle purchase. Unit econ: base 3-vehicle 8.8-10.2L/mo rev, 12-16% EBITDA; strong dedicated contracts 17-20% EBITDA; 1-2L monthly EBITDA after ramp-up. Market: India cold chain logistics US$24.85B (2026) to $33.12B by 2031, 5.91% CAGR; reefer transport fastest segment at ~11% CAGR; driven by quick-commerce (28.4% annual grocery growth), pharma, frozen RTE (18.1% rise). Mumbai clusters Bhiwandi/Taloja/Vashi; Bengaluru chilled/frozen B2B. Working capital is the real danger (30-60 day B2B payables). Utilization below 75-80% erases margins (5-10%). Pharma requires GDP compliance (only 8-10% of 3,500+ operators meet it) - start with food.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 11,
+      "slug": "commercial-laundry---linen-rental-for-hotels-gyms-salons-b2b",
+      "title": "Commercial laundry / linen rental for hotels, gyms, salons (B2B recurring)",
+      "sector": "Commercial Laundry & Linen",
+      "model": "B2B Contract Recurring",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Commercial laundry / linen rental for hotels, gyms, salons (B2B recurring)",
+      "verdict": "STRONG",
+      "entry_capital_inr": "₹25 – 45 Lakhs (process-only) / ₹1.5 – 3 Cr (full rental)",
+      "ebitda_margin": "15% – 25% (process) / 25% – 35% (rental at scale)",
+      "ebitda_timeline": "3 – 6 Months (process route-dense)",
+      "rejection_reason": null,
+      "breakdown": {
+        "scorecard": {
+          "working_capital": "6/10 (30-90 day B2B client credit drags cash; linen rental needs 3-4x par inventory funded upfront. Process-only avoids inventory but clients still pay late.)",
+          "vendor_lockin": "7/10 (Commodity detergents/chemicals and standard washing machines open; but utility/water infrastructure and route contracts create local switching friction favourable to operator.)",
+          "entry_capital": "6/10 (Lean process-only 200-400 kg/day plant Rs25-45L (under entry budget). Full linen rental with 3-4x par inventory jumps to Rs1.5-3Cr - above budget, so phase it.)",
+          "ebitda_speed": "6/10 (Processing 15-25% EBITDA with strong route density; rental 25-35% at scale. Positive EBITDA ASAP only if 50-60% utilisation pre-sold before capex.)",
+          "differentiation": "6/10 (Route-dense, RFID-tracked institutional linen operator in narrow geocluster beats generic consumer laundry. Anchor hotel/hospital contracts before building plant.)"
+        },
+        "why_watch": [
+          "Working capital trap: 30-90 day client credit + linen inventory (3-4x par) = heavy cash before scale.",
+          "Linen loss/theft: hotels lose 20-30% of linen inventory per year - must price loss reserve in.",
+          "Plant below 50% utilisation loses money: labour, rent, transport, utility baseload are fixed.",
+          "Utility/water costs variable; water recycling helps but adds capex.",
+          "Full rental margin (25-35%) needs 1.5-3Cr capex, beyond the ~1Cr entry budget - phase it."
+        ]
+      },
+      "sources": {
+        "news_and_market": [
+          {
+            "label": "dives.in — India commercial laundry/linen market ($12B, fragmented, no scale player)",
+            "url": "https://dives.in/article/2026-03-08-ai-commercial-laundry-linen-marketplace",
+            "key_insight": "India commercial laundry/linen services ~$12B/yr, highly fragmented, dominated by local providers; post-pandemic hygiene raised volumes 40%, labor costs up 15%/yr, hotel chains consolidating vendors."
+          },
+          {
+            "label": "Sanyantra — How to Start a Laundry Business in India",
+            "url": "https://www.sanyantra.com/blogs/how-to-start-a-laundry-business-in-india/",
+            "key_insight": "A 50-100 room hotel generates 100-300 kg laundry/day; B2B needs commercial 20kg+ washer extractors, dryers, flatwork ironers, 1,000-3,000 sq ft. Labor Rs4-8k/helper/mo in Mumbai/Bangalore."
+          },
+          {
+            "label": "LaundroMentor — Laundry Business Cost & Margin",
+            "url": "https://laundromentor.com/laundry-business-in-india/",
+            "key_insight": "Small-scale B2B laundry entry needs Rs8-15 lakh (machinery, infra, working capital) — fits ~1 Cr start. Rental/route economics favor bulk contracts with gyms, hostels, salons."
+          },
+          {
+            "label": "Clean India Journal — Busting Myths About Rental Linen",
+            "url": "https://cleanindiajournal.com/busting-myths-about-rental-linen/",
+            "key_insight": "Linen rental cuts a typical 100-room 4-star property running linen costs 28-30%; rental transfers capex, laundering, replacement and storage to provider; quality kept high because provider owns linen life."
+          },
+          {
+            "label": "Quick Smart Wash — Hospitality Linen Management (RFID rental)",
+            "url": "https://www.quicksmartwash.com/services/hospitality/",
+            "key_insight": "RFID-tracked linen rental (owns 300+ thread-count stock) locks clients into recurring monthly contracts, cuts shrinkage ~80%; fixed monthly cost; white space in Mumbai/Delhi hospitals adopting intl standards without captive plants."
+          },
+          {
+            "label": "MarkWide — Commercial Laundry Service Market",
+            "url": "https://markwideresearch.com/commercial-laundry-service-market",
+            "key_insight": "Global commercial laundry $68.4B (2026) → $104.3B by 2035 (4.8% CAGR); linen rental fastest-growing segment; India corporate hospital chains in Mumbai/Delhi are white-space for outsourced linen."
+          }
+        ]
+      },
+      "dig_depth": 2,
+      "shortlisted": 1,
+      "rank": 5,
+      "notes": "India B2B linen/laundry services ~$12B/yr, highly fragmented, no scaled player. Post-pandemic hygiene raised laundry volumes 40%, labor costs up 15%/yr, hotel chains actively consolidating vendors. A 50-100 room hotel generates 100-300kg laundry/day = recurring daily demand. Linen rental cuts hotel linen running costs 28-30% vs in-house (Clean India Journal). Entry needs ~Rs0.8-1.5Cr (machinery + linen inventory + working capital), fits ~1Cr start. Rental model (RFID-tracked, 300+TC linens) locks clients into recurring monthly contracts with predictable cash flow; shrinkage cut 80% via RFID. Verticals: hotels (volume), hospitals (premium, NABH compliance demand, white space in Mumbai/Delhi corporate chains adopting intl standards without captive plants), gyms/salons/restaurants. Labor cheap (Rs4-8k/helper/mo). Route-density economics like Cintas favor a consolidator. Watch-outs: capital heavy on linen inventory + industrial machines (20kg+ washers, ironers), needs 1,000-3,000 sq ft plant, route density essential, linen shrinkage/theft, credit risk on small hotels, NABH compliance for hospital contracts. STRONG fit: recurring B2B contracts, ~1Cr entry, EBITDA-ASAP on contracted daily volume, Mumbai/Bangalore dense corridors, non-tech, NRI-operable.",
       "updated_at": "2026-08-19"
     },
     {
@@ -617,43 +687,6 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Fails filters. Capital-heavy: e-shuttles cost Rs25-45L, 9m e-buses Rs1.2-2.5Cr, plus Rs5-15L/vehicle charging infra. ~1Cr entry buys only 2-4 small shuttles - too small to absorb central overhead (control room, sales, depot). Corporate EBITDA is NEGATIVE at small scale; only reaches 8-18% at 30-50 vehicles. Operating break-even at 10-18mo, corporate EBITDA only at 18-30mo - contradicts EBITDA-ASAP. CEEW flags school-only EV buses as financially difficult (low 50-100km/day utilization vs 120-220 for corporate). Market crowded: Routematic, MoveInSync, Lithium Urban (3000+ EVs), Everest, WTi, Ratham, NVS, Aaveg, KTC. EV fuel savings (Rs6.6-9.5/km vs diesel Rs29.8/km) are real but capital cost and thin small-scale margins kill the thesis.",
-      "updated_at": "2026-08-19"
-    },
-    {
-      "id": 11,
-      "slug": "commercial-laundry---linen-rental-for-hotels-gyms-salons-b2b",
-      "title": "Commercial laundry / linen rental for hotels, gyms, salons (B2B recurring)",
-      "sector": "Commercial Laundry & Linen",
-      "model": "B2B Contract Recurring",
-      "country": "India",
-      "city_focus": "Mumbai / Bangalore",
-      "idea": "Commercial laundry / linen rental for hotels, gyms, salons (B2B recurring)",
-      "verdict": "MEDIUM",
-      "entry_capital_inr": "₹25 – 45 Lakhs (process-only) / ₹1.5 – 3 Cr (full rental)",
-      "ebitda_margin": "15% – 25% (process) / 25% – 35% (rental at scale)",
-      "ebitda_timeline": "3 – 6 Months (process route-dense)",
-      "rejection_reason": null,
-      "breakdown": {
-        "scorecard": {
-          "working_capital": "6/10 (30-90 day B2B client credit drags cash; linen rental needs 3-4x par inventory funded upfront. Process-only avoids inventory but clients still pay late.)",
-          "vendor_lockin": "7/10 (Commodity detergents/chemicals and standard washing machines open; but utility/water infrastructure and route contracts create local switching friction favourable to operator.)",
-          "entry_capital": "6/10 (Lean process-only 200-400 kg/day plant Rs25-45L (under entry budget). Full linen rental with 3-4x par inventory jumps to Rs1.5-3Cr - above budget, so phase it.)",
-          "ebitda_speed": "6/10 (Processing 15-25% EBITDA with strong route density; rental 25-35% at scale. Positive EBITDA ASAP only if 50-60% utilisation pre-sold before capex.)",
-          "differentiation": "6/10 (Route-dense, RFID-tracked institutional linen operator in narrow geocluster beats generic consumer laundry. Anchor hotel/hospital contracts before building plant.)"
-        },
-        "why_watch": [
-          "Working capital trap: 30-90 day client credit + linen inventory (3-4x par) = heavy cash before scale.",
-          "Linen loss/theft: hotels lose 20-30% of linen inventory per year - must price loss reserve in.",
-          "Plant below 50% utilisation loses money: labour, rent, transport, utility baseload are fixed.",
-          "Utility/water costs variable; water recycling helps but adds capex.",
-          "Full rental margin (25-35%) needs 1.5-3Cr capex, beyond the ~1Cr entry budget - phase it."
-        ]
-      },
-      "sources": {},
-      "dig_depth": 1,
-      "shortlisted": 0,
-      "rank": null,
-      "notes": "Route-dense B2B linen operator (process-led, rental later) is viable in Mumbai/Bangalore. Processing-only plant (200-400 kg/day) starts at Rs 25-45L, within entry budget; 600kg/day plant yields ~Rs 5.7L/month rev at Rs 52/kg with 10-35% EBITDA. Key: secure 3-5 anchor hotel/hostel/hospital contracts (250-400 kg/day = 50-60% utilisation) BEFORE capex; utilisation is the real lever, not machine cost. Full linen rental hits 25-35% EBITDA but needs 1.5-3 Cr capex (3-4x par inventory) - above entry budget, so phase: process first for utilisation revenue, add owned-linen rental once routes proven. Market: India laundry services ~USD 2.7B (2025) -> 4.1B (2034). Wedge = tech-enabled RFID linen accountability + narrow geocluster (Andheri-Powai-BKC/Navi Mumbai; Whitefield-ORR/Electronic City Bangalore), NOT a consumer franchise competing with UClean. Watch-outs: working capital (30-90 day client credit), linen loss/theft (hotels lose 20-30%/yr), utility/water costs, labour baseload - plant below 50% utilisation loses money.",
       "updated_at": "2026-08-19"
     }
   ]
