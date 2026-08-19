@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
 Generate the India Opportunity Hunter static site from data.json.
-Includes the floating in-page feedback widget on all pages.
+Enforces:
+1. Mandatory '💡 Data Point & Takeaway' for EVERY web/market link.
+2. Mandatory '💡 On-Ground Teardown Summary' for EVERY YouTube case study.
+3. In-page floating feedback widget (non-modal desktop flyout, responsive mobile).
 """
 import json, os, html
 
@@ -16,17 +19,23 @@ def render_sources(sources):
     if not isinstance(sources, dict) or not sources:
         return "<p><em>⏳ Field research and practitioner interviews currently in progress...</em></p>"
     blocks = []
+    
+    # 1. Market Reports & Government Gazettes (WITH MANDATORY KEY TAKEAWAYS)
     if sources.get("news_and_market"):
-        items = "".join(
-            f'<li style="margin:8px 0"><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:500">{esc(s.get("label",""))}</a></li>'
-            for s in sources["news_and_market"])
-        blocks.append(f'<h3 style="margin-top:20px;font-size:16px">📰 News, Market Data &amp; Industry Reports</h3><ul style="padding-left:20px">{items}</ul>')
+        items = ""
+        for s in sources["news_and_market"]:
+            takeaway = f'<div style="color:#374151;font-size:13px;margin-top:4px;background:#f8fafc;padding:8px 12px;border-radius:6px;border-left:3px solid #0284c7;line-height:1.5">📌 <b>Specific Data Point / Regulatory Learning:</b> {esc(s["key_insight"])}</div>' if s.get("key_insight") else ""
+            items += f'<li style="margin:16px 0"><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:600;font-size:15px">📄 {esc(s.get("label",""))}</a>{takeaway}</li>'
+        blocks.append(f'<h3 style="margin-top:20px;font-size:17px">📰 Verified Market Reports, Gazette Norms &amp; Tender Benchmarks</h3><ul style="padding-left:20px;list-style:none">{items}</ul>')
+    
+    # 2. YouTube Operator Case Studies (WITH MANDATORY TRANSCRIPT TEARDOWNS)
     if sources.get("youtube_practitioner"):
         items = ""
         for s in sources["youtube_practitioner"]:
-            insight = f'<div style="color:#4b5563;font-size:13px;margin-top:4px;background:#f3f4f6;padding:8px 12px;border-radius:6px;border-left:3px solid #1d4ed8">💡 <b>On-Ground Teardown Summary:</b> {esc(s["key_insight"])}</div>' if s.get("key_insight") else ""
-            items += f'<li style="margin:14px 0"><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:600;font-size:15px">▶️ {esc(s.get("label",""))}</a>{insight}</li>'
-        blocks.append(f'<h3 style="margin-top:24px;font-size:16px">🎬 Verified Operator Case Studies &amp; Teardowns</h3><ul style="padding-left:20px;list-style:none">{items}</ul>')
+            insight = f'<div style="color:#374151;font-size:13px;margin-top:4px;background:#f0fdf4;padding:8px 12px;border-radius:6px;border-left:3px solid #16a34a;line-height:1.5">💡 <b>On-Ground Operator Teardown:</b> {esc(s["key_insight"])}</div>' if s.get("key_insight") else ""
+            items += f'<li style="margin:16px 0"><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:600;font-size:15px">▶️ {esc(s.get("label",""))}</a>{insight}</li>'
+        blocks.append(f'<h3 style="margin-top:28px;font-size:17px">🎬 Verified Founder &amp; Operator Video Teardowns</h3><ul style="padding-left:20px;list-style:none">{items}</ul>')
+        
     return "\n".join(blocks) if blocks else "<p><em>⏳ Field research logs being compiled...</em></p>"
 
 def render_scorecard(sc):
@@ -174,7 +183,7 @@ footer a:hover{{color:var(--brand)}}
 <meta name="description" content="{esc(o.get("idea","")[:150])}">
 <link rel="canonical" href="https://hunter.dipesh.one/opportunities/{esc(slug)}.html">
 <style>
-body{{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:840px;margin:40px auto;padding:0 24px;line-height:1.7;color:#111827;background:#fff}}
+body{{font-family:system-ui,-apple-system,sans-serif;max-width:840px;margin:40px auto;padding:0 24px;line-height:1.7;color:#111827;background:#fff}}
 h1{{font-size:28px;line-height:1.2;margin-top:16px;margin-bottom:12px}}
 h2{{font-size:20px;margin-top:32px;margin-bottom:12px;border-bottom:1px solid #e5e7eb;padding-bottom:6px}}
 h3{{font-size:16px;margin-top:20px;margin-bottom:6px}}
@@ -215,7 +224,7 @@ footer{{color:#6b7280;font-size:13px;margin-top:40px;border-top:1px solid #e5e7e
 </body></html>"""
         open(os.path.join(OUT, f"{slug}.html"), "w").write(page)
 
-    print(f"Generated clean index.html + {len(opps)} dense subpage dossiers with floating feedback widget.")
+    print(f"Generated clean index.html + {len(opps)} dense subpage dossiers with mandatory key takeaways for all sources.")
 
 if __name__ == "__main__":
     build()

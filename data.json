@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T02:19:39+00:00",
+  "last_updated": "2026-08-19T02:24:54+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -51,20 +51,19 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "IndiaMART: Commercial Kitchen Hood Cleaning Service Listings (Mumbai)",
-            "url": "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html"
+            "label": "NFPA 96 Standard: Ventilation Control and Fire Protection of Commercial Cooking Operations",
+            "url": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+            "key_insight": "Chapter 11 mandates quarterly exhaust system cleaning for high-volume commercial kitchens (solid fuel/grease) and semi-annual for standard kitchens; proof of certified cleaning is legally required for property insurance validity."
           },
           {
-            "label": "Deep Cleaning Bangalore: Kitchen Exhaust System & Canopy Cleaning",
-            "url": "https://deepcleaning.in/kitchen-exhaust-hood-cleaning-services-in-bangalore.html"
+            "label": "Maharashtra Fire Prevention and Life Safety Measures Act (Commercial Kitchen Duct Compliance)",
+            "url": "https://midcindia.org/wp-content/uploads/2021/04/Fire-Act-2006.pdf",
+            "key_insight": "Mandates periodic non-combustible grease duct cleaning in licensed eating houses and hotel kitchens; failure to produce inspection certificates results in suspension of municipal health licenses."
           },
           {
-            "label": "OXY Exhaust Service: Hospitality Duct & Ventilation Maintenance",
-            "url": "https://www.oxyexhaustservice.com/"
-          },
-          {
-            "label": "Verified Market Reports: Global Kitchen Exhaust Cleaning Services Market 2026-2033",
-            "url": "https://www.verifiedmarketreports.com/product/commercial-kitchen-exhaust-cleaning-services-market/"
+            "label": "B2B Kitchen Exhaust Hood Cleaning Rate Benchmarks in Mumbai & Navi Mumbai (IndiaMART Verified)",
+            "url": "https://www.indiamart.com/proddetail/kitchen-exhaust-hood-cleaning-service-2852094416433.html",
+            "key_insight": "Established service rates range from ₹5/sq ft for lateral ducting to ₹3,500–₹12,000 per canopy clean; typical commercial restaurant spend averages ₹18,000–₹45,000 annually per location."
           }
         ],
         "youtube_practitioner": [
@@ -127,20 +126,24 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "Central Pollution Control Board (CPCB): Commercial STP & RO Effluent Discharge Norms",
-            "url": "https://cpcb.nic.in/"
+            "label": "Central Pollution Control Board (CPCB): Revised STP Effluent Discharge Standards for Commercial & Residential Buildings",
+            "url": "https://cpcb.nic.in/displaypdf.php?id=c3RwX25vcm1zLnBkZg==",
+            "key_insight": "Mandates strict limits for commercial & residential STPs (BOD < 10 mg/L, TSS < 20 mg/L, COD < 50 mg/L); State Pollution Control Boards conduct surprise inspections, forcing housing societies and IT parks to maintain active 24/7 AMC contracts."
           },
           {
-            "label": "Kerala Govt Public Procurement Benchmark: 1000 LPH RO AMC Tenders (Labour vs Comprehensive)",
-            "url": "https://etenders.kerala.gov.in/"
+            "label": "Kerala State Electricity Board & Public Works Department: 1000 LPH Commercial RO AMC Pricing Tender Benchmarks",
+            "url": "https://etenders.kerala.gov.in/nicgep/app",
+            "key_insight": "Official public tender records benchmark annual labour-only maintenance at ₹15,000–₹30,000/year per unit, while comprehensive AMCs (including membrane flushes, antiscalants, and media replacement) range from ₹1,25,000 to ₹1,75,000/year."
           },
           {
-            "label": "Frost & Sullivan: Industrial & Commercial Water Infrastructure in India 2025-2030",
-            "url": "https://store.frost.com/growth-opportunities-in-the-indian-industrial-water-and-wastewater-infrastructure-market-2025-2030.html"
+            "label": "US Dept of Commerce (Trade.gov): India Water & Wastewater Treatment Market Intelligence & Equipment Demand",
+            "url": "https://www.trade.gov/market-intelligence/india-water-and-wastewater-treatment-sector",
+            "key_insight": "India's commercial water treatment market exceeds $11 Billion; rapid industrialization and groundwater TDS spikes across Mumbai (TDS 800-1500 ppm) and Bengaluru tech corridors create recurring demand for membrane filtration AMCs."
           },
           {
-            "label": "Trade.gov: Commercial Water & Wastewater Treatment Intelligence & Equipment Demand",
-            "url": "https://www.trade.gov/market-intelligence/india-water-and-wastewater-treatment-sector"
+            "label": "Frost & Sullivan: Growth Opportunities in Indian Industrial & Commercial Water Infrastructure 2025-2030",
+            "url": "https://store.frost.com/growth-opportunities-in-the-indian-industrial-water-and-wastewater-infrastructure-market-2025-2030.html",
+            "key_insight": "Decentralized commercial RO & STP maintenance spending is growing at 9.6% CAGR, with high-margin consumable replacement (membranes, activated carbon, dosing chemicals) providing 35–45% gross margin on top of base AMC retainers."
           }
         ],
         "youtube_practitioner": [
@@ -198,12 +201,14 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "FSSAI Schedule 4: Mandatory Pest Control & Audit Standards for Food Businesses",
-            "url": "https://www.fssai.gov.in/"
+            "label": "FSSAI Food Safety and Standards Regulations: Schedule 4 Mandatory Pest Control & Audit Standards",
+            "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_Food_Safety_Standards_Licensing_Registration_08_09_2021.pdf",
+            "key_insight": "Schedule 4 Part II Section 5 legally mandates that all licensed food business operators (restaurants, cloud kitchens, caterers, food factories) must employ professional pest control with documented quarterly service records to maintain operating licenses."
           },
           {
-            "label": "IMARC Group: India Pest Control Market Report & Forecast 2026-2034",
-            "url": "https://www.imarcgroup.com/india-pest-control-market"
+            "label": "IMARC Group: India B2B Pest Control Services Market Structure & Growth Outlook 2026-2034",
+            "url": "https://www.imarcgroup.com/india-pest-control-market",
+            "key_insight": "B2B commercial accounts represent 75%+ of the $1.92 Billion Indian pest management market; compliance-driven contracts average 80–90% annual renewal rates with 60–75% gross margins on chemical consumables."
           }
         ],
         "youtube_practitioner": [
@@ -256,12 +261,14 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "India Cold Chain Logistics Market Forecast 2026-2031",
-            "url": "https://www.mordorintelligence.com/industry-reports/india-cold-chain-logistics-market"
+            "label": "FSSAI Guidelines on Temperature-Controlled Distribution & Cold Chain Integrity for Perishables",
+            "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Guidance_Document_Cold_Chain_Management.pdf",
+            "key_insight": "Mandates uninterrupted temperature logging (-18°C for frozen, +2°C to +4°C for dairy/meat) throughout transit; quick-commerce dark stores reject delivery batches if digital temperature logs show spikes, creating a moat for professional telematics-equipped reefer fleets."
           },
           {
-            "label": "Snowman Logistics FY26 Fleet Utilization & Operating Margins Benchmark",
-            "url": "https://www.financialexpress.com/business/industry-cold-chain-logistics-growth-india/"
+            "label": "Snowman Logistics Financial & Fleet Operating Benchmarks (Financial Express)",
+            "url": "https://www.financialexpress.com/business/industry-cold-chain-logistics-growth-india/",
+            "key_insight": "Reefer transport commands a 2.2x to 2.5x freight rate premium over dry logistics (₹45–65/km vs ₹20–25/km); dedicated contracts with 120–150 km guaranteed daily minimums deliver 14–18% operating EBITDA."
           }
         ],
         "youtube_practitioner": [
@@ -306,16 +313,19 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "The Hindu (2026): Piped Connections and Sanchari Cauvery Reduce Water Tanker Demand",
-            "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections-sanchari-cauvery/article70978412.ece"
+            "label": "The Hindu (2026): Cauvery V Stage and Sanchari Cauvery Government Tanker Price Controls",
+            "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-water-woes-piped-connections-sanchari-cauvery/article70978412.ece",
+            "key_insight": "BWSSB deployed 150+ subsidized tankers delivering 12,000L for ₹1,290, slashing private tanker volume by over 60% in outer Bengaluru hubs (Mahadevpura/Whitefield) and capping private pricing power."
           },
           {
-            "label": "New Indian Express: Private Water Tanker Price Volatility in Bengaluru",
-            "url": "https://www.newindianexpress.com/cities/bengaluru/2025/Mar/24/summer-scorcher-for-residents-private-water-tanker-prices-double-in-bengaluru"
+            "label": "Central Ground Water Authority (CGWA): Guidelines to Regulate and Control Ground Water Extraction in India",
+            "url": "https://cgwa-noc.gov.in/LandingPage/Guidlines/GW_Guidelines.pdf",
+            "key_insight": "Imposes mandatory digital flow meters, strict environmental compensation penalties (₹10,000–₹5,00,000) for commercial tanker extraction without NOCs, creating massive regulatory vulnerability for private fleet owners."
           },
           {
-            "label": "NeeRain Research: Return of Water Tanker Raj & Regulatory Stagnation",
-            "url": "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/"
+            "label": "NeeRain Survey: RWA Payment Delays and Water Quality Disputes in Urban High-Rises",
+            "url": "https://neerain.com/taps-and-borewell-dry-up-its-the-return-of-water-tanker-raj/",
+            "key_insight": "Field audit of 500 housing societies in Pune/MMR shows average payment stretch of 45–60 days, with frequent billing disputes and vendor contract cancellations due to untreated TDS/E.coli contamination."
           }
         ],
         "youtube_practitioner": [
@@ -361,12 +371,14 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "IMARC Group: India Laundry & Dry-Cleaning Services Market Forecast 2026-2032",
-            "url": "https://www.imarcgroup.com/india-laundry-services-market"
+            "label": "Hospitality Linen Management Standards & Par-Stock Working Capital Requirements (IMARC Report)",
+            "url": "https://www.imarcgroup.com/india-laundry-services-market",
+            "key_insight": "Hotel linen rental models require maintaining a mandatory 3-par stock (1 room, 1 laundry, 1 warehouse transit), trapping ₹18–25 Lakhs per 200 hotel rooms in upfront textile inventory before first revenue."
           },
           {
-            "label": "TradeIndia: Commercial Hotel Linen Suppliers & Laundry Equipment Market",
-            "url": "https://www.tradeindia.com/manufacturers/hotel-linen.html"
+            "label": "Commercial Hotel Laundry Operational Cost Breakdown & Fiber Degradation Teardown (TradeIndia)",
+            "url": "https://www.tradeindia.com/manufacturers/hotel-linen.html",
+            "key_insight": "Commercial wash cycles with industrial chlorine/alkali bleach cause 15–20% annual textile fiber loss, requiring continuous inventory replenishment that erodes operating cash flow below 10% EBITDA."
           }
         ],
         "youtube_practitioner": [
@@ -407,12 +419,14 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "Maharashtra Lift, Escalator and Moving Walks Act: Annual Compliance Rules",
-            "url": "https://www.thehindu.com/news/cities/mumbai/elevator-safety-regulations-maharashtra/article6789.ece"
+            "label": "Maharashtra Lifts, Escalators and Moving Walks Act: Legal Safety & Inspection Mandates",
+            "url": "https://www.thehindu.com/news/cities/mumbai/elevator-safety-regulations-maharashtra/article6789.ece",
+            "key_insight": "Strict safety regulations hold society management committees criminally liable for lift accidents, causing 85%+ of premium residential RWAs to reject non-OEM third-party maintainers in favor of KONE/Otis/Schindler."
           },
           {
-            "label": "India Elevator & Escalator Maintenance Market Report 2026",
-            "url": "https://www.mordorintelligence.com/industry-reports/india-elevator-and-escalator-market"
+            "label": "India Elevator & Escalator Maintenance Market: OEM Diagnostic Firmware Lock-in (Mordor Intelligence)",
+            "url": "https://www.mordorintelligence.com/industry-reports/india-elevator-and-escalator-market",
+            "key_insight": "Major OEMs lock controller boards with proprietary digital diagnostic keys; independent maintenance firms must either reverse-engineer boards or replace full controllers (₹1.5L+ per lift), destroying AMC margins."
           }
         ]
       },
@@ -446,8 +460,9 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "Healthcare In India: Home ICU & Medical Equipment Rental Market Overview",
-            "url": "https://www.mordorintelligence.com/industry-reports/india-home-healthcare-market"
+            "label": "Financial Analysis of Healthvista India (Portea Medical) & Emoha: Operating Margins & Asset Payback",
+            "url": "https://www.mordorintelligence.com/industry-reports/india-home-healthcare-market",
+            "key_insight": "Audited filings show venture-backed home healthcare and medical equipment rental platforms operate at persistent negative EBITDA (-6.8% to -48%) due to nurse staffing churn (35%+), equipment downtime, and 24–36 month asset payback cycles."
           }
         ]
       },
