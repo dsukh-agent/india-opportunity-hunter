@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T10:18:39+00:00",
+  "last_updated": "2026-08-19T11:28:57+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -628,17 +628,17 @@
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Mobile truck-mounted fuel polishing and tank cleaning for corporate tech parks, hospitals, data centers, and bank branches in Mumbai & Bangalore. Prevents stale diesel sludge from failing backup generators during grid outages.",
-      "verdict": "IN QUEUE",
+      "verdict": "MEDIUM",
       "entry_capital_inr": "₹55 - ₹75 Lakhs",
       "ebitda_margin": "40-50%",
       "ebitda_timeline": "2-4 months",
       "rejection_reason": null,
       "breakdown": {},
       "sources": {},
-      "dig_depth": 0,
+      "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
-      "notes": null,
+      "notes": "Capital-light B2B managed fuel-quality service on Indias huge DG installed base (equipment market USD1.33B 2026->1.88B 2031, 7.18% CAGR; ~710k telecom towers on diesel). Sell backup-power READINESS (audit trail, avoided outage risk), not diesel cleaning - that is the defensible layer; filtration hardware is commoditized. Bottom-up TAM: 20k-50k critical-power sites (data centres, hospitals, BFSI, IT parks, industrial) at Rs1-3L/site/yr = Rs200-1500 Cr/yr; Mumbai+Bengaluru beachhead tens of Cr/yr. Pricing: fuel health check Rs7.5-15k/site; small DG polish (<=500L) Rs18-35k; medium Rs30-65k; large/2-10kL Rs50k-1.5L; deep remediation Rs1.5-5L+; emergency 1.5-2.5x. Strongest model = managed fuel-readiness subscription: Essential Rs50k-1.25L/yr, Critical Rs1.5-5L/yr, Mission-critical/data-centre Rs5-25L+; target 45-60% recurring revenue. Entry very capital-light: one mobile polishing skid (equipment Rs3-30L; can start service-first nearly asset-light) + technician/vehicle; well under 1 Cr entry. EBITDA-ASAP: high-margin service (consumables + labour only), no heavy fixed assets, positive EBITDA with 15-25 recurring accounts, move to data-centre contracts for scale. NRI-return founder fit strong (ops B2B, relationship sales, no frontier tech). WATCH-OUTS: fragmented but NOT empty market - OEM dealer AMCs (Cummins/CAT/Kirloskar) and local tank-cleaning firms (Tristar Navi Mumbai) bundle fuel into existing work; pricing remains unvalidated in India (no published cards); avoid tiny frequently-used gensets (mobilization kills margin); needs lab/testing + biocide + confined-space/waste-handling certification for remediation tier; under-branded market = white-label distribution via FM/OEM dealers is fastest path to volume.",
       "updated_at": "2026-08-19"
     }
   ]
