@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T02:10:09+00:00",
+  "last_updated": "2026-08-19T02:19:39+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -198,19 +198,19 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "FSSAI Schedule 4: General Hygiene and Sanitary Practices for Food Business Operators",
+            "label": "FSSAI Schedule 4: Mandatory Pest Control & Audit Standards for Food Businesses",
             "url": "https://www.fssai.gov.in/"
           },
           {
-            "label": "IMARC Group: India Pest Control Market Growth & Forecast 2026-2034",
+            "label": "IMARC Group: India Pest Control Market Report & Forecast 2026-2034",
             "url": "https://www.imarcgroup.com/india-pest-control-market"
           }
         ],
         "youtube_practitioner": [
           {
-            "label": "Building a Commercial B2B Pest Control Route",
-            "url": "https://www.youtube.com/watch?v=f9KE2-Ol4WQ",
-            "key_insight": "How QR-coded trap monitoring boxes and digital audit reports allow 30% higher retainers than unorganized sprayers."
+            "label": "Building a ₹30 Cr Commercial Pest Management Business in India (Vikas Sharma, Pest Shields)",
+            "url": "https://www.youtube.com/watch?v=sbRSIa_zTYU",
+            "key_insight": "Founder teardown on scaling from ₹70k/mo to 300+ technicians. Key lesson: Sell SLA-led quarterly IPM retainers with digital QR trap logs rather than one-off chemical spray jobs."
           }
         ]
       },
@@ -256,19 +256,19 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "India Cold Chain Logistics Market Outlook 2026-2031",
+            "label": "India Cold Chain Logistics Market Forecast 2026-2031",
             "url": "https://www.mordorintelligence.com/industry-reports/india-cold-chain-logistics-market"
           },
           {
-            "label": "Snowman Logistics FY26 Performance & Reefer Fleet Utilization Benchmarks",
+            "label": "Snowman Logistics FY26 Fleet Utilization & Operating Margins Benchmark",
             "url": "https://www.financialexpress.com/business/industry-cold-chain-logistics-growth-india/"
           }
         ],
         "youtube_practitioner": [
           {
-            "label": "Reefer Van Transport Business in India: Operating Costs & Route Margins",
-            "url": "https://www.youtube.com/watch?v=6HvoDBKKI74",
-            "key_insight": "Why negotiating guaranteed monthly kilometer contracts beats spot market load-hunting."
+            "label": "Scaling a ₹500 Cr Cold Chain Logistics Network in India (Swarup Bose, Celcius Logistics)",
+            "url": "https://www.youtube.com/watch?v=D14vDdDsHQo",
+            "key_insight": "In-depth founder interview on reefer fleet economics: temperature assurance commands a 2.5x rate premium over dry freight. Focuses on tech-enabled route aggregation and guaranteed minimum daily km contracts."
           }
         ]
       },

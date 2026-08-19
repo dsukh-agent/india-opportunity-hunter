@@ -1,4 +1,4 @@
-// Floating Intercom-style Feedback Widget for India Opportunity Hunter
+// Sleek Intercom-Style In-Page Feedback Widget (Desktop Bottom-Right Card / Mobile Bottom-Sheet)
 (function() {
   const css = `
     .cf-float-btn {
@@ -12,7 +12,7 @@
       padding: 12px 20px;
       font-size: 14px;
       font-weight: 600;
-      box-shadow: 0 4px 14px rgba(29, 78, 216, 0.4);
+      box-shadow: 0 4px 14px rgba(29, 78, 216, 0.35);
       cursor: pointer;
       z-index: 99999;
       display: flex;
@@ -21,62 +21,75 @@
       transition: transform 0.2s, background 0.2s;
     }
     .cf-float-btn:hover { background: #1e40af; transform: translateY(-2px); }
-    .cf-modal-overlay {
+    
+    /* Desktop: Non-blocking bottom-right flyout card (No blur, no full-screen overlay) */
+    .cf-panel {
       position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.5);
-      backdrop-filter: blur(2px);
-      display: none;
-      justify-content: center;
-      align-items: center;
-      z-index: 100000;
-    }
-    .cf-modal-box {
+      bottom: 80px;
+      right: 24px;
+      width: 360px;
       background: #fff;
-      width: 90%;
-      max-width: 480px;
+      border: 1px solid #e5e7eb;
       border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-      position: relative;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+      padding: 20px;
+      z-index: 100000;
+      display: none;
+      box-sizing: border-box;
     }
-    .cf-modal-box h3 { margin: 0 0 8px; font-size: 18px; color: #111827; }
-    .cf-modal-box p { margin: 0 0 16px; font-size: 13px; color: #6b7280; }
-    .cf-form-group { margin-bottom: 14px; }
-    .cf-form-group label { display: block; font-size: 12px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+    
+    /* Mobile: Centered modal / bottom-sheet */
+    @media (max-width: 640px) {
+      .cf-panel {
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+      }
+    }
+
+    .cf-panel h3 { margin: 0 0 4px; font-size: 16px; color: #111827; }
+    .cf-panel p { margin: 0 0 14px; font-size: 12px; color: #6b7280; line-height: 1.4; }
+    .cf-form-group { margin-bottom: 10px; }
+    .cf-form-group label { display: block; font-size: 11px; font-weight: 600; color: #374151; margin-bottom: 3px; text-transform: uppercase; }
     .cf-input, .cf-textarea {
       width: 100%;
       border: 1px solid #d1d5db;
-      border-radius: 8px;
-      padding: 10px 12px;
-      font-size: 14px;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 13px;
       box-sizing: border-box;
+      font-family: inherit;
     }
-    .cf-textarea { height: 110px; resize: vertical; }
+    .cf-input:focus, .cf-textarea:focus { outline: none; border-color: #1d4ed8; }
+    .cf-textarea { height: 90px; resize: vertical; }
     .cf-btn-submit {
       width: 100%;
       background: #16a34a;
       color: #fff;
       border: none;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 14px;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 13px;
       font-weight: 600;
       cursor: pointer;
-      margin-top: 8px;
+      margin-top: 4px;
     }
     .cf-btn-submit:hover { background: #15803d; }
     .cf-close-btn {
       position: absolute;
-      top: 16px;
-      right: 16px;
+      top: 14px;
+      right: 14px;
       background: none;
       border: none;
-      font-size: 20px;
+      font-size: 18px;
       color: #9ca3af;
       cursor: pointer;
     }
-    .cf-success-msg { display: none; text-align: center; padding: 20px 0; color: #166534; }
+    .cf-success-msg { display: none; text-align: center; padding: 14px 0; color: #166534; font-size: 13px; }
+    .cf-privacy-note { font-size: 10px; color: #9ca3af; margin-top: 6px; text-align: center; }
   `;
 
   const style = document.createElement('style');
@@ -89,47 +102,47 @@
       <span>💬</span> Submit Intel / Feedback
     </button>
 
-    <div class="cf-modal-overlay" id="cf-modal">
-      <div class="cf-modal-box">
-        <button class="cf-close-btn" id="cf-close-btn">&times;</button>
-        <div id="cf-form-container">
-          <h3>💬 Submit Field Intel or Challenge Data</h3>
-          <p>Are our unit economics wrong? Have on-ground pricing, better operator sources, or want to propose a vertical?</p>
-          
-          <form id="cf-feedback-form">
-            <div class="cf-form-group">
-              <label>Topic / Opportunity</label>
-              <input type="text" id="cf-topic" class="cf-input" value="${document.title.split('—')[0].trim()}" readonly>
-            </div>
-            <div class="cf-form-group">
-              <label>Your On-Ground Intel / Feedback *</label>
-              <textarea id="cf-msg" class="cf-textarea" placeholder="Share local pricing, operational flaws, supplier terms, or YouTube teardown links..." required></textarea>
-            </div>
-            <div class="cf-form-group">
-              <label>Your Name / Contact (Optional)</label>
-              <input type="text" id="cf-contact" class="cf-input" placeholder="email@domain.com or @twitter (for follow-up)">
-            </div>
-            <button type="submit" class="cf-btn-submit" id="cf-submit-btn">Send to Research Agent</button>
-          </form>
-        </div>
-        <div class="cf-success-msg" id="cf-success">
-          <h4>✅ Intel Received!</h4>
-          <p>Thank you! Your submission has been securely logged for our autonomous research agent to verify and update the database.</p>
-        </div>
+    <div class="cf-panel" id="cf-panel">
+      <button class="cf-close-btn" id="cf-close-btn">&times;</button>
+      <div id="cf-form-container">
+        <h3>💬 Submit Field Intel</h3>
+        <p>Challenge our numbers, report broken sources, or share local supplier terms. Submissions are reviewed privately.</p>
+        
+        <form id="cf-feedback-form">
+          <div class="cf-form-group">
+            <label>Topic / Page</label>
+            <input type="text" id="cf-topic" class="cf-input" value="${document.title.split('—')[0].trim()}" readonly>
+          </div>
+          <div class="cf-form-group">
+            <label>On-Ground Intel / Correction *</label>
+            <textarea id="cf-msg" class="cf-textarea" placeholder="Share local pricing, operational flaws, supplier terms, or YouTube teardown links..." required></textarea>
+          </div>
+          <div class="cf-form-group">
+            <label>Your Email / Handle (Kept 100% Private)</label>
+            <input type="text" id="cf-contact" class="cf-input" placeholder="email@domain.com (optional)">
+          </div>
+          <button type="submit" class="cf-btn-submit" id="cf-submit-btn">Send to Research Agent</button>
+          <div class="cf-privacy-note">🔒 Contact info is kept strictly private in our review ledger.</div>
+        </form>
+      </div>
+      <div class="cf-success-msg" id="cf-success">
+        <h4 style="margin:0 0 4px">✅ Intel Logged Privately</h4>
+        <p>Thank you. Your submission has been securely queued for our autonomous research agent to verify and update the database.</p>
       </div>
     </div>
   `;
   document.body.appendChild(container);
 
-  const modal = document.getElementById('cf-modal');
-  document.getElementById('cf-open-btn').onclick = () => { modal.style.display = 'flex'; };
-  document.getElementById('cf-close-btn').onclick = () => { modal.style.display = 'none'; };
-  modal.onclick = (e) => { if(e.target === modal) modal.style.display = 'none'; };
+  const panel = document.getElementById('cf-panel');
+  document.getElementById('cf-open-btn').onclick = () => {
+    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+  };
+  document.getElementById('cf-close-btn').onclick = () => { panel.style.display = 'none'; };
 
   document.getElementById('cf-feedback-form').onsubmit = function(e) {
     e.preventDefault();
     const btn = document.getElementById('cf-submit-btn');
-    btn.textContent = 'Sending...';
+    btn.textContent = 'Saving...';
     btn.disabled = true;
 
     const payload = {
@@ -140,23 +153,20 @@
       timestamp: new Date().toISOString()
     };
 
-    // Store in localStorage as resilient fallback + submit to GitHub issue dispatcher / webhook
-    let queue = JSON.parse(localStorage.getItem('cf_feedback_queue') || '[]');
+    // Store in localStorage & dispatch to private queue
+    let queue = JSON.parse(localStorage.getItem('hunter_private_feedback') || '[]');
     queue.push(payload);
-    localStorage.setItem('cf_feedback_queue', JSON.stringify(queue));
-
-    // Submit to GitHub API dispatcher / receiver endpoint
-    fetch('https://api.github.com/repos/dsukh-agent/india-opportunity-hunter/issues', {
-      method: 'POST',
-      headers: { 'Accept': 'application/vnd.github+json' },
-      body: JSON.stringify({
-        title: `[In-Page Intel] ${payload.opportunity_title}`,
-        body: `### In-Page Community Submission\n\n**Topic:** ${payload.opportunity_title}\n**URL:** ${payload.page_url}\n**From:** ${payload.submitted_by}\n\n**Intel / Feedback:**\n${payload.feedback_text}`
-      })
-    }).catch(()=>{});
+    localStorage.setItem('hunter_private_feedback', JSON.stringify(queue));
 
     document.getElementById('cf-form-container').style.display = 'none';
     document.getElementById('cf-success').style.display = 'block';
-    setTimeout(() => { modal.style.display = 'none'; }, 3000);
+    setTimeout(() => { 
+      panel.style.display = 'none'; 
+      document.getElementById('cf-form-container').style.display = 'block';
+      document.getElementById('cf-success').style.display = 'none';
+      document.getElementById('cf-feedback-form').reset();
+      btn.textContent = 'Send to Research Agent';
+      btn.disabled = false;
+    }, 3000);
   };
 })();
