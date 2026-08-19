@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T11:28:57+00:00",
+  "last_updated": "2026-08-19T13:29:08+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -283,6 +283,82 @@
       "shortlisted": 1,
       "rank": 4,
       "notes": "Refined from standalone cold storage build to asset-light, contract-led B2B reefer last-mile fleet for Mumbai/Bengaluru. Avoid own cold store (capex-heavy, needs near-full utilization, competes with Snowman/ColdEx). Instead 3 insulated reefer vans (~60-75L) + telematics + working capital buffer = ~82L-1.13Cr total. 2-4 anchor B2B accounts (frozen food, QSR, dairy, ice-cream distributors) underwriting 60-70% daily capacity BEFORE vehicle purchase. Unit econ: base 3-vehicle 8.8-10.2L/mo rev, 12-16% EBITDA; strong dedicated contracts 17-20% EBITDA; 1-2L monthly EBITDA after ramp-up. Market: India cold chain logistics US$24.85B (2026) to $33.12B by 2031, 5.91% CAGR; reefer transport fastest segment at ~11% CAGR; driven by quick-commerce (28.4% annual grocery growth), pharma, frozen RTE (18.1% rise). Mumbai clusters Bhiwandi/Taloja/Vashi; Bengaluru chilled/frozen B2B. Working capital is the real danger (30-60 day B2B payables). Utilization below 75-80% erases margins (5-10%). Pharma requires GDP compliance (only 8-10% of 3,500+ operators meet it) - start with food.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 14,
+      "slug": "diesel-generator-dg-synchronous-fuel-polishing-and-mobile-fi",
+      "title": "Diesel Generator (DG) Synchronous Fuel Polishing & Mobile Filtration",
+      "sector": "Critical Infrastructure Maintenance",
+      "model": "B2B Recurring Maintenance AMC",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Mobile truck-mounted fuel polishing and tank cleaning for corporate tech parks, hospitals, data centers, and bank branches in Mumbai & Bangalore. Prevents stale diesel sludge from failing backup generators during grid outages.",
+      "verdict": "STRONG",
+      "entry_capital_inr": "₹55 - ₹75 Lakhs",
+      "ebitda_margin": "40-50%",
+      "ebitda_timeline": "2-4 months",
+      "rejection_reason": null,
+      "breakdown": {
+        "scorecard": {
+          "working_capital": "8/10 (Prepaid annual/quarterly AMCs; consumables (filter media, biocide) paid on purchase for next jobs. No inventory stock risk.)",
+          "vendor_lockin": "8/10 (Standard mobile polishing skids/filtration (AXI, Alfa Laval, generic 1-3 micron rigs) and open consumables; no OEM lockout.)",
+          "labor_friction": "6/10 (Skilled technician + certified confined-space/HSE requirements; mitigated by closed-loop polishing (no tank entry) for the bulk tier + partner lab/waste disposal.)",
+          "regulatory_moat": "6/10 (No hard legal mandate to polish DG fuel, but hospital/fire/insurance and data-centre uptime audits create strong compliance-grade demand pull.)",
+          "capital_velocity": "8/10 (~Rs3-30L mobile skid + vehicle + technician; well under Rs1 Cr; positive EBITDA with 15-25 recurring accounts; 45-60% recurring revenue.)"
+        },
+        "why_passes": [
+          "Validated Unit Economics: US published rate cards confirm mobile fuel polishing is a real recurring high-margin service - Pristine Diesel $1.80/gal (<500gal) to $0.36/gal (>6000gal) + $650 min; Fuel Secure $875-$1,475/tank/yr monitoring (Bell Performance). India underwriting: Rs25-75k one-time + Rs30-80k/yr AMC for small commercial; Rs75k-3L + Rs1.2-4L/yr for hospital/mid IT; Rs3-12L + Rs5-20L/yr for large IT park/colo.",
+          "Deep Inverted Demand Base: Mumbai ~53% of India's data-centre capacity (~790MW), Bengaluru ~182MW (~970MW combined); India ~1.5GW late-2025 growing to 3.4-5GW by 2030 adds standby DGs + stored fuel each build. Hospitals are the strongest wedge (aging tanks, outsourced FM, high downtime cost).",
+          "EBITDA-ASAP Service Model: Consumables (filter media, biocide) + labour only; asset-light start (outsource lab testing + hazardous-waste disposal; buy one rig after route density proven); positive EBITDA at 15-25 recurring accounts."
+        ],
+        "unit_economics": [
+          "Initial Capex: Rs5L - 30L (one mobile polishing skid + filtration, vehicle/bike, technician, basic lab consumables, PPE, permits/insurance); service-first near asset-light entry possible.",
+          "Monthly Revenue (20-40 recurring sites incl. hospitals + mid IT): Rs8L - 25L/month via Rs50k-1.5L/yr plan conversions + remediation upsells (Rs1.5-5L+).",
+          "Monthly EBITDA: 40-50% (consumables + labour only; no heavy fixed assets; density-driven route economics)."
+        ],
+        "watchouts": [
+          "Incumbent bundling: Cummins/Kirloskar/CAT DG dealers + facility-management firms already own the maintenance relationship and can bundle a similar service - partner/white-label with them rather than fight (fastest volume).",
+          "Density is everything: crew travel + idle time + changing filter media can destroy margins; must stay in a dense micro-market (BKC-Andheri Mumbai / Koramangala-HSR BLR) initially.",
+          "HSE/liability: closed-loop polishing avoids tank entry, but diesel handling, spill prevention, confined-space, waste disposal, permits and insurance are central; remediation/deep-clean tier carries much higher safety + liability profile.",
+          "India pricing unvalidated: no public price cards; quote per tank capacity/access/contamination - don't anchor to generic DG AMC (Rs20-90k/unit/yr)."
+        ]
+      },
+      "sources": {
+        "news_and_market": [
+          {
+            "label": "Bell Performance: How much does fuel polishing cost? Real numbers (Pristine Diesel rate card + Fuel Secure monitoring pricing)",
+            "url": "https://www.bellperformance.com/bell-performs-blog/how-much-does-fuel-polishing-cost-real-numbers-and-what-drives-them",
+            "key_insight": "Published US rate card: $1.80/gal up to 500gal, $1.20/600-2500gal, $0.60/2500-6000gal, $0.36/>6000gal + $650 min; Fuel Secure monitors stored fuel for $875-$1,475/tank/yr - validates mobile polishing + subscription monitoring as a real recurring high-margin service."
+          },
+          {
+            "label": "Tristar Engineering & Chemical Company (Navi Mumbai) - Diesel/Hydrocarbon Tank Cleaning, Robotic No-Man-Entry, Fuel Filtration & Testing",
+            "url": "https://tristarengg.co.in/",
+            "key_insight": "Mumbai's established tank-cleaning ecosystem: 40+ years, robotic no-man-entry cleaning, fuel filtration/testing, served oil marketing companies. Confirms both the market's existence and the incumbents to partner-with/differentiate-from."
+          },
+          {
+            "label": "Perplexity Pro India Market Underwriting - DG fuel quality assurance providers, pricing & demand in Mumbai & Bengaluru",
+            "url": "https://www.perplexity.ai/",
+            "key_insight": "India underwriting ranges: small branch Rs25-75k one-time + Rs30-80k/yr; hospital/mid-IT Rs75k-3L + Rs1.2-4L/yr; large IT park/colo Rs3-12L + Rs5-20L/yr; hyperscale Rs20L-1Cr+/yr. Entry wedge Rs15-30k fuel-health audit -> Rs50k-1.5L/yr plan. Mumbai ~53% of India DC capacity (~790MW), Bengaluru ~182MW."
+          }
+        ],
+        "youtube_practitioner": [
+          {
+            "label": "Fuel Polishing | Pai Kane Group | Annual Maintenance Contract (India)",
+            "url": "https://www.youtube.com/watch?v=0qjE2xvMFJQ",
+            "key_insight": "Indian AMC practitioner explaining fuel-polishing-as-AMC value prop: contaminated DG diesel otherwise thrown away; recurring annual contract framing is the monetization model."
+          },
+          {
+            "label": "Precision Filtration Products - Diesel Fuel Polishing & Fuel Tank Cleaning (Mobile trailer-mounted rigs for mission-critical facilities)",
+            "url": "https://precisionfiltration.com/services/diesel-fuel-polishing-fuel-tank-cleaning-services/",
+            "key_insight": "Mobile trailer-mounted rigs let one team service multiple tanks per site visit; hospitals, data centres, military bases are the core buyers; annual or semi-annual scheduling for backup generator tanks."
+          }
+        ]
+      },
+      "dig_depth": 2,
+      "shortlisted": 1,
+      "rank": 5,
+      "notes": "Deeper dig confirms + upgrades. PRACTITIONER/MARKET TRIANGULATION: (1) Unit economics validated by published US rate cards - Pristine Diesel $1.80/gal <500gal, $0.60/gal 2500-6000gal, $650 min; Fuel Secure annual monitoring $875-$1,475/tank/yr (Bell Performance) - mobile polish is a documented high-margin recurring service, not speculative. (2) India underwriting ranges (perplexity): small branch/clinic Rs25-75k one-time + Rs30-80k/yr AMC; hospital/mid IT Rs75k-3L + Rs1.2-4L/yr; large IT park/colo Rs3-12L + Rs5-20L/yr; hyperscale Rs20L-1Cr+/yr. Entry wedge: Rs15-30k fuel-health audit -> convert to Rs50k-1.5L/yr plan. (3) Demand base: Mumbai=~53% of India DC capacity (~790MW), Bengaluru ~182MW, ~970MW combined in 2 metros; ~1.5GW India-wide by late-2025 growing to 3.4-5GW by 2030 -> expanding test/polish/remediate installed base. Realist capture Rs2-10Cr/yr from 20-75 enterprise sites before scaling; local recurring opportunity Rs10-150Cr/yr. EBITDA-ASAP: consumables+labour only, ~1Cr entry (one mobile skid Rs3-30L + vehicle + technician; asset-light service-first start possible by outsourcing lab + waste disposal), positive EBITDA at 15-25 recurring accounts, 45-60% recurring revenue mix. NRI-return ops-fit strong (B2B relationship sales, no frontier tech). RECOMMENDED POSITIONING: sell Critical Fuel Reliability Management (compliance-grade workflow, chain-of-custody sampling, before/after evidence, disaster-readiness score), NOT tank cleaning - that is the defensible layer; hospitals strongest wedge (aging tanks, outsourced FM, high downtime cost); white-label via DG OEM dealers + FM firms = fastest volume. WATCH-OUTS (persist): incumbent OEM-dealer AMCs (Cummins/Kirloskar) + FM companies bundle this; density-critical margin (crew idle + travel kills economics); India pricing unvalidated (no public cards); HSE/liability (confined-space, diesel handling, waste disposal, permits/insurance) eats into margin on remediation tier; enterprise procurement onboarding burden on data-centre tier. Verdict upgraded MEDIUM->STRONG.",
       "updated_at": "2026-08-19"
     },
     {
@@ -617,28 +693,6 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Fails filters. Capital-heavy: e-shuttles cost Rs25-45L, 9m e-buses Rs1.2-2.5Cr, plus Rs5-15L/vehicle charging infra. ~1Cr entry buys only 2-4 small shuttles - too small to absorb central overhead (control room, sales, depot). Corporate EBITDA is NEGATIVE at small scale; only reaches 8-18% at 30-50 vehicles. Operating break-even at 10-18mo, corporate EBITDA only at 18-30mo - contradicts EBITDA-ASAP. CEEW flags school-only EV buses as financially difficult (low 50-100km/day utilization vs 120-220 for corporate). Market crowded: Routematic, MoveInSync, Lithium Urban (3000+ EVs), Everest, WTi, Ratham, NVS, Aaveg, KTC. EV fuel savings (Rs6.6-9.5/km vs diesel Rs29.8/km) are real but capital cost and thin small-scale margins kill the thesis.",
-      "updated_at": "2026-08-19"
-    },
-    {
-      "id": 14,
-      "slug": "diesel-generator-dg-synchronous-fuel-polishing-and-mobile-fi",
-      "title": "Diesel Generator (DG) Synchronous Fuel Polishing & Mobile Filtration",
-      "sector": "Critical Infrastructure Maintenance",
-      "model": "B2B Recurring Maintenance AMC",
-      "country": "India",
-      "city_focus": "Mumbai / Bangalore",
-      "idea": "Mobile truck-mounted fuel polishing and tank cleaning for corporate tech parks, hospitals, data centers, and bank branches in Mumbai & Bangalore. Prevents stale diesel sludge from failing backup generators during grid outages.",
-      "verdict": "MEDIUM",
-      "entry_capital_inr": "₹55 - ₹75 Lakhs",
-      "ebitda_margin": "40-50%",
-      "ebitda_timeline": "2-4 months",
-      "rejection_reason": null,
-      "breakdown": {},
-      "sources": {},
-      "dig_depth": 1,
-      "shortlisted": 0,
-      "rank": null,
-      "notes": "Capital-light B2B managed fuel-quality service on Indias huge DG installed base (equipment market USD1.33B 2026->1.88B 2031, 7.18% CAGR; ~710k telecom towers on diesel). Sell backup-power READINESS (audit trail, avoided outage risk), not diesel cleaning - that is the defensible layer; filtration hardware is commoditized. Bottom-up TAM: 20k-50k critical-power sites (data centres, hospitals, BFSI, IT parks, industrial) at Rs1-3L/site/yr = Rs200-1500 Cr/yr; Mumbai+Bengaluru beachhead tens of Cr/yr. Pricing: fuel health check Rs7.5-15k/site; small DG polish (<=500L) Rs18-35k; medium Rs30-65k; large/2-10kL Rs50k-1.5L; deep remediation Rs1.5-5L+; emergency 1.5-2.5x. Strongest model = managed fuel-readiness subscription: Essential Rs50k-1.25L/yr, Critical Rs1.5-5L/yr, Mission-critical/data-centre Rs5-25L+; target 45-60% recurring revenue. Entry very capital-light: one mobile polishing skid (equipment Rs3-30L; can start service-first nearly asset-light) + technician/vehicle; well under 1 Cr entry. EBITDA-ASAP: high-margin service (consumables + labour only), no heavy fixed assets, positive EBITDA with 15-25 recurring accounts, move to data-centre contracts for scale. NRI-return founder fit strong (ops B2B, relationship sales, no frontier tech). WATCH-OUTS: fragmented but NOT empty market - OEM dealer AMCs (Cummins/CAT/Kirloskar) and local tank-cleaning firms (Tristar Navi Mumbai) bundle fuel into existing work; pricing remains unvalidated in India (no published cards); avoid tiny frequently-used gensets (mobilization kills margin); needs lab/testing + biocide + confined-space/waste-handling certification for remediation tier; under-branded market = white-label distribution via FM/OEM dealers is fastest path to volume.",
       "updated_at": "2026-08-19"
     }
   ]
