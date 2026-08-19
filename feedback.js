@@ -1,5 +1,7 @@
-// Sleek Intercom-Style In-Page Feedback Widget (Desktop Bottom-Right Card / Mobile Bottom-Sheet)
+// Sleek In-Page Feedback Widget connected to live autonomous API (api.dipesh.one)
 (function() {
+  const API_ENDPOINT = "https://api.dipesh.one/api/feedback";
+
   const css = `
     .cf-float-btn {
       position: fixed;
@@ -22,7 +24,7 @@
     }
     .cf-float-btn:hover { background: #1e40af; transform: translateY(-2px); }
     
-    /* Desktop: Non-blocking bottom-right flyout card (No blur, no full-screen overlay) */
+    /* Desktop: Non-blocking bottom-right flyout card */
     .cf-panel {
       position: fixed;
       bottom: 80px;
@@ -76,8 +78,10 @@
       font-weight: 600;
       cursor: pointer;
       margin-top: 4px;
+      transition: background 0.2s;
     }
-    .cf-btn-submit:hover { background: #15803d; }
+    .cf-btn-submit:hover:not(:disabled) { background: #15803d; }
+    .cf-btn-submit:disabled { background: #9ca3af; cursor: not-allowed; }
     .cf-close-btn {
       position: absolute;
       top: 14px;
@@ -89,6 +93,7 @@
       cursor: pointer;
     }
     .cf-success-msg { display: none; text-align: center; padding: 14px 0; color: #166534; font-size: 13px; }
+    .cf-error-msg { display: none; text-align: center; padding: 10px 0; color: #dc2626; font-size: 12px; }
     .cf-privacy-note { font-size: 10px; color: #9ca3af; margin-top: 6px; text-align: center; }
   `;
 
@@ -106,7 +111,7 @@
       <button class="cf-close-btn" id="cf-close-btn">&times;</button>
       <div id="cf-form-container">
         <h3>💬 Submit Field Intel</h3>
-        <p>Challenge our numbers, report broken sources, or share local supplier terms. Submissions are reviewed privately.</p>
+        <p>Challenge numbers, report broken links, or share local supplier terms. Submissions are processed by our research agent.</p>
         
         <form id="cf-feedback-form">
           <div class="cf-form-group">
@@ -122,12 +127,13 @@
             <input type="text" id="cf-contact" class="cf-input" placeholder="email@domain.com (optional)">
           </div>
           <button type="submit" class="cf-btn-submit" id="cf-submit-btn">Send to Research Agent</button>
+          <div class="cf-error-msg" id="cf-error">⚠️ Transmission failed. Please try again.</div>
           <div class="cf-privacy-note">🔒 Contact info is kept strictly private in our review ledger.</div>
         </form>
       </div>
       <div class="cf-success-msg" id="cf-success">
-        <h4 style="margin:0 0 4px">✅ Intel Logged Privately</h4>
-        <p>Thank you. Your submission has been securely queued for our autonomous research agent to verify and update the database.</p>
+        <h4 style="margin:0 0 4px">✅ Intel Dispatched to Agent</h4>
+        <p>Your submission has reached the autonomous research pipeline and triggered an immediate triage alert.</p>
       </div>
     </div>
   `;
@@ -139,10 +145,12 @@
   };
   document.getElementById('cf-close-btn').onclick = () => { panel.style.display = 'none'; };
 
-  document.getElementById('cf-feedback-form').onsubmit = function(e) {
+  document.getElementById('cf-feedback-form').onsubmit = async function(e) {
     e.preventDefault();
     const btn = document.getElementById('cf-submit-btn');
-    btn.textContent = 'Saving...';
+    const errBox = document.getElementById('cf-error');
+    errBox.style.display = 'none';
+    btn.textContent = 'Transmitting to Agent...';
     btn.disabled = true;
 
     const payload = {
@@ -153,20 +161,41 @@
       timestamp: new Date().toISOString()
     };
 
-    // Store in localStorage & dispatch to private queue
-    let queue = JSON.parse(localStorage.getItem('hunter_private_feedback') || '[]');
-    queue.push(payload);
-    localStorage.setItem('hunter_private_feedback', JSON.stringify(queue));
+    try {
+      const response = await fetch(API_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
 
-    document.getElementById('cf-form-container').style.display = 'none';
-    document.getElementById('cf-success').style.display = 'block';
-    setTimeout(() => { 
-      panel.style.display = 'none'; 
-      document.getElementById('cf-form-container').style.display = 'block';
-      document.getElementById('cf-success').style.display = 'none';
-      document.getElementById('cf-feedback-form').reset();
-      btn.textContent = 'Send to Research Agent';
+      if (!response.ok) {
+        throw new Error("HTTP error " + response.status);
+      }
+
+      // Success
+      document.getElementById('cf-form-container').style.display = 'none';
+      document.getElementById('cf-success').style.display = 'block';
+      setTimeout(() => { 
+        panel.style.display = 'none'; 
+        document.getElementById('cf-form-container').style.display = 'block';
+        document.getElementById('cf-success').style.display = 'none';
+        document.getElementById('cf-feedback-form').reset();
+        btn.textContent = 'Send to Research Agent';
+        btn.disabled = false;
+      }, 3500);
+    } catch (err) {
+      console.error("Failed to send feedback:", err);
+      // Save locally as fallback
+      try {
+        let queue = JSON.parse(localStorage.getItem('hunter_pending_feedback') || '[]');
+        queue.push(payload);
+        localStorage.setItem('hunter_pending_feedback', JSON.stringify(queue));
+      } catch (storageErr) {}
+      
+      errBox.textContent = '⚠️ Network error communicating with agent. Saved offline.';
+      errBox.style.display = 'block';
+      btn.textContent = 'Retry Sending';
       btn.disabled = false;
-    }, 3000);
+    }
   };
 })();
