@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T15:29:44+00:00",
+  "last_updated": "2026-08-19T17:31:16+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -693,6 +693,84 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Fails filters. Capital-heavy: e-shuttles cost Rs25-45L, 9m e-buses Rs1.2-2.5Cr, plus Rs5-15L/vehicle charging infra. ~1Cr entry buys only 2-4 small shuttles - too small to absorb central overhead (control room, sales, depot). Corporate EBITDA is NEGATIVE at small scale; only reaches 8-18% at 30-50 vehicles. Operating break-even at 10-18mo, corporate EBITDA only at 18-30mo - contradicts EBITDA-ASAP. CEEW flags school-only EV buses as financially difficult (low 50-100km/day utilization vs 120-220 for corporate). Market crowded: Routematic, MoveInSync, Lithium Urban (3000+ EVs), Everest, WTi, Ratham, NVS, Aaveg, KTC. EV fuel savings (Rs6.6-9.5/km vs diesel Rs29.8/km) are real but capital cost and thin small-scale margins kill the thesis.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 15,
+      "slug": "hazardous-and-bio-medical-waste-shredding-and-sterilization-",
+      "title": "Hazardous & Bio-Medical Waste Shredding & Sterilization Hub",
+      "sector": "Environmental & Healthcare Compliance",
+      "model": "B2B Statutory Recurring Contracts",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Centralized autoclaving, shredding, and barcoded manifest tracking for private nursing homes, pathology labs, and clinics under CPCB Biomedical Waste Management Rules. Mandatory statutory compliance with daily per-bed or per-kg recurring billing.",
+      "verdict": "WEAK",
+      "entry_capital_inr": "Rs1.5-3 Cr (target was Rs90L-1.2Cr)",
+      "ebitda_margin": "20-30% mature / 0-15% early ramp",
+      "ebitda_timeline": "12-24+ months (18-36 early); payback 6-10+ yrs",
+      "rejection_reason": "Capital mismatch: CBWTF needs Rs1.5-3 Cr (real EIA Rs10.5 Cr) vs ~1 Cr entry; not EBITDA-ASAP: 12-24mo+ breakeven, 6-10yr payback; government-hospital 90-180 day receivables drain cash.",
+      "breakdown": {
+        "scorecard": {
+          "working_capital": "2/10 (Government-hospital receivables run 90-180 days DSO; >40-50% public book cripples cash flow. Private hospitals can pay 30-day but public tenders drain working capital.)",
+          "vendor_lockin": "5/10 (Equipment vendors Alfa Therm/Gient exist but incineration/autoclave is commoditized; the real lock-in is the CPCB/SPCB permission + land buffer, not equipment.)",
+          "labor_friction": "5/10 (Biohazard-trained operators, safety gear, GPS-transport compliance, waste segregation training; high compliance overhead per CPCB).",
+          "regulatory_moat": "8/10 (One CBWTF per district encouraged; 2025 CPCB guidelines need 1-acre land, 500m residential buffer, 75km service radius, GPS vehicles - a genuine permission-limited oligopoly in Mumbai/Bengaluru.)",
+          "capital_velocity": "2/10 (CBWTF capex Rs1.5-3 Cr minimum, real EIA projects Rs10.5-10.46 Cr; ~1 Cr entry funds only a partial/under-capacity facility. Breakeven 12-24+ months; payback 6-10+ years.)"
+        },
+        "why_passes": [
+          "Healthcare market growing ~15% CAGR; biomedical waste hit ~774 tonnes/day post-COVID peak; every HCF is legally obliged to route waste to a CBWTF within 75km.",
+          "Permission-limited oligopoly is a genuine moat - only a handful of operators (SMS Envoclean Mumbai; Medicare/Semb Ramky/Maridi Bengaluru) serve each metro.",
+          "Mature, well-utilised facilities reach 20-30%+ EBITDA (Biotic Waste FY18: 30.2% EBITDA on Rs19.37 Cr revenue)."
+        ],
+        "why_fails": [
+          "CAPITAL MISMATCH: A viable standalone CBWTF needs Rs1.5-3 Cr (real EIA projects Rs10.5 Cr Maharashtra, Rs10.46 Cr TN 20-TPD); ~1 Cr entry buys only an under-capacity or shared facility - outside the ~1 Cr NRI-return entry.",
+          "NOT EBITDA-ASAP: mature breakeven 12-24+ months, equity payback 6-10+ years (UNIDO case >=10 yrs); early ramp 0-15% EBITDA, 18-36mo breakeven - fails the positive-EBITDA-ASAP primary constraint.",
+          "Government receivable risk: 90-180 day DSO on public hospitals; >40-50% public book drains working capital and delays cash breakeven.",
+          "Long/expensive regulatory path: CTE->CTO->SPCB authorization sequencing, 2025 CPCB minimum land/buffer/service rules, EIA clearances - slow to commission.",
+          "On-site (captive) units at ~Rs10L are not a standalone revenue business - only the CBWTF model earns external income."
+        ],
+        "verdict_override": "WEAK - fails positive-EBITDA-ASAP (12-24mo+ breakeven, 6-10yr payback) and the ~1 Cr entry (needs Rs1.5-3 Cr+); a sound business for a deep-pocketed larger operator but not an NRI ~1 Cr return entry."
+      },
+      "sources": {
+        "news_and_market": [
+          {
+            "label": "Corpseed - How to Start a Biomedical Waste Management Business (CBWTF setup cost Rs1.5-3 Cr)",
+            "url": "https://www.corpseed.com/knowledge-centre/how-to-start-a-biomedical-waste-management-business",
+            "key_insight": "CBWTF investment Rs1.5-3 Cr vs Rs10L for on-site units; CPCB/SPCB consent-to-establish-then-operate under BMWM Rules 2016."
+          },
+          {
+            "label": "Sharda Associates - Project Report Biomedical Waste: Two Models",
+            "url": "https://shardaassociates.in/pr-samples/project-report-for-biomedical-waste/",
+            "key_insight": "CBWTF is the only standalone revenue model (Rs1.5-3 Cr); on-site treatment (~Rs10L) generates no external income; 234 CBWTFs operating + ~30 under construction."
+          },
+          {
+            "label": "EcoNexa - Understanding 2025 CPCB Guidelines for CBWTFs",
+            "url": "https://www.econexa.co/blog/environment-knowledge-news-1/understanding-the-2025-cpcb-guidelines-for-cbwtfs-15",
+            "key_insight": "2025 CPCB: min 1-acre land (0.5 in big cities), 500m residential buffer, 75km service radius, treat within 48hr, GPS vehicles; CTE/CTO/EC/authorization mandatory."
+          },
+          {
+            "label": "India Projects News - Proposed CBWTF Thiruvallur TN (Rs10.46 Cr, 20 TPD)",
+            "url": "https://indiaprojectsnews.com/proposed-common-biomedical-waste-treatment-facility-cbwtf/",
+            "key_insight": "Real greenfield CBWTF capex ~Rs10.46 Cr for 20 TPD - far above a ~1 Cr entry; a 2-incinerator Maharashtra facility at Rs10.5 Cr."
+          },
+          {
+            "label": "Mission Sustainability - Biomedical Waste in India Metrics",
+            "url": "https://missionsustainability.org/blog/biomedical-waste-management-in-india",
+            "key_insight": "India generated ~774 tonnes/day post-COVID; poor segregation raises treatment cost 3-4x; 2 lakh+ healthcare facilities drive demand - real tailwind, but capital+breakeven do not fit the filter."
+          }
+        ],
+        "youtube_practitioner": [
+          {
+            "label": "How to Start BioMedical Waste to Plastic Granules Manufacturing | Industrial Tour - Entrepreneur India TV",
+            "url": "https://www.youtube.com/watch?v=fAT0FXF9VCE",
+            "key_insight": "Practitioner tour of the bio-medical waste value chain; illustrates plant-scale capital, equipment and compliance setup an operator must fund before any revenue."
+          }
+        ]
+      },
+      "dig_depth": 1,
+      "shortlisted": 0,
+      "rank": null,
+      "notes": "WEAK: capital + EBITDA-ASAP mismatch. CBWTF (only viable standalone model) costs Rs1.5-3 Cr, far above ~1 Cr entry; on-site units (Rs10L) generate no external revenue. Metro operators oligopoly (SMS Envoclean Mumbai; Medicare/Semb Ramky/Maridi Bengaluru). Even mature facilities: EBITDA 20-30% but breakeven 12-24+ months, capex payback 6-10 yrs (UNIDO >=10 yrs). Early ramp only 0-15% EBITDA, 18-36m breakeven. Govt hospital receivables 90-180 days (>40-50% of book cripples cash flow) - violates positive EBITDA ASAP. Real demand (healthcare 15% CAGR, 774 t/day post-COVID peak) but wrong capital profile for NRI ~1 Cr return entry.",
       "updated_at": "2026-08-19"
     }
   ]
