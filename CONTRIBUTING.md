@@ -1,22 +1,28 @@
 # Contributing to India Opportunity Hunter
 
-This is an open, living database of unfashionable, cash-flow-positive business opportunities. Anyone may contribute.
+We welcome on-ground field observations, practitioner teardowns, and verified unit economics for Indian service and distribution businesses.
 
-## How to contribute
-1. **Open an issue** with the opportunity you want to add, OR
-2. **Submit a PR** that adds a row to `data.json` and a section to `README.md`.
+---
 
-## What makes a good entry (the filters)
-A contribution is strong when it includes **real numbers**, not vibes:
-- **Verdict:** STRONG / MEDIUM / WEAK, with reasoning.
-- **Entry capital (₹)** and **EBITDA timeline** — must plausibly reach positive EBITDA quickly (this is the primary gate).
-- **Sector + model** (consumer / B2B / service — anything, be broad and odd).
-- **Country/city focus** (we curate India first; global later).
-- **Sources** — live links with dates. Freshness matters: prefer 2026/2027 data and clearly timestamp older info.
-- **Watch-outs / failure modes** — honesty is a feature. Documented negative examples are welcome (see the water tanker entry).
+## 🎯 Contribution Requirements: The 5-Pillar Standard
 
-## Anti-bias rule
-We deliberately do **not** prioritize tech/web3/startup ideas. Evaluate purely on cash-flow fit. Unfashionable B2B/consumer/service opportunities are exactly what this database is for.
+Every proposed vertical or critique must provide **verifiable on-ground numbers**, not generic pitch decks or TAM theory. Submissions must score against our 5 Pillars:
 
-## Format for data.json
-Each opportunity is an object in the `opportunities` array. Follow the exact field names of existing entries (`id, title, sector, model, country, city_focus, idea, verdict, entry_capital_inr, ebitda_timeline, margins, why, watchouts, sources, updated_at`).
+1. **Working Capital & Payment Cycle:** Actual customer payment terms (Prepaid AMC vs 30/60/90 days DSO). Inventory shrinkage/theft risk.
+2. **Vendor / OEM Dependencies:** Are spare parts and diagnostic tools commoditized or locked behind proprietary OEM boards? Can the customer easily DIY?
+3. **On-Ground Labor & Route Density:** Route constraints (jobs/day per crew in MMR/BLR traffic), shift hours, and technician turnover rates.
+4. **Regulatory Enforcement:** Mandatory compliance mandates (e.g. FSSAI Schedule 4, Fire Safety NFPA-96) vs government-subsidized competition or municipal price caps.
+5. **All-In Capital & Breakeven:** Total deployment < ₹1 Cr (including 6-month operational buffer) and path to positive EBITDA within 3–6 months.
+
+---
+
+## 🚫 Hard Veto Rules (Submissions will be rejected if):
+- Working Capital score < 7 (DSO > 45 days).
+- Any single pillar score < 5.
+- Unsubstantiated gross margin claims without supplier/practitioner verification.
+
+---
+
+## 📥 How to Submit
+1. **Open an Issue:** Propose a new vertical with practitioner source links (YouTube operator teardowns, local price sheets, supplier quotes).
+2. **Submit a PR:** Add the structured data to `data.json` following the existing schema.
