@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "last_updated": "2026-08-19T01:13:28+00:00",
+  "last_updated": "2026-08-19T01:15:43+00:00",
   "scope": "India (Mumbai/Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -155,8 +155,8 @@
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
       "dig_depth": 1,
-      "shortlisted": 0,
-      "rank": null,
+      "shortlisted": 1,
+      "rank": 6,
       "digest": {
         "findings": [
           "India pest control market: USD 1.92B (2025) growing 5.82% CAGR to USD 3.3B by 2034 (IMARC); B2B = 75%+ of market. FSSAI Schedule 4 makes pest control + documented FSMS MANDATORY for every licensed food business (restaurants, cloud kitchens, hotels, food factories, central kitchens) - structural recurring demand, not discretionary. Best wedge: FSSAI-ready pest-compliance managed service for food businesses in one dense micro-market (Andheri-BKC-Powai / Koramangala-HSR-Bellandur). Revenue = annual 12-month AMC, quarterly advance billing. Unit economics: compliance-led AMC at INR 8,000-20,000/site/month, gross margin 60-75%, mature EBITDA 15-25% after route density (70-85% recurring revenue, 80-90%+ renewals). Food factory/central kitchen tickets INR 2-12L/yr are best ACV. Startup capital: INR 20-30L focused city launch (3-6 technicians, supervisor, vehicles, field app, 6-9mo runway) - fits 1Cr budget scaling from there. Moat = operational density + compliance data (QR-linked site records, device maps, digital reports, audit packs), not the chemical. Packaging as compliance/operational-risk tier (Core/Compliance/Assured) avoids competing on low-cost spray price. NRI-return founder fit: excellent - relationship-heavy B2B sales, no frontier tech, no web3. Watch-outs: insecticide licensing (state Insecticides Act/Rules, fumigation extra permits), low entry barriers + 15,000 unorganized players = price pressure; avoid hiring ahead of revenue & distant micro-accounts (kills EBITDA); route density is the key economic variable."
@@ -202,7 +202,7 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Refrigerated small-commercial vehicles (Tata Ace EV/Reefer) providing temperature-controlled scheduled transport for dairy, meat, and pharmaceutical distributors.",
-      "verdict": "PENDING",
+      "verdict": "IN QUEUE",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
@@ -224,7 +224,7 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
-      "verdict": "PENDING",
+      "verdict": "IN QUEUE",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
@@ -246,7 +246,7 @@
       "country": "India",
       "city_focus": "Mumbai/Bangalore",
       "idea": "Contracted employee pickup/drop and school route transportation using leased electric 12-seater / 24-seater vans with guaranteed annual contracts.",
-      "verdict": "PENDING",
+      "verdict": "IN QUEUE",
       "entry_capital_inr": "TBD",
       "ebitda_timeline": "see dossier",
       "margins": "see dossier",
