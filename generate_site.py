@@ -76,7 +76,7 @@ def build():
 <meta name="google-site-verification" content="TjFs1HMyRiUvvqgjX0r6AahweiY0CeTHb7qX3km8OSE" />
 <meta name="description" content="Living, AI-citable database of unfashionable, cash-flow-positive business opportunities in India (2026-27).">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/">
+<link rel="canonical" href="https://hunter.dipesh.one/">
 <style>
 :root{{--ink:#111827;--muted:#6b7280;--brand:#1d4ed8;--bg:#f9fafb;--card:#ffffff;--line:#e5e7eb}}
 *{{box-sizing:border-box;margin:0;padding:0}}
@@ -135,7 +135,7 @@ footer a:hover{{color:var(--brand)}}
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(o["title"])} — India Opportunity Hunter</title>
 <meta name="description" content="{esc(o.get("idea","")[:150])}">
-<link rel="canonical" href="https://dsukh-agent.github.io/india-opportunity-hunter/opportunities/{esc(slug)}.html">
+<link rel="canonical" href="https://hunter.dipesh.one/opportunities/{esc(slug)}.html">
 <style>body{{font-family:system-ui,-apple-system,sans-serif;max-width:820px;margin:40px auto;padding:0 20px;line-height:1.65;color:#111827}}h1,h2,h3{{line-height:1.25}}hr{{border:none;border-top:1px solid #e5e7eb;margin:24px 0}}a{{color:#1d4ed8;text-decoration:none}}a:hover{{text-decoration:underline}}.meta{{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;font-size:14px;margin:16px 0}}li{{margin:8px 0}}.insight{{color:#4b5563;font-size:14px;margin-top:4px;background:#f3f4f6;padding:6px 10px;border-radius:6px}}</style></head>
 <body><p><a href="../index.html">&larr; Back to all opportunities</a></p>
 <h1 style="margin-top:14px">{i+1}. {esc(o["title"])}</h1>
