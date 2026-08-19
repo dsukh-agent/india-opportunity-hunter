@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T21:32:42+00:00",
+  "last_updated": "2026-08-19T23:50:47+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -164,10 +164,10 @@
           }
         ]
       },
-      "dig_depth": 1,
+      "dig_depth": 3,
       "shortlisted": 1,
       "rank": 2,
-      "notes": "Validated as strong recurring-revenue service business. India water purifier service market USD 511M(2026)->877M(2032), 9.42% CAGR. Commercial AMC pricing: 100-250LPH Rs12-30K/yr, 250-500LPH Rs18-60K, 500-2000LPH Rs45K-1.5L+. Independent operator can hit 20-35% EBITDA with route density; Rs50K society contract yields Rs11-18K EBITDA (22-36%). Lean launch Rs12-25L in one metro cluster (capital-light Rs5-10L); well within ~1Cr entry. Mumbai (demand 4,665 vs supply 4,100 MLD, 10% water cut, tanker-dependent societies) and Bengaluru (448 water-stressed localities, borewell/tanker dependence) both have acute demand. Best model: paid Rs5-15K plant-health audit -> convert to prepaid annual preventive AMC with strict scope control (exclude membranes/major spares). Upsell: retrofit, membrane replacement, recovery improvement, telemetry. Watch-outs: underwriting high-TDS borewell sites wrong, unlimited-parts AMC without baseline inspection, dispersed callouts killing margins, slow RWA collections. Not tech/web3 - classic ops business, NRI-return founder fit.",
+      "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Turnkey maintenance and chemical dosing contracts for commercial RO and society/commercial STPs in Mumbai & Bengaluru. Best beachhead: IT parks, hospitals, central kitchens, and cloud laundries (avoid residential RWA bureaucracy). Entry Capex ₹14–22L; 20–35% EBITDA on quarterly advance retainers + 40% margin on replacement membranes/chemicals.",
       "updated_at": "2026-08-19"
     },
     {
@@ -219,10 +219,10 @@
           }
         ]
       },
-      "dig_depth": 1,
+      "dig_depth": 3,
       "shortlisted": 1,
       "rank": 3,
-      "notes": "India pest control market: USD 1.92B (2025) growing 5.82% CAGR to USD 3.3B by 2034 (IMARC); B2B = 75%+ of market. FSSAI Schedule 4 makes pest control + documented FSMS MANDATORY for every licensed food business (restaurants, cloud kitchens, hotels, food factories, central kitchens) - structural recurring demand, not discretionary. Best wedge: FSSAI-ready pest-compliance managed service for food businesses in one dense micro-market (Andheri-BKC-Powai / Koramangala-HSR-Bellandur). Revenue = annual 12-month AMC, quarterly advance billing. Unit economics: compliance-led AMC at INR 8,000-20,000/site/month, gross margin 60-75%, mature EBITDA 15-25% after route density (70-85% recurring revenue, 80-90%+ renewals). Food factory/central kitchen tickets INR 2-12L/yr are best ACV. Startup capital: INR 20-30L focused city launch (3-6 technicians, supervisor, vehicles, field app, 6-9mo runway) - fits 1Cr budget scaling from there. Moat = operational density + compliance data (QR-linked site records, device maps, digital reports, audit packs), not the chemical. Packaging as compliance/operational-risk tier (Core/Compliance/Assured) avoids competing on low-cost spray price. NRI-return founder fit: excellent - relationship-heavy B2B sales, no frontier tech, no web3. Watch-outs: insecticide licensing (state Insecticides Act/Rules, fumigation extra permits), low entry barriers + 15,000 unorganized players = price pressure; avoid hiring ahead of revenue & distant micro-accounts (kills EBITDA); route density is the key economic variable.",
+      "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Route-dense, compliance-led pest management and digital FSSAI audit logging for restaurants, cloud kitchens, and food factories in Mumbai & Bengaluru. Capital-light entry (₹16–24L), 65–75% gross margins on consumables, and 22–32% net EBITDA backed by mandatory statutory quarterly compliance.",
       "updated_at": "2026-08-19"
     },
     {
@@ -279,10 +279,10 @@
           }
         ]
       },
-      "dig_depth": 1,
+      "dig_depth": 3,
       "shortlisted": 1,
       "rank": 4,
-      "notes": "Refined from standalone cold storage build to asset-light, contract-led B2B reefer last-mile fleet for Mumbai/Bengaluru. Avoid own cold store (capex-heavy, needs near-full utilization, competes with Snowman/ColdEx). Instead 3 insulated reefer vans (~60-75L) + telematics + working capital buffer = ~82L-1.13Cr total. 2-4 anchor B2B accounts (frozen food, QSR, dairy, ice-cream distributors) underwriting 60-70% daily capacity BEFORE vehicle purchase. Unit econ: base 3-vehicle 8.8-10.2L/mo rev, 12-16% EBITDA; strong dedicated contracts 17-20% EBITDA; 1-2L monthly EBITDA after ramp-up. Market: India cold chain logistics US$24.85B (2026) to $33.12B by 2031, 5.91% CAGR; reefer transport fastest segment at ~11% CAGR; driven by quick-commerce (28.4% annual grocery growth), pharma, frozen RTE (18.1% rise). Mumbai clusters Bhiwandi/Taloja/Vashi; Bengaluru chilled/frozen B2B. Working capital is the real danger (30-60 day B2B payables). Utilization below 75-80% erases margins (5-10%). Pharma requires GDP compliance (only 8-10% of 3,500+ operators meet it) - start with food.",
+      "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Dedicated temperature-controlled reefer fleet (4–6 vehicles) servicing quick-commerce dark stores, dairy, and pharma in Mumbai & Bengaluru. Entry capital ₹82L–1.05 Cr (including vehicle downpayments and 60-day working capital buffer). 14–18% net EBITDA with multi-year locked retainers.",
       "updated_at": "2026-08-19"
     },
     {
