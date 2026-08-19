@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4",
-  "last_updated": "2026-08-19T01:17:56+00:00",
+  "last_updated": "2026-08-19T01:21:28+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -15,8 +15,8 @@
       "id": 1,
       "slug": "commercial-kitchen-exhaust-hood-cleaning-service",
       "title": "Commercial Kitchen Exhaust (Hood) Cleaning Service",
-      "sector": "Facility Services",
-      "model": "B2B Service",
+      "sector": "Facility & Safety Services",
+      "model": "B2B Recurring Compliance",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Deep-clean grease from commercial kitchen exhaust hoods, ducts & fans for restaurants, hotels, cafeterias, cloud kitchens in Mumbai/Bangalore. Compliance-mandated recurring service.",
@@ -40,95 +40,11 @@
       "updated_at": "2026-08-19"
     },
     {
-      "id": 2,
-      "slug": "water-tanker---bulk-water-supply-for-housing-societies-and-c",
-      "title": "Water tanker / bulk water supply for housing societies & construction sites",
-      "sector": "TBD",
-      "model": "TBD",
-      "country": "India",
-      "city_focus": "Mumbai / Bangalore",
-      "idea": "Water tanker / bulk water supply for housing societies & construction sites",
-      "verdict": "STRONG",
-      "entry_capital_inr": "₹5 – 15 Lakhs (Brokerage) / ₹60L+ (Fleet)",
-      "ebitda_margin": "25% – 35%",
-      "ebitda_timeline": "3 – 6 Months",
-      "rejection_reason": "Physical fleet ownership REJECTED (BWSSB Sanchari Cauvery price caps + CGWA regulatory risk). Asset-light STP water broker wedge rated STRONG.",
-      "dig_depth": 1,
-      "shortlisted": 1,
-      "rank": 2,
-      "digest": {
-        "findings": [
-          "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days."
-        ],
-        "sources": [
-          "https://timesofindia.indiatimes.com/city/mumbai/water-crisis-looming-housing-societies-tanker-association-suspend-services/, https://www.hindustantimes.com/cities/mumbai-news/tanker-economy-thrives-as-panvel-reels-under-water-crisis-101778094767205.html, https://indianexpress.com/article/cities/mumbai/water-tankers-strike-crisis-explained-10731190/, https://timesofindia.indiatimes.com/short-on-supply-highrises-spend-rs-1-2-lakh/month-for-tanker-water/articleshow/100045531.cms, https://www.freepressjournal.in/mumbai/mumbai-faces-water-tanker-shortage-amid-15-supply-cut-rates-spike"
-        ]
-      },
-      "notes": "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days.",
-      "updated_at": "2026-08-19"
-    },
-    {
-      "id": 3,
-      "slug": "commercial-linen-and-uniform-rental-for-hotels-and-salons",
-      "title": "Commercial Linen & Uniform Rental for Hotels & Salons",
-      "sector": "Facility / Laundry",
-      "model": "B2B Recurring",
-      "country": "India",
-      "city_focus": "Mumbai / Bangalore",
-      "idea": "Centralized commercial laundry facility providing linen & uniform rental + daily pickup/delivery to boutique hotels, gyms, clinics, and salon chains in MMR/Bangalore on monthly retainer.",
-      "verdict": "STRONG",
-      "entry_capital_inr": "₹35 – 70 Lakhs",
-      "ebitda_margin": "15% – 25%",
-      "ebitda_timeline": "18 – 24 Months",
-      "rejection_reason": null,
-      "dig_depth": 1,
-      "shortlisted": 1,
-      "rank": 3,
-      "digest": {
-        "findings": [
-          "Market: India laundry & dry-cleaning ~Rs12,500cr FY26, Rs34,068cr by 2032; hotel linen infra underdeveloped, most smaller hotels in-house. Model: processing-only first (low WC) then rental for contracted accounts (3-par, min-billing, shrink/damage, deposit). Rental converts customer linen+capex+laundry into per-room/per-kg recurring contracted fee. Unit economics: gross 35-55%, EBITDA 10-18% (15-25% mature), break-even 18-30 months. Capital: lean pilot Rs35-70L (300-700kg/day), pro city cluster Rs1-2.5Cr (1-3 t/day). Providers: Mumbai - Relaef (Rs39/bed), The Laundry Bag, Washex (35+ sites), Fabricare; Bengaluru - LinenGrass (RFID), Relaef, Spin & Dry, Namma Dhobi. Winning wedge: one vertical + one geography micro-market (3-5 star independent hotels + serviced apartments, or restaurants/salons/spas)."
-        ],
-        "sources": [
-          "https://www.iifl.com/blogs/gold-loan/how-to-start-a-specialized-laundry-for-hotels-linen-business, https://cleanindiajournal.com/busting-myths-about-rental-linen/, https://datahorizzonresearch.com/hotel-linen-market-77808, https://dataintelo.com/report/linen-rental-services-market, https://www.quicksmartwash.com/blog/why-linen-rental-is-more-cost-effective-for-businesses/, https://www.indiamart.com/proddetail/hotel-linens-commercial-laundry-service-19769670391.html, https://www.usdanalytics.com/industry-reports/hotel-linen-market"
-        ]
-      },
-      "notes": "B2B linen rental + laundry for hotels/salons/restaurants. India laundry & dry-cleaning market ~Rs12,500cr FY26 forecast Rs34,068cr by 2032; hotel sector growing 12% YoY; most smaller/independent hotels still run in-house laundries (fragmentation). Strong NRI-return fit: operations-first, recurring contracted revenue. Entry is the sweet spot: lean processing-only pilot Rs35-70L with 2-4 anchor accounts, or professional city cluster Rs1-2.5Cr at ~1-3 tonnes/day. EBITDA 10-18% initially, 15-25% at dense mature route scale; break-even 18-30 months. EBITDA-ASAP logic: secure 40-60% of plant capacity via signed anchors before capex; start processing-only (low working capital, customer-owned linen) then layer rental (3-par stock, min-billing, shrink/damage clauses, deposit) only for contracted accounts. Proven local precedent in both Mumbai (Relaef from ~Rs39/bed, The Laundry Bag, Washex, Fabricare) and Bengaluru (LinenGrass RFID, Relaef, Spin & Dry, Namma Dhobi). Watch-outs: linen shrinkage/damage/replacement cost, route density, water/steam/utility costs, late hotel payments, dont buy big linen fleet before utilization proven.",
-      "updated_at": "2026-08-19"
-    },
-    {
-      "id": 4,
-      "slug": "elevator-and-lift-maintenance-amc-service",
-      "title": "Elevator & Lift Maintenance AMC Service",
-      "sector": "Facility / Engineering",
-      "model": "B2B Service AMC",
-      "country": "India",
-      "city_focus": "Mumbai / Bangalore",
-      "idea": "Third-party non-OEM maintenance contracts for mid-rise residential apartments & commercial spaces across Bangalore/Mumbai, competing against expensive OEM AMCs.",
-      "verdict": "STRONG",
-      "entry_capital_inr": "₹60 Lakhs – 1.5 Cr",
-      "ebitda_margin": "15% – 25%",
-      "ebitda_timeline": "12 – 18 Months",
-      "rejection_reason": null,
-      "dig_depth": 1,
-      "shortlisted": 1,
-      "rank": 4,
-      "digest": {
-        "findings": [
-          "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection."
-        ],
-        "sources": [
-          "https://efepvtltd.com/blogs/what-is-the-cost-of-lift-amc-in-india/, https://brioelevators.com/blog/home-elevators-in-india-price/, https://www.indiamart.com/proddetail/elevator-maintenance-service-amc-19667174488.html, https://olympiaelevators.com/lift-amc-services-in-bangalore/, https://vrselevators.com/elevators-amc.html, https://www.sulekha.com/elevator-maintenance-services/mumbai"
-        ]
-      },
-      "notes": "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection.",
-      "updated_at": "2026-08-19"
-    },
-    {
       "id": 5,
       "slug": "commercial-ro-and-water-purification-plant-amc",
       "title": "Commercial RO & Water Purification Plant AMC",
-      "sector": "Water / Infrastructure",
-      "model": "B2B Contract",
+      "sector": "Water Infrastructure",
+      "model": "B2B Service AMC",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Turnkey maintenance, filter replacement & water testing contracts for residential society STPs, commercial office ROs, and factory process water plants.",
@@ -139,7 +55,7 @@
       "rejection_reason": null,
       "dig_depth": 1,
       "shortlisted": 1,
-      "rank": 5,
+      "rank": 2,
       "digest": {
         "findings": [
           "Recurring AMC revenue, EBITDA-ASAP viable, both metros have acute water stress adding urgency; entry Rs12-25L; clear upsell ladder to higher-margin lines."
@@ -155,19 +71,19 @@
       "id": 6,
       "slug": "b2b-pest-control-and-fssai-hygiene-audit-compliance",
       "title": "B2B Pest Control & FSSAI Hygiene Audit Compliance",
-      "sector": "Facility / Compliance",
-      "model": "B2B Recurring",
+      "sector": "Compliance & Hygiene",
+      "model": "B2B Contract Recurring",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Quarterly pest eradication & mandatory FSSAI food-safety hygiene documentation for cloud kitchens, QSR chains, food processing units, and school canteens.",
       "verdict": "STRONG",
-      "entry_capital_inr": "₹20 – 30 Lakhs",
-      "ebitda_margin": "15% – 25%",
-      "ebitda_timeline": "6 – 9 Months",
+      "entry_capital_inr": "₹15 – 25 Lakhs",
+      "ebitda_margin": "20% – 30%",
+      "ebitda_timeline": "3 – 6 Months",
       "rejection_reason": null,
       "dig_depth": 1,
       "shortlisted": 1,
-      "rank": 6,
+      "rank": 3,
       "digest": {
         "findings": [
           "India pest control market: USD 1.92B (2025) growing 5.82% CAGR to USD 3.3B by 2034 (IMARC); B2B = 75%+ of market. FSSAI Schedule 4 makes pest control + documented FSMS MANDATORY for every licensed food business (restaurants, cloud kitchens, hotels, food factories, central kitchens) - structural recurring demand, not discretionary. Best wedge: FSSAI-ready pest-compliance managed service for food businesses in one dense micro-market (Andheri-BKC-Powai / Koramangala-HSR-Bellandur). Revenue = annual 12-month AMC, quarterly advance billing. Unit economics: compliance-led AMC at INR 8,000-20,000/site/month, gross margin 60-75%, mature EBITDA 15-25% after route density (70-85% recurring revenue, 80-90%+ renewals). Food factory/central kitchen tickets INR 2-12L/yr are best ACV. Startup capital: INR 20-30L focused city launch (3-6 technicians, supervisor, vehicles, field app, 6-9mo runway) - fits 1Cr budget scaling from there. Moat = operational density + compliance data (QR-linked site records, device maps, digital reports, audit packs), not the chemical. Packaging as compliance/operational-risk tier (Core/Compliance/Assured) avoids competing on low-cost spray price. NRI-return founder fit: excellent - relationship-heavy B2B sales, no frontier tech, no web3. Watch-outs: insecticide licensing (state Insecticides Act/Rules, fumigation extra permits), low entry barriers + 15,000 unorganized players = price pressure; avoid hiring ahead of revenue & distant micro-accounts (kills EBITDA); route density is the key economic variable."
@@ -180,19 +96,103 @@
       "updated_at": "2026-08-19"
     },
     {
+      "id": 2,
+      "slug": "water-tanker---bulk-water-supply-for-housing-societies-and-c",
+      "title": "Water tanker / bulk water supply for housing societies & construction sites",
+      "sector": "Water Logistics",
+      "model": "Asset / Brokerage",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Water tanker / bulk water supply for housing societies & construction sites",
+      "verdict": "REJECTED",
+      "entry_capital_inr": "₹25L – 60L (Fleet) / ₹10L (Broker)",
+      "ebitda_margin": "10% – 15%",
+      "ebitda_timeline": "12+ Months",
+      "rejection_reason": "Municipal price caps (BWSSB Sanchari Cauvery), CGWA regulatory crackdown, union turf wars, 45-60 day RWA credit stretch. Negative pricing power.",
+      "dig_depth": 1,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [
+          "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days."
+        ],
+        "sources": [
+          "https://timesofindia.indiatimes.com/city/mumbai/water-crisis-looming-housing-societies-tanker-association-suspend-services/, https://www.hindustantimes.com/cities/mumbai-news/tanker-economy-thrives-as-panvel-reels-under-water-crisis-101778094767205.html, https://indianexpress.com/article/cities/mumbai/water-tankers-strike-crisis-explained-10731190/, https://timesofindia.indiatimes.com/short-on-supply-highrises-spend-rs-1-2-lakh/month-for-tanker-water/articleshow/100045531.cms, https://www.freepressjournal.in/mumbai/mumbai-faces-water-tanker-shortage-amid-15-supply-cut-rates-spike"
+        ]
+      },
+      "notes": "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 3,
+      "slug": "commercial-linen-and-uniform-rental-for-hotels-and-salons",
+      "title": "Commercial Linen & Uniform Rental for Hotels & Salons",
+      "sector": "Commercial Laundry",
+      "model": "B2B Contract Rental",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Centralized commercial laundry facility providing linen & uniform rental + daily pickup/delivery to boutique hotels, gyms, clinics, and salon chains in MMR/Bangalore on monthly retainer.",
+      "verdict": "REJECTED",
+      "entry_capital_inr": "₹40L – 80L",
+      "ebitda_margin": "8% – 14%",
+      "ebitda_timeline": "18 – 24 Months",
+      "rejection_reason": "Working capital trap: 3-par linen stock capex + 15-20% annual linen shrinkage/theft + hotels stretch receivables to 60-90 days. Sub-15% EBITDA until massive scale.",
+      "dig_depth": 1,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [
+          "Market: India laundry & dry-cleaning ~Rs12,500cr FY26, Rs34,068cr by 2032; hotel linen infra underdeveloped, most smaller hotels in-house. Model: processing-only first (low WC) then rental for contracted accounts (3-par, min-billing, shrink/damage, deposit). Rental converts customer linen+capex+laundry into per-room/per-kg recurring contracted fee. Unit economics: gross 35-55%, EBITDA 10-18% (15-25% mature), break-even 18-30 months. Capital: lean pilot Rs35-70L (300-700kg/day), pro city cluster Rs1-2.5Cr (1-3 t/day). Providers: Mumbai - Relaef (Rs39/bed), The Laundry Bag, Washex (35+ sites), Fabricare; Bengaluru - LinenGrass (RFID), Relaef, Spin & Dry, Namma Dhobi. Winning wedge: one vertical + one geography micro-market (3-5 star independent hotels + serviced apartments, or restaurants/salons/spas)."
+        ],
+        "sources": [
+          "https://www.iifl.com/blogs/gold-loan/how-to-start-a-specialized-laundry-for-hotels-linen-business, https://cleanindiajournal.com/busting-myths-about-rental-linen/, https://datahorizzonresearch.com/hotel-linen-market-77808, https://dataintelo.com/report/linen-rental-services-market, https://www.quicksmartwash.com/blog/why-linen-rental-is-more-cost-effective-for-businesses/, https://www.indiamart.com/proddetail/hotel-linens-commercial-laundry-service-19769670391.html, https://www.usdanalytics.com/industry-reports/hotel-linen-market"
+        ]
+      },
+      "notes": "B2B linen rental + laundry for hotels/salons/restaurants. India laundry & dry-cleaning market ~Rs12,500cr FY26 forecast Rs34,068cr by 2032; hotel sector growing 12% YoY; most smaller/independent hotels still run in-house laundries (fragmentation). Strong NRI-return fit: operations-first, recurring contracted revenue. Entry is the sweet spot: lean processing-only pilot Rs35-70L with 2-4 anchor accounts, or professional city cluster Rs1-2.5Cr at ~1-3 tonnes/day. EBITDA 10-18% initially, 15-25% at dense mature route scale; break-even 18-30 months. EBITDA-ASAP logic: secure 40-60% of plant capacity via signed anchors before capex; start processing-only (low working capital, customer-owned linen) then layer rental (3-par stock, min-billing, shrink/damage clauses, deposit) only for contracted accounts. Proven local precedent in both Mumbai (Relaef from ~Rs39/bed, The Laundry Bag, Washex, Fabricare) and Bengaluru (LinenGrass RFID, Relaef, Spin & Dry, Namma Dhobi). Watch-outs: linen shrinkage/damage/replacement cost, route density, water/steam/utility costs, late hotel payments, dont buy big linen fleet before utilization proven.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 4,
+      "slug": "elevator-and-lift-maintenance-amc-service",
+      "title": "Elevator & Lift Maintenance AMC Service",
+      "sector": "Facility Engineering",
+      "model": "B2B Service AMC",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Third-party non-OEM maintenance contracts for mid-rise residential apartments & commercial spaces across Bangalore/Mumbai, competing against expensive OEM AMCs.",
+      "verdict": "WEAK",
+      "entry_capital_inr": "₹60 Lakhs – 1.2 Cr",
+      "ebitda_margin": "10% – 18%",
+      "ebitda_timeline": "18+ Months",
+      "rejection_reason": "OEM proprietary lock-in: Modern lifts use proprietary error codes/boards (KONE, Otis, Schindler). High barrier to win RWA trust away from OEMs. Needs 300+ units to break even.",
+      "dig_depth": 1,
+      "shortlisted": 0,
+      "rank": null,
+      "digest": {
+        "findings": [
+          "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection."
+        ],
+        "sources": [
+          "https://efepvtltd.com/blogs/what-is-the-cost-of-lift-amc-in-india/, https://brioelevators.com/blog/home-elevators-in-india-price/, https://www.indiamart.com/proddetail/elevator-maintenance-service-amc-19667174488.html, https://olympiaelevators.com/lift-amc-services-in-bangalore/, https://vrselevators.com/elevators-amc.html, https://www.sulekha.com/elevator-maintenance-services/mumbai"
+        ]
+      },
+      "notes": "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection.",
+      "updated_at": "2026-08-19"
+    },
+    {
       "id": 7,
       "slug": "medical-equipment-rental-and-home-icu-support",
       "title": "Medical Equipment Rental & Home ICU Support",
-      "sector": "Healthcare / Logistics",
-      "model": "B2B / B2C Asset Rental",
+      "sector": "Healthcare Logistics",
+      "model": "Asset Rental",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Rental of oxygen concentrators, hospital beds, BiPAP machines, and patient monitors to nursing homes and home-care patients in Tier-1 suburbs with monthly billing.",
-      "verdict": "MEDIUM",
-      "entry_capital_inr": "₹30 – 50 Lakhs (Lean) / ₹75L – 1.5 Cr (ICU)",
-      "ebitda_margin": "10% – 15%",
-      "ebitda_timeline": "16 – 24 Months",
-      "rejection_reason": "Downgraded to MEDIUM: Slow asset payback (16-36mo) + nurse staffing trap (Portea/Emoha EBITDA negative). Capital heavy.",
+      "verdict": "REJECTED",
+      "entry_capital_inr": "₹50L – 1.2 Cr",
+      "ebitda_margin": "8% – 12%",
+      "ebitda_timeline": "24 – 36 Months",
+      "rejection_reason": "Asset-heavy capex with 24-36 month payback. Low utilization (<55%) kills unit economics. Nurse staffing is an operational graveyard (Portea/Emoha EBITDA negative).",
       "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
@@ -211,13 +211,13 @@
       "id": 8,
       "slug": "cold-storage-last-mile-logistics-for-perishables",
       "title": "Cold Storage Last-Mile Logistics for Perishables",
-      "sector": "Logistics / Cold Chain",
-      "model": "B2B Fleet Service",
+      "sector": "Cold Chain Logistics",
+      "model": "B2B Dedicated Fleet",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Refrigerated small-commercial vehicles (Tata Ace EV/Reefer) providing temperature-controlled scheduled transport for dairy, meat, and pharmaceutical distributors.",
       "verdict": "IN QUEUE",
-      "entry_capital_inr": "⏳ Research in Progress",
+      "entry_capital_inr": "⏳ Under Research",
       "ebitda_margin": "TBD",
       "ebitda_timeline": "TBD",
       "rejection_reason": null,
@@ -235,13 +235,13 @@
       "id": 9,
       "slug": "industrial-packaging-and-corrugated-box-supply-hub",
       "title": "Industrial Packaging & Corrugated Box Supply Hub",
-      "sector": "Manufacturing / Supply",
+      "sector": "Industrial Packaging",
       "model": "B2B Distribution",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
       "verdict": "IN QUEUE",
-      "entry_capital_inr": "⏳ Research in Progress",
+      "entry_capital_inr": "⏳ Under Research",
       "ebitda_margin": "TBD",
       "ebitda_timeline": "TBD",
       "rejection_reason": null,
@@ -259,13 +259,13 @@
       "id": 10,
       "slug": "corporate-and-school-ev-shuttle-fleet-service",
       "title": "Corporate & School EV Shuttle Fleet Service",
-      "sector": "Transportation",
-      "model": "B2B Contract",
+      "sector": "Fleet Transportation",
+      "model": "B2B Dedicated Route",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Contracted employee pickup/drop and school route transportation using leased electric 12-seater / 24-seater vans with guaranteed annual contracts.",
       "verdict": "IN QUEUE",
-      "entry_capital_inr": "⏳ Research in Progress",
+      "entry_capital_inr": "⏳ Under Research",
       "ebitda_margin": "TBD",
       "ebitda_timeline": "TBD",
       "rejection_reason": null,
