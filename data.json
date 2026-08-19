@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T19:28:36+00:00",
+  "last_updated": "2026-08-19T21:30:02+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -789,10 +789,10 @@
       "rejection_reason": null,
       "breakdown": {},
       "sources": {},
-      "dig_depth": 1,
+      "dig_depth": 2,
       "shortlisted": 0,
       "rank": null,
-      "notes": "Credible, capital-efficient B2B industrial-services niche. India ultrasonic cleaning mkt USD48M(2024)->USD82.9M by2030 (9.8% CAGR); injection/compression mould mkt ~US.04bn 2025->1.71bn 2031, auto=36% demand. BEST beachhead is Pune-Chakan-Talegaon-Bhosari (Sekisui opening Chakan plant), NOT Mumbai/Bangalore core - weaker NRI-return fit. Realistic EBITDA 25-30% (initial 35-45% was overoptimistic): well-run local facility 20-35%, but low-utilization pilot can go negative - it is a utilization/route grind business. Economics: 30 jobs/mo @ avg 24K = 7.2L rev, ~29% EBITDA; price card insert 1.5-3K, small mould 6-12K, medium 15-35K, large 40K-1.25L+. Capex 65-85L fits ~1Cr entry. Sell outcome bundle (intake/inspection/report/SLA), not raw cleaning - commoditization + mould-damage claims key risks. Co-owner with manufacturing/toolroom understanding.",
+      "notes": "Cycle-2 deep dive HARDENS to MEDIUM, borderline WEAK. Chief risk = substitution: ultrasonic mold-cleaning machines are cheap (Rs20k-8.75L for small/mid industrial unit), so many molders insource once volume is regular - caps outsourced price power and makes a PURE ultrasonic-only service niche/sub-scale. Realistic economics (Perplexity deep): pure ultrasound-only mature EBITDA 5-15%, possibly negative below scale, 4-6+ yr payback; only a bundled toolroom uptime service (cleaning+inspection+PM contracts+digital mould passport+pickup/SLA) reaches 15-25% EBITDA, 30-42mo operating break-even, 3-5yr payback. NOT EBITDA-ASAP: needs 45-75 medium jobs/mo (~2-4/day) just to break even at Rs6-10L fixed cost; earlier 35-45%/3-5mo target was overoptimistic. GGM 55-70% before overhead. Lean hub capex Rs35-85L (serious wash-rinse-dry cell Rs1-1.5Cr). Geography: Pune-Chakan-Bhosari-Pimpri strongest; Mumbai only viable as one Ambarnath-Thane-Navi Mumbai belt with disciplined route clustering; Bangalore/Peenya weakest (local machine vendors Waveultra/ActOn commoditize). Equipment suppliers well established (R.K. Transonic, LeelaSonic, Highclean, Orion, Mak Technosys, Waveultra) but no dominant outsourced-service player - open space. Go/no-go gate: Rs6-8L/mo signed contracted revenue; diligence = 25-40 plant/toolroom interviews, not more desk research. Fails positive-EBITDA-ASAP primary constraint; marginal NRI-return fit (needs Pune auto-cluster, not Mumbai/Bangalore core).",
       "updated_at": "2026-08-19"
     }
   ]
