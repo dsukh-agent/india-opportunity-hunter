@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T21:30:02+00:00",
+  "last_updated": "2026-08-19T21:32:42+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -789,10 +789,10 @@
       "rejection_reason": null,
       "breakdown": {},
       "sources": {},
-      "dig_depth": 2,
+      "dig_depth": 3,
       "shortlisted": 0,
       "rank": null,
-      "notes": "Cycle-2 deep dive HARDENS to MEDIUM, borderline WEAK. Chief risk = substitution: ultrasonic mold-cleaning machines are cheap (Rs20k-8.75L for small/mid industrial unit), so many molders insource once volume is regular - caps outsourced price power and makes a PURE ultrasonic-only service niche/sub-scale. Realistic economics (Perplexity deep): pure ultrasound-only mature EBITDA 5-15%, possibly negative below scale, 4-6+ yr payback; only a bundled toolroom uptime service (cleaning+inspection+PM contracts+digital mould passport+pickup/SLA) reaches 15-25% EBITDA, 30-42mo operating break-even, 3-5yr payback. NOT EBITDA-ASAP: needs 45-75 medium jobs/mo (~2-4/day) just to break even at Rs6-10L fixed cost; earlier 35-45%/3-5mo target was overoptimistic. GGM 55-70% before overhead. Lean hub capex Rs35-85L (serious wash-rinse-dry cell Rs1-1.5Cr). Geography: Pune-Chakan-Bhosari-Pimpri strongest; Mumbai only viable as one Ambarnath-Thane-Navi Mumbai belt with disciplined route clustering; Bangalore/Peenya weakest (local machine vendors Waveultra/ActOn commoditize). Equipment suppliers well established (R.K. Transonic, LeelaSonic, Highclean, Orion, Mak Technosys, Waveultra) but no dominant outsourced-service player - open space. Go/no-go gate: Rs6-8L/mo signed contracted revenue; diligence = 25-40 plant/toolroom interviews, not more desk research. Fails positive-EBITDA-ASAP primary constraint; marginal NRI-return fit (needs Pune auto-cluster, not Mumbai/Bangalore core).",
+      "notes": "Vetted (dig_depth 3). Cycle-3 confirms MEDIUM verdict. Primary killer = substitution threat: ultrasonic cleaning units are cheap (Rs20k-8.75L) so high-volume molders insource, capping standalone pricing power. EBITDA-ASAP mismatch: pure ultrasonic service yields 5-15% EBITDA with 4-6+ yr payback; bundled toolroom maintenance service reaches 15-25% EBITDA but needs 45-75 jobs/mo to cover Rs6-10L fixed costs, taking 30-42 months to break even. MPCB effluent/hazardous waste compliance and mold damage liability (tools worth Rs10L-1Cr+) add operational friction. Geographic mismatch: requires Pune auto cluster (Chakan/Bhosari), weak NRI-return fit for Mumbai/Bangalore core. Does not pass shortlist filters.",
       "updated_at": "2026-08-19"
     }
   ]
