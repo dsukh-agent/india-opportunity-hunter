@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T17:31:16+00:00",
+  "last_updated": "2026-08-19T19:28:36+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -771,6 +771,28 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "WEAK: capital + EBITDA-ASAP mismatch. CBWTF (only viable standalone model) costs Rs1.5-3 Cr, far above ~1 Cr entry; on-site units (Rs10L) generate no external revenue. Metro operators oligopoly (SMS Envoclean Mumbai; Medicare/Semb Ramky/Maridi Bengaluru). Even mature facilities: EBITDA 20-30% but breakeven 12-24+ months, capex payback 6-10 yrs (UNIDO >=10 yrs). Early ramp only 0-15% EBITDA, 18-36m breakeven. Govt hospital receivables 90-180 days (>40-50% of book cripples cash flow) - violates positive EBITDA ASAP. Real demand (healthcare 15% CAGR, 774 t/day post-COVID peak) but wrong capital profile for NRI ~1 Cr return entry.",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "id": 16,
+      "slug": "industrial-ultrasonic-mold-and-tooling-cleaning-service",
+      "title": "Industrial Ultrasonic Mold & Tooling Cleaning Service",
+      "sector": "Precision Manufacturing Maintenance",
+      "model": "B2B Route-Based AMC / Contract Maintenance",
+      "country": "India",
+      "city_focus": "Mumbai / Bangalore",
+      "idea": "Mobile and central ultrasonic cleaning of high-value injection molds, extrusion dies, and automotive tooling in auto-clusters (Pune-Chakan, Chennai-Sriperumbudur, Bangalore-Peenya). Eliminates manual scraping damage and downtime for Tier-1/Tier-2 suppliers.",
+      "verdict": "MEDIUM",
+      "entry_capital_inr": "₹65 - ₹85 Lakhs",
+      "ebitda_margin": "35-45%",
+      "ebitda_timeline": "3-5 months",
+      "rejection_reason": null,
+      "breakdown": {},
+      "sources": {},
+      "dig_depth": 1,
+      "shortlisted": 0,
+      "rank": null,
+      "notes": "Credible, capital-efficient B2B industrial-services niche. India ultrasonic cleaning mkt USD48M(2024)->USD82.9M by2030 (9.8% CAGR); injection/compression mould mkt ~US.04bn 2025->1.71bn 2031, auto=36% demand. BEST beachhead is Pune-Chakan-Talegaon-Bhosari (Sekisui opening Chakan plant), NOT Mumbai/Bangalore core - weaker NRI-return fit. Realistic EBITDA 25-30% (initial 35-45% was overoptimistic): well-run local facility 20-35%, but low-utilization pilot can go negative - it is a utilization/route grind business. Economics: 30 jobs/mo @ avg 24K = 7.2L rev, ~29% EBITDA; price card insert 1.5-3K, small mould 6-12K, medium 15-35K, large 40K-1.25L+. Capex 65-85L fits ~1Cr entry. Sell outcome bundle (intake/inspection/report/SLA), not raw cleaning - commoditization + mould-damage claims key risks. Co-owner with manufacturing/toolroom understanding.",
       "updated_at": "2026-08-19"
     }
   ]
