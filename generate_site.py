@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Generate the India Opportunity Hunter static site from data.json.
+Includes the floating in-page feedback widget on all pages.
 """
-import json, os, html, urllib.parse
+import json, os, html
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data.json")
@@ -25,7 +26,7 @@ def render_sources(sources):
         for s in sources["youtube_practitioner"]:
             insight = f'<div style="color:#4b5563;font-size:13px;margin-top:4px;background:#f3f4f6;padding:8px 12px;border-radius:6px;border-left:3px solid #1d4ed8">💡 <b>On-Ground Teardown Summary:</b> {esc(s["key_insight"])}</div>' if s.get("key_insight") else ""
             items += f'<li style="margin:14px 0"><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:600;font-size:15px">▶️ {esc(s.get("label",""))}</a>{insight}</li>'
-        blocks.append(f'<h3 style="margin-top:24px;font-size:16px">🎬 YouTube Practitioner Case Studies &amp; Teardowns</h3><ul style="padding-left:20px;list-style:none">{items}</ul>')
+        blocks.append(f'<h3 style="margin-top:24px;font-size:16px">🎬 Verified Operator Case Studies &amp; Teardowns</h3><ul style="padding-left:20px;list-style:none">{items}</ul>')
     return "\n".join(blocks) if blocks else "<p><em>⏳ Field research logs being compiled...</em></p>"
 
 def render_scorecard(sc):
@@ -126,10 +127,6 @@ h1{{font-size:32px;line-height:1.2;margin-bottom:10px}}
 .card p{{color:var(--ink);margin:8px 0}}
 .card .meta{{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:10px}}
 .rej-box{{background:#fef2f2;border-left:3px solid var(--danger);padding:10px 14px;border-radius:4px;font-size:13px;color:#991b1b;margin:10px 0}}
-.crowd-banner{{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:16px 20px;margin:24px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}}
-.crowd-banner p{{margin:0;font-size:14px;color:#166534}}
-.btn-feedback{{background:#16a34a;color:#fff;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none;display:inline-block}}
-.btn-feedback:hover{{background:#15803d}}
 a.dossier{{display:inline-block;margin-top:10px;color:var(--brand);font-weight:600;font-size:14px;text-decoration:none}}
 a.dossier:hover{{text-decoration:underline}}
 .section{{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin:32px 0 10px}}
@@ -146,11 +143,6 @@ footer a:hover{{color:var(--brand)}}
 <h1>India Opportunity Hunter</h1>
 <p class="tagline">A living, AI-citable database of <b>unfashionable, cash-flow-positive business opportunities</b> in India (2026–27). Evaluated purely on cash-flow fit — positive EBITDA ASAP — with zero category bias.</p>
 
-<div class="crowd-banner">
-  <p><b>💬 Crowdsourced Intelligence:</b> Have on-ground data, supplier pricing, or want to challenge our numbers? Submit your field intel to help sharpen the database.</p>
-  <a href="https://github.com/dsukh-agent/india-opportunity-hunter/issues/new?title=%5BField+Intel%5D+General+Feedback&labels=field-intel&body=Describe+the+on-ground+numbers%2C+pricing%2C+or+new+opportunity+proposal+here:" target="_blank" class="btn-feedback">Submit Field Intel &rarr;</a>
-</div>
-
 <div class="statsbar">
   <div class="stat"><div class="num">{len(opps)}</div><div class="lbl">Total Evaluated</div></div>
   <div class="stat"><div class="num" style="color:#86efac">{len(short)}</div><div class="lbl">Shortlisted (STRONG)</div></div>
@@ -163,7 +155,9 @@ footer a:hover{{color:var(--brand)}}
 {cards}
 <footer><span>Est. Aug 2026 · Dipesh Sukhani + DBot</span>
 <a href="about.html">About &amp; Scorecard</a><a href="terms.html">Terms &amp; Disclaimer</a><a href="privacy.html">Privacy</a><a href="data.json">data.json</a><a href="sitemap.xml">Sitemap</a></footer>
-</div></body></html>"""
+</div>
+<script src="/feedback.js"></script>
+</body></html>"""
     open(os.path.join(BASE, "index.html"), "w").write(index)
 
     # --- Generate Dense Dossier Subpages ---
@@ -173,10 +167,6 @@ footer a:hover{{color:var(--brand)}}
         badge_style = "color:#15803d;background:#dcfce7;" if v == "STRONG" else ("color:#b91c1c;background:#fee2e2;" if v in ["REJECTED","WEAK"] else "color:#374151;background:#f3f4f6;")
         
         rej_section = f'<div style="background:#fef2f2;border-left:4px solid #dc2626;padding:14px 18px;border-radius:6px;margin:18px 0;color:#991b1b"><h3 style="margin-top:0;font-size:16px">❌ Fatal Flaw &amp; Rejection Reason</h3><p style="margin:6px 0">{esc(o.get("rejection_reason",""))}</p></div>' if o.get("rejection_reason") else ""
-        
-        issue_title = urllib.parse.quote(f"[Field Intel] Challenge/Feedback on #{i+1} {o['title']}")
-        issue_body = urllib.parse.quote(f"### Feedback on {o['title']}\n\n**1. What did we get wrong?** (e.g. capital range, EBITDA timeline, operational flaw, bad source link):\n\n**2. Real-world / On-ground Evidence:** (Provide YouTube teardowns, supplier quotes, invoice data, or municipal facts):\n\n**3. Proposed Scorecard Correction:** (Working Capital, OEM Lockin, etc.):\n")
-        issue_url = f"https://github.com/dsukh-agent/india-opportunity-hunter/issues/new?title={issue_title}&labels=field-intel,dossier-review&body={issue_body}"
         
         page = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -193,10 +183,6 @@ a{{color:#1d4ed8;text-decoration:none}}
 a:hover{{text-decoration:underline}}
 .meta-box{{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:18px 22px;font-size:14px;margin:20px 0}}
 .badge{{padding:4px 12px;border-radius:20px;font-weight:700;font-size:13px;display:inline-block}}
-.feedback-box{{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px 20px;margin:28px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}}
-.feedback-box p{{margin:0;font-size:14px;color:#166534}}
-.btn-feedback{{background:#16a34a;color:#fff;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none;display:inline-block}}
-.btn-feedback:hover{{background:#15803d}}
 li{{margin:8px 0}}
 footer{{color:#6b7280;font-size:13px;margin-top:40px;border-top:1px solid #e5e7eb;padding-top:16px;display:flex;gap:18px;flex-wrap:wrap}}
 </style></head>
@@ -219,21 +205,17 @@ footer{{color:#6b7280;font-size:13px;margin-top:40px;border-top:1px solid #e5e7e
 <h2>📚 Research Dossier &amp; Primary Sources</h2>
 {render_sources(o.get("sources", {}))}
 
-<div class="feedback-box">
-  <p><b>💬 Challenge this Dossier:</b> Have on-ground data, supplier quotes, or think our numbers/links are wrong?</p>
-  <a href="{issue_url}" target="_blank" class="btn-feedback">Submit Correction / Intel &rarr;</a>
-</div>
-
 <footer>
   <a href="../index.html">All Opportunities</a>
   <a href="../about.html">About &amp; Scorecard</a>
   <a href="../data.json">data.json</a>
   <span style="margin-left:auto">Last updated {esc(o.get("updated_at","2026-08-19"))}</span>
 </footer>
+<script src="/feedback.js"></script>
 </body></html>"""
         open(os.path.join(OUT, f"{slug}.html"), "w").write(page)
 
-    print(f"Generated clean index.html + {len(opps)} dense subpage dossiers with Crowdsource Intel buttons.")
+    print(f"Generated clean index.html + {len(opps)} dense subpage dossiers with floating feedback widget.")
 
 if __name__ == "__main__":
     build()
