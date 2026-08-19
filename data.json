@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T03:29:21+00:00",
+  "last_updated": "2026-08-19T03:51:57+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -477,17 +477,59 @@
       "slug": "industrial-packaging-and-corrugated-box-supply-hub",
       "title": "Industrial Packaging & Corrugated Box Supply Hub",
       "sector": "Industrial Packaging",
-      "model": "B2B Distribution",
+      "model": "B2B Manufacturing & Distribution",
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
       "verdict": "MEDIUM",
-      "entry_capital_inr": "⏳ Under Research",
-      "ebitda_margin": "⏳ Under Research",
-      "ebitda_timeline": "⏳ Under Research",
-      "rejection_reason": null,
-      "breakdown": {},
-      "sources": {},
+      "entry_capital_inr": "₹30 Lakhs – 1 Cr",
+      "ebitda_margin": "10% – 15%",
+      "ebitda_timeline": "6 – 12 Months",
+      "rejection_reason": "Working capital squeeze (30-90 day customer credit vs cash paper purchases) + 70-80% cost tied to volatile kraft paper prices. Thin 5-10% net margins.",
+      "breakdown": {
+        "scorecard": {
+          "working_capital": "4/10 (FATAL: B2B customers demand 30–90 days credit; paper mills require upfront cash/15 days. High working capital drag.)",
+          "vendor_lockin": "8/10 (Kraft paper and corrugation machinery are commoditized across Gujarat/Maharashtra/TN mills.)",
+          "labor_friction": "7/10 (Semi-skilled machine operators for die-cutters/slotters; 2-shift operations needed for capacity absorption.)",
+          "regulatory_moat": "6/10 (Standard GST + pollution consent; no mandatory compliance moat to force customer retention.)",
+          "capital_velocity": "6/10 (₹30L–1 Cr entry; 10%–15% EBITDA margin; 6–12 months breakeven; tight net profit 5–10%.)"
+        },
+        "why_rejected": [
+          "Severe Working Capital Squeeze: Kraft paper suppliers demand advance/15-day payment, while e-commerce, D2C, and manufacturing clients stretch payment terms to 60–90 days.",
+          "Raw Material Price Volatility: Kraft paper accounts for 70–80% of total manufacturing cost. Sudden price spikes cannot be passed on immediately to long-term contracted clients.",
+          "Fierce Unorganized Competition: Thousands of local small-scale conversion units compete on razor-thin margins in Bhiwandi (MMR) and Peenya/Hosur (BLR)."
+        ],
+        "unit_economics": [
+          "Plant Setup Capex: ₹30L – ₹65L (Semi-automatic 3-ply corrugation line, single-color/two-color flexo printer slotter, rotary die-cutter, stitching machines, 3,000–5,000 sq ft rented shed).",
+          "Working Capital Buffer Required: ₹25L – ₹40L (To fund 60-day credit cycles on 30–50 tonnes/month paper turnover).",
+          "Operating Margins: Gross Margin 20%–28%, EBITDA 10%–15%, Net Profit 5%–9%."
+        ],
+        "watchouts": [
+          "Must enforce strict paper-indexation price escalator clauses in all B2B contracts to survive raw material spikes.",
+          "Vendor-Managed Inventory (VMI) strategy: Focus only on high-value custom packaging (litho-laminated boxes, die-cut mailers) within a 30km radius of industrial hubs to command higher gross margins."
+        ]
+      },
+      "sources": {
+        "news_and_market": [
+          {
+            "label": "Indian Corrugated Case Manufacturers Association (ICCMA): Raw Material Price Trends & Industry Squeeze",
+            "url": "https://www.iccma.com/",
+            "key_insight": "Industry reports show kraft paper price volatility of 20-35% annually; smaller conversion units operate on sub-8% net margins without automated high-speed flute lines."
+          },
+          {
+            "label": "Mordor Intelligence: India Corrugated Packaging Market Structure & E-commerce Demand 2026-2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/india-corrugated-box-market",
+            "key_insight": "Market is expanding at 8.2% CAGR driven by electronics and D2C fulfillment, but working capital cycles remain the #1 failure mode for sub-₹5 Cr revenue converters."
+          }
+        ],
+        "youtube_practitioner": [
+          {
+            "label": "How to Start a Corrugated Box Manufacturing Unit in India (Practical Unit Economics)",
+            "url": "https://www.youtube.com/watch?v=R-gyDtpIYgg",
+            "key_insight": "Detailed machine cost breakdown: semi-automatic plant setup for 30T/month requires ₹35L machinery + ₹20L paper inventory; warns against accepting >45 day client credit."
+          }
+        ]
+      },
       "dig_depth": 1,
       "shortlisted": 0,
       "rank": null,
