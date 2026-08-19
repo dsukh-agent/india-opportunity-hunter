@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T01:54:55+00:00",
+  "last_updated": "2026-08-19T02:01:08+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -127,19 +127,37 @@
       "sources": {
         "news_and_market": [
           {
-            "label": "Trade.gov: India Water and Wastewater Treatment Sector Growth",
-            "url": "https://www.trade.gov/market-intelligence/india-water-and-wastewater-treatment-sector"
+            "label": "Central Pollution Control Board (CPCB): STP & Effluent Discharge Compliance Norms",
+            "url": "https://cpcb.nic.in/"
           },
           {
             "label": "Frost & Sullivan: Industrial Water & Wastewater Infrastructure Market in India 2025-2030",
             "url": "https://store.frost.com/growth-opportunities-in-the-indian-industrial-water-and-wastewater-infrastructure-market-2025-2030.html"
+          },
+          {
+            "label": "Trade.gov: India Water and Wastewater Treatment Market Intelligence & Equipment Demand",
+            "url": "https://www.trade.gov/market-intelligence/india-water-and-wastewater-treatment-sector"
+          },
+          {
+            "label": "IMARC Group: Commercial Water Purifier AMC Market Forecast 2026-2032",
+            "url": "https://www.imarcgroup.com/india-water-purifier-market"
           }
         ],
         "youtube_practitioner": [
           {
-            "label": "How to Start an Industrial RO & Water Plant Service Business",
-            "url": "https://www.youtube.com/watch?v=s-vgxOAeKoE",
-            "key_insight": "Converting one-off breakdown calls into annual maintenance contracts with automated TDS logging."
+            "label": "Industrial & Commercial RO Plant AMC Operations (Advance Life Aqua)",
+            "url": "https://www.youtube.com/watch?v=zl0nrRal5iA",
+            "key_insight": "Walkthrough of commercial 500-2000 LPH RO AMC: quarterly filter replacement cycles, antiscalant dosing, and pressure vessel membrane flushes."
+          },
+          {
+            "label": "1000 LPH Commercial RO Membrane Replacement & Servicing Teardown (AquaTech)",
+            "url": "https://www.youtube.com/watch?v=UrfNCRRPrPo",
+            "key_insight": "Cost breakdown of 4040 Dow/Toray membrane replacement vs labour fees; how emergency breakdown calls yield 40% margin on spare parts."
+          },
+          {
+            "label": "Commercial RO Breakdown Maintenance & Membrane Cleaning SOPs (RO Plant Doctor)",
+            "url": "https://www.youtube.com/watch?v=x5Wuql5b4uo",
+            "key_insight": "On-ground acid/alkali CIP (Clean-in-Place) membrane restoration techniques to extend membrane life and protect AMC margins."
           }
         ]
       },
