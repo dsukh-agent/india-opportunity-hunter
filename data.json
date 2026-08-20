@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-20T01:31:28+00:00",
+  "last_updated": "2026-08-20T07:30:35+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -606,10 +606,10 @@
           }
         ]
       },
-      "dig_depth": 2,
+      "dig_depth": 3,
       "shortlisted": 0,
       "rank": null,
-      "notes": "Cycle-2 deep dive (downgrade MEDIUM->WEAK). Market is genuine & growing (India corrugated boxes USD 8.6B 2025 -> USD 19.4B by 2034, 9.2% CAGR; 3rd largest producer at 12M tons) BUT fails EBITDA-ASAP primary constraint. Commodity converter EBITDA only 7-11% (competent regional semi-auto), 3-6% (weak/spot). Listed ExPack dropped 11% FY25 -> 5.98% FY26 - category compresses fast. Kraft ~80% of box cost, +15-20% in early 2026; 60-90d receivables vs short paper credit => real working capital needs 3-5x the 1Cr entry (USD1.1-2.5Cr capex for integrated semi-auto, 2-4Cr total startup). 1Cr tier = conversion-only (buy sheets), worst-margin tier, needs 250+ t/month for viable 8-12% EBITDA. 12,000-15,000 fragmented converters = overcapacity. Only works with differentiated wedge (die-cut/printed/pharma grade, kraft indexation contracts, VMI) and contracted volume - not an EBITDA-ASAP 1Cr entry. NRI fit OK (Mumbai Bhiwandi/Bangalore Bommasandra) but economics rule it out.",
+      "notes": "Cycle-3 (Vetted): Confirmed rejection. Sector consolidating toward backward-integrated players (JK Paper-Borkar Jan 2026, Astron 10k t/mo Pune mill) crushing non-integrated converter margins. Only differentiated wedges (food-grade/FSSAI, micro-flute e-com, digital short-run) earn premium, BUT: single-pass digital presses cost $350K-$1M (3-10x 1Cr budget), plant build is 12-18mo + 2-4yr payback (IMARC) — fails positive-EBITDA-ASAP. Working capital (60-90d receivables vs short paper credit) 3-5x entry capex. 1Cr tier = commodity semi-auto conversion-only = worst margins. Genuinely profitable angle is asset-light web-to-pack reseller ($10K start, no plant), which is NOT the hub idea. REJECT.",
       "updated_at": "2026-08-20"
     },
     {
