@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5",
-  "last_updated": "2026-08-19T23:50:47+00:00",
+  "last_updated": "2026-08-20T01:31:28+00:00",
   "scope": "India (Mumbai / Bangalore anchor); global-ready",
   "filters": [
     "any sector/model: B2B, B2C, consumer, service, product — nothing pre-excluded",
@@ -88,7 +88,7 @@
       "shortlisted": 1,
       "rank": 1,
       "notes": "Mandatory+recurring demand (fire-safety code). Net margins 25-40%. Low capex ~Rs5-15L. Fast to positive EBITDA (~15-20 accounts). India MMR/BLR providers proven.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 5,
@@ -168,7 +168,7 @@
       "shortlisted": 1,
       "rank": 2,
       "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Turnkey maintenance and chemical dosing contracts for commercial RO and society/commercial STPs in Mumbai & Bengaluru. Best beachhead: IT parks, hospitals, central kitchens, and cloud laundries (avoid residential RWA bureaucracy). Entry Capex ₹14–22L; 20–35% EBITDA on quarterly advance retainers + 40% margin on replacement membranes/chemicals.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 6,
@@ -223,7 +223,7 @@
       "shortlisted": 1,
       "rank": 3,
       "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Route-dense, compliance-led pest management and digital FSSAI audit logging for restaurants, cloud kitchens, and food factories in Mumbai & Bengaluru. Capital-light entry (₹16–24L), 65–75% gross margins on consumables, and 22–32% net EBITDA backed by mandatory statutory quarterly compliance.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 8,
@@ -283,7 +283,7 @@
       "shortlisted": 1,
       "rank": 4,
       "notes": "Vetted to Depth 3 — CONFIRMED STRONG. Dedicated temperature-controlled reefer fleet (4–6 vehicles) servicing quick-commerce dark stores, dairy, and pharma in Mumbai & Bengaluru. Entry capital ₹82L–1.05 Cr (including vehicle downpayments and 60-day working capital buffer). 14–18% net EBITDA with multi-year locked retainers.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 14,
@@ -359,7 +359,7 @@
       "shortlisted": 1,
       "rank": 5,
       "notes": "Cycle-3 practice/market triangulation confirms STRONG. Bottom-up serviceable wedge in Mumbai+Bengaluru = Rs10-40 Cr/yr specialist (before national scale); illustrative SAM: hyperscale/large colo 40-80 sites Rs2-20 Cr/yr, enterprise DC/BFSI/hospitals/telecom 300-800 sites Rs5-64 Cr/yr, industrial/logistics ~1000-3000 sites Rs8-120 Cr/yr. DC demand base growing ~1.5GW(2025)->~1.7GW(2026 added ~220MW); Mumbai >50% of India operational capacity (542->768MW, +323MW u/c, ~998MW planned), Bengaluru (NTT 67MW campus, 100MW NTT-Prestige). Refined price card to test: fuel diagnostic Rs15-50k/site; small tank(<=2000L) polish Rs30-75k/job; medium/multi (2-10kL) Rs75k-2.5L/job; large DC bulk (10-50kL) Rs2.5-8L/job; full tank cleaning Rs1.5-12L+/tank; annual preventive programme Rs2-12L/site/yr; permanent skid Rs5-40L+. Example mid colo 30,000L = Rs6-13L/yr ACV before emergency work. Positioning = Fuel Reliability-as-a-Service for mission-critical backup power, NOT tank cleaning: sell low-friction 48hr fuel-health audit -> convert to annual programme (quarterly sampling + 1-2 polish cycles + 4hr emergency SLA + digital ledger/evidence pack, before/after certs, chain-of-custody waste docs). Start Mumbai/Navi Mumbai day one for density, not both cities. Target: colo/hyperscale, banks/exchanges/DR, hospitals, telecom, semiconductor/pharma campuses. Competitors: specialist tank cleaners/filtration (Tristar Engineering Rabale MIDC 40+yrs no-man-entry robotic, Ram Engineering IRL-wide HSD filtration, Sol Power India, WA Innovation), local FM/facility firms, DG OEM AMC networks (Cummins/Kirloskar/MTU) as both channel partners & competitors, FM integrators. NO India-wide data-centre fuel-assurance category leader - open white space. Watch-outs persist: price-commoditisation risk of 'cleaning contractor' - recurring/measureable/auditable reliability product is the escape; OEM-AMC & FM own some relationships; confidential/unvalidated India pricing (Tristar listing ~Rs80k is lead not benchmark); HSE/liability & waste disposal; density-critical margin.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 2,
@@ -421,7 +421,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Structural, recurring demand: Mumbai private tankers supply ~550 MLD daily via 2000-2500 vehicles; societies pay Rs 1-2L/month (medium) to Rs 10L/month (large complexes); Panvel medium societies spend Rs 8L/yr, larger up to Rs 20L. Non-potable (construction, hotels, gardens) + potable both large. Investable wedge is NOT owning a fleet (regulatory/stigma heavy, CGWA NOCs, BMC permits, Bengaluru registration needed) but a compliant asset-light broker/dispatcher + treated-STP-water-for-construction platform: verified tanker partners, subscription monthly-minimum contracts, booking/ETA/proof-of-delivery software, take-rate. Entry Rs 5-15L asset-light vs Rs 25-60L per owned 10KL vehicle. Unit economics one 10KL tanker @ 4.5 loads/day Rs 2700/load = ~Rs 3.16L/month revenue, ~29% EBITDA margin base case; strong dense-route 25-40%. ~1 Cr funds 2-3 vehicles OR a full broker platform. Watch-outs: CGA/BMC regulatory instability (June 2026 strike over CGWA NOCs), tanker-mafia stigma, drought-crisis pricing must NOT be underwritten as base case, receivables stretch 30-45 days.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 3,
@@ -469,7 +469,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "B2B linen rental + laundry for hotels/salons/restaurants. India laundry & dry-cleaning market ~Rs12,500cr FY26 forecast Rs34,068cr by 2032; hotel sector growing 12% YoY; most smaller/independent hotels still run in-house laundries (fragmentation). Strong NRI-return fit: operations-first, recurring contracted revenue. Entry is the sweet spot: lean processing-only pilot Rs35-70L with 2-4 anchor accounts, or professional city cluster Rs1-2.5Cr at ~1-3 tonnes/day. EBITDA 10-18% initially, 15-25% at dense mature route scale; break-even 18-30 months. EBITDA-ASAP logic: secure 40-60% of plant capacity via signed anchors before capex; start processing-only (low working capital, customer-owned linen) then layer rental (3-par stock, min-billing, shrink/damage clauses, deposit) only for contracted accounts. Proven local precedent in both Mumbai (Relaef from ~Rs39/bed, The Laundry Bag, Washex, Fabricare) and Bengaluru (LinenGrass RFID, Relaef, Spin & Dry, Namma Dhobi). Watch-outs: linen shrinkage/damage/replacement cost, route density, water/steam/utility costs, late hotel payments, dont buy big linen fleet before utilization proven.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 4,
@@ -510,7 +510,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Boring recurring-revenue vertical. India installs 70-80k lifts/yr, growing serviceable base; OEMs dominate install (KONE,TK Elevator,Otis) but independents service ~50% of global units. Entry wedge: 8-20yr-out-of-warranty mid-market residential/commercial in one dense Mumbai/Bangalore cluster. Non-comprehensive AMC pricing: Rs15-30k/lift/yr basic, Rs25-50k standard, Rs35-80k+ comprehensive. Blended first-year revenue Rs32-50k/lift/yr; 15-25% EBITDA at 300-800 units, subscale <100-150 units is breakeven to 10%. 500 contracted lifts at Rs30k = Rs1.5 Cr recurring AMC revenue. Entry cost Rs60L-Rs1.5Cr credible city launch. Moat = technician density, response reputation, parts access, society trust, not software. Core diligence risk: recruit ex-OEM field supervisor + 2-4 technicians and win 150+ clustered units without destructive pricing. Compete on 2-4hr local response + digital logs, not price. Regulation: Maharashtra lift Act mandates annual license/inspection.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 7,
@@ -546,7 +546,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Local medical-equipment rental depot + home-ICU bundle (5L/10L oxygen concentrators, BiPAP/CPAP, ICU beds, monitors, ventilators) in one metro, Bangalore-first. NOT a marketplace play — moat is trusted hospital/pulmonologist/discharge-coordinator referrals, 2-hr delivery SLA, 65-75% fleet utilization, sanitized ISO-standard fleet. Bangalore easiest ops (dense demand, better digital lead capture). Unit economics: 5L concentrator ~Rs35-55k deployed, rents Rs3,250-3,750/mo, 16-24mo payback; BiPAP Rs65k-1.2L, 20-32mo payback; home ventilator Rs3.5-8L, Rs30-45k/mo, 55-65% util, 18-36mo payback. Lean launch: Rs30-50L for 50-80 assets + runway. Credible home-ICU launch Rs75L-1.5Cr (fits ~1Cr budget). Mature EBITDA 10-15% (asset-rental + dense ops), NOT 25%+. Critical trap: full home-health with employed nurses destroys margins — Portea -6.88% EBITDA, Emoha -48.86%; a scoped local rental operator can hit positive EBITDA vs loss-making growth platforms. Delhi with a dedicated 3-5 hospital referral wedge. WATCH-OUTS: fragmented + price-transparent market (dozens of local suppliers, hospital vendor lists); sub-50% utilization kills economics; high-ticket ventilators carry downtime + clinical liability; medical-device licensing + infection-control SOPs; needs 7-15 day min rental term + refundable deposits + KYC/prescription. Not as clean/EBITDA-ASAP as pure service AMCs because it is capital-heavy with 16-36mo asset payback.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 9,
@@ -557,7 +557,7 @@
       "country": "India",
       "city_focus": "Mumbai / Bangalore",
       "idea": "Just-in-time corrugated box and protective packaging supplier for local D2C brands, e-commerce fulfillment hubs, and pharma manufacturers in Bhiwandi/Peenya.",
-      "verdict": "MEDIUM",
+      "verdict": "WEAK",
       "entry_capital_inr": "₹30 Lakhs – 1 Cr",
       "ebitda_margin": "10% – 15%",
       "ebitda_timeline": "6 – 12 Months",
@@ -606,11 +606,11 @@
           }
         ]
       },
-      "dig_depth": 1,
+      "dig_depth": 2,
       "shortlisted": 0,
       "rank": null,
-      "notes": "₹30L-₹1Cr entry for semi-automated conversion unit (Bhiwandi/Hosur). Raw material (kraft paper) is 70-80% of OpEx; EBITDA 10-15%, Net margin 5-10%. High working capital (30-90 days customer credit) and paper price volatility require indexation clauses.",
-      "updated_at": "2026-08-19"
+      "notes": "Cycle-2 deep dive (downgrade MEDIUM->WEAK). Market is genuine & growing (India corrugated boxes USD 8.6B 2025 -> USD 19.4B by 2034, 9.2% CAGR; 3rd largest producer at 12M tons) BUT fails EBITDA-ASAP primary constraint. Commodity converter EBITDA only 7-11% (competent regional semi-auto), 3-6% (weak/spot). Listed ExPack dropped 11% FY25 -> 5.98% FY26 - category compresses fast. Kraft ~80% of box cost, +15-20% in early 2026; 60-90d receivables vs short paper credit => real working capital needs 3-5x the 1Cr entry (USD1.1-2.5Cr capex for integrated semi-auto, 2-4Cr total startup). 1Cr tier = conversion-only (buy sheets), worst-margin tier, needs 250+ t/month for viable 8-12% EBITDA. 12,000-15,000 fragmented converters = overcapacity. Only works with differentiated wedge (die-cut/printed/pharma grade, kraft indexation contracts, VMI) and contracted volume - not an EBITDA-ASAP 1Cr entry. NRI fit OK (Mumbai Bhiwandi/Bangalore Bommasandra) but economics rule it out.",
+      "updated_at": "2026-08-20"
     },
     {
       "id": 10,
@@ -693,7 +693,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Fails filters. Capital-heavy: e-shuttles cost Rs25-45L, 9m e-buses Rs1.2-2.5Cr, plus Rs5-15L/vehicle charging infra. ~1Cr entry buys only 2-4 small shuttles - too small to absorb central overhead (control room, sales, depot). Corporate EBITDA is NEGATIVE at small scale; only reaches 8-18% at 30-50 vehicles. Operating break-even at 10-18mo, corporate EBITDA only at 18-30mo - contradicts EBITDA-ASAP. CEEW flags school-only EV buses as financially difficult (low 50-100km/day utilization vs 120-220 for corporate). Market crowded: Routematic, MoveInSync, Lithium Urban (3000+ EVs), Everest, WTi, Ratham, NVS, Aaveg, KTC. EV fuel savings (Rs6.6-9.5/km vs diesel Rs29.8/km) are real but capital cost and thin small-scale margins kill the thesis.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 15,
@@ -771,7 +771,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "WEAK: capital + EBITDA-ASAP mismatch. CBWTF (only viable standalone model) costs Rs1.5-3 Cr, far above ~1 Cr entry; on-site units (Rs10L) generate no external revenue. Metro operators oligopoly (SMS Envoclean Mumbai; Medicare/Semb Ramky/Maridi Bengaluru). Even mature facilities: EBITDA 20-30% but breakeven 12-24+ months, capex payback 6-10 yrs (UNIDO >=10 yrs). Early ramp only 0-15% EBITDA, 18-36m breakeven. Govt hospital receivables 90-180 days (>40-50% of book cripples cash flow) - violates positive EBITDA ASAP. Real demand (healthcare 15% CAGR, 774 t/day post-COVID peak) but wrong capital profile for NRI ~1 Cr return entry.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     },
     {
       "id": 16,
@@ -793,7 +793,7 @@
       "shortlisted": 0,
       "rank": null,
       "notes": "Vetted (dig_depth 3). Cycle-3 confirms MEDIUM verdict. Primary killer = substitution threat: ultrasonic cleaning units are cheap (Rs20k-8.75L) so high-volume molders insource, capping standalone pricing power. EBITDA-ASAP mismatch: pure ultrasonic service yields 5-15% EBITDA with 4-6+ yr payback; bundled toolroom maintenance service reaches 15-25% EBITDA but needs 45-75 jobs/mo to cover Rs6-10L fixed costs, taking 30-42 months to break even. MPCB effluent/hazardous waste compliance and mold damage liability (tools worth Rs10L-1Cr+) add operational friction. Geographic mismatch: requires Pune auto cluster (Chakan/Bhosari), weak NRI-return fit for Mumbai/Bangalore core. Does not pass shortlist filters.",
-      "updated_at": "2026-08-19"
+      "updated_at": "2026-08-20"
     }
   ]
 }
